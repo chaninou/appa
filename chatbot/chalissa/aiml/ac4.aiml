@@ -1,0 +1,2779 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+	<!--DEFINITION-->
+	
+	<category>
+		<pattern>AGENT CONVERSATIONNEL</pattern>
+		<template>
+			<think><set name="topic">AC</set></think>
+			Les Agents conversationnels, 
+			sont des programmes (robot) qui tentent de converser avec une personne en donnant l'apparence d'une conversation avec un humain.
+			<srai>RELANCE FONCTIONNEMENT AC</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>QU EST * AGENT CONVERSATIONNEL</pattern>
+		<template>
+			<think><set name="topic">AC</set></think>
+			Les Agents conversationnels, 
+			sont des programmes (robot) qui tentent de converser avec une personne en donnant l'apparence d'une conversation avec un humain.
+			<srai>RELANCE FONCTIONNEMENT AC</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>RELANCE FONCTIONNEMENT AC</pattern>
+		<template>
+				Connais-tu le fonctionnement d'un agent conversationnel?
+			</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>LES AGENTS CONVERSATIONNELS SONT DES PROGRAMMES ROBOT QUI TENTENT DE CONVERSER AVEC UNE PERSONNE EN DONNANT L APPARENCE D UNE CONVERSATION AVEC UN HUMAIN CONNAIS TU LE FONCTIONNEMENT D UN AGENT CONVERSATIONNEL</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			Un Agent Conversationnel poss�de une base de connaissance li�e � son domaine. Elle contient des mots-cl�s li�s � des r�ponses type.
+			Il rep�re donc les mots-cl�s ou les expressions de son interlocuteur et calcule une r�ponse la plus naturelle que possible. Au faite,
+			<srai>RELANCE ORIGINE AC</srai>
+			</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>LES AGENTS CONVERSATIONNELS SONT DES PROGRAMMES ROBOT QUI TENTENT DE CONVERSER AVEC UNE PERSONNE EN DONNANT L APPARENCE D UNE CONVERSATION AVEC UN HUMAIN CONNAIS TU LE FONCTIONNEMENT D UN AGENT CONVERSATIONNEL</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			Un Agent Conversationnel poss�de une base de connaissance li�e � son domaine. Elle contient des mots-cl�s li�s � des r�ponses type.
+			Il rep�re donc les mots-cl�s ou les expressions de son interlocuteur et calcule une r�ponse la plus naturelle que possible. Au faite,
+			<srai>RELANCE ORIGINE AC</srai>
+			</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>LES AGENTS CONVERSATIONNELS SONT DES PROGRAMMES ROBOT QUI TENTENT DE CONVERSER AVEC UNE PERSONNE EN DONNANT L APPARENCE D UNE CONVERSATION AVEC UN HUMAIN CONNAIS TU LE FONCTIONNEMENT D UN AGENT CONVERSATIONNEL</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			Un Agent Conversationnel poss�de une base de connaissance li�e � son domaine. Elle contient des mots-cl�s li�s � des r�ponses type.
+			Il rep�re donc les mots-cl�s ou les expressions de son interlocuteur et calcule une r�ponse la plus naturelle que possible. Au faite,
+			<srai>RELANCE ORIGINE AC</srai>
+			</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>LES AGENTS CONVERSATIONNELS SONT DES PROGRAMMES ROBOT QUI TENTENT DE CONVERSER AVEC UNE PERSONNE EN DONNANT L APPARENCE D UNE CONVERSATION AVEC UN HUMAIN CONNAIS TU LE FONCTIONNEMENT D UN AGENT CONVERSATIONNEL</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			Un Agent Conversationnel poss�de une base de connaissance li�e � son domaine. Elle contient des mots-cl�s li�s � des r�ponses type.
+			Il rep�re donc les mots-cl�s ou les expressions de son interlocuteur et calcule une r�ponse la plus naturelle que possible. Au faite,
+			<srai>RELANCE ORIGINE AC</srai>
+			</template>
+	</category>
+
+	<category>
+			<pattern>OUI</pattern>
+		<that>LES AGENTS CONVERSATIONNELS SONT DES PROGRAMMES ROBOT QUI TENTENT DE CONVERSER AVEC UNE PERSONNE EN DONNANT L APPARENCE D UNE CONVERSATION AVEC UN HUMAIN CONNAIS TU LE FONCTIONNEMENT D UN AGENT CONVERSATIONNEL</that>
+			<template>
+				Ah que sais-tu la dessus?
+			</template>
+	</category>
+	
+	<category>
+			<pattern>OUI *</pattern>
+		<that>LES AGENTS CONVERSATIONNELS SONT DES PROGRAMMES ROBOT QUI TENTENT DE CONVERSER AVEC UNE PERSONNE EN DONNANT L APPARENCE D UNE CONVERSATION AVEC UN HUMAIN CONNAIS TU LE FONCTIONNEMENT D UN AGENT CONVERSATIONNEL</that>
+			<template>
+				Ah que sais-tu la dessus?
+			</template>
+	</category>
+	
+	<category>
+			<pattern>* OUI</pattern>
+		<that>LES AGENTS CONVERSATIONNELS SONT DES PROGRAMMES ROBOT QUI TENTENT DE CONVERSER AVEC UNE PERSONNE EN DONNANT L APPARENCE D UNE CONVERSATION AVEC UN HUMAIN CONNAIS TU LE FONCTIONNEMENT D UN AGENT CONVERSATIONNEL</that>
+			<template>
+				Ah que sais-tu la dessus?
+			</template>
+	</category>
+	
+	<category>
+			<pattern>* OUI *</pattern>
+		<that>LES AGENTS CONVERSATIONNELS SONT DES PROGRAMMES ROBOT QUI TENTENT DE CONVERSER AVEC UNE PERSONNE EN DONNANT L APPARENCE D UNE CONVERSATION AVEC UN HUMAIN CONNAIS TU LE FONCTIONNEMENT D UN AGENT CONVERSATIONNEL</that>
+			<template>
+				Ah que sais-tu la dessus?
+			</template>
+	</category>
+	
+	<category>
+			<pattern>*</pattern>
+			<that>AH QUE SAIS TU LA DESSUS</that>
+			<template>
+				Merci pour cette information, d'ailleurs <srai>RANDOM PICKUP LINE</srai>
+			</template>
+	</category>
+	
+	
+	<category>
+		<pattern>CONNAIS TU LES AGENT CONVERSATIONNEL</pattern>
+		<template>
+			<think><set name="topic">AC</set></think>
+			<srai>QU EST <star/> AGENT CONVERSATIONNEL</srai>
+		</template>
+	</category>
+	<!--HISTOIRE-->
+
+	<category>
+		<pattern>QUELS * ORIGINES * AGENT CONVERSATIONNEL</pattern>
+		<template>
+			<think><set name="topic">AC</set></think>
+			Tout avait commenc� en 1950 lorsqu'ALan Turing publie 'Computing Machinery and Intelligence' ou il pr�sente le test de Turing.
+			ELIZA fut l'un des premiers chatbots cr��s.<srai>RELANCE ELIZA</srai>
+		</template>
+	</category>
+	
+		<category>
+		<pattern>ORIGINE AGENT CONVERSATIONNEL</pattern>
+		<template>
+			<think><set name="topic">AC</set></think>
+			Tout avait commenc� en 1950 lorsqu'ALan Turing publie 'Computing Machinery and Intelligence' ou il pr�sente le test de Turing.
+			ELIZA fut l'un des premiers chatbots cr��s.<srai>RELANCE ELIZA</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>COMMENT * IDEE * AGENT CONVERSATIONNEL</pattern>
+		<template>
+			<think><set name="topic">AC</set></think>
+			<srai>QUELS <star index="1"/> ORIGINES <star index="2"/> AGENT CONVERSATIONNEL</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>QUELLES * ORIGINES * AGENT CONVERSATIONNEL</pattern>
+		<template>
+			<think><set name="topic">AC</set></think>
+			<srai>QUELS <star index="1"/> ORIGINES <star index="2"/> AGENT CONVERSATIONNEL</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>QUELLE * ORIGINE * AGENT CONVERSATIONNEL</pattern>
+		<template>
+			<think><set name="topic">AC</set></think>
+			<srai>QUELS <star index="1"/> ORIGINES <star index="2"/> AGENT CONVERSATIONNEL</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>RELANCE ORIGINE AC</pattern>
+		<template>
+			Connais-tu l'origine des agents conversationnels?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>* CONNAIS TU L ORIGINE DES AGENTS CONVERSATIONNELS</that>
+		<template>
+			<srai>QUELS <sta/> ORIGINES <star/> AGENT CONVERSATIONNEL</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>* CONNAIS TU L ORIGINE DES AGENTS CONVERSATIONNELS</that>
+		<template>
+			<srai>QUELS <sta/> ORIGINES <star/> AGENT CONVERSATIONNEL</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>* CONNAIS TU L ORIGINE DES AGENTS CONVERSATIONNELS</that>
+		<template>
+			<srai>QUELS <sta/> ORIGINES <star/> AGENT CONVERSATIONNEL</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>* CONNAIS TU L ORIGINE DES AGENTS CONVERSATIONNELS</that>
+		<template>
+			<srai>QUELS <sta/> ORIGINES <star/> AGENT CONVERSATIONNEL</srai>
+		</template>
+	</category>
+	
+	<!--FONCTIONNEMENT-->
+
+	<category>
+		<pattern>COMMENT * FONCTIONNE * AGENT CONVERSATIONNEL</pattern>
+		<template>
+			<think><set name="topic">AC</set></think>
+			Un Agent Conversationnel poss�de une base de connaissance li�e � son domaine. Elle contient des mots-cl�s li�s � des r�ponses type.
+			Il rep�re donc les mots-cl�s ou les expressions de son interlocuteur et calcule une r�ponse la plus naturelle que possible. Au faite,
+			<srai>RELANCE ORIGINE AC</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* FONCTIONNEMENT * AGENT CONVERSATIONNEL</pattern>
+		<template>
+			<think><set name="topic">AC</set></think>
+			<srai>FONCTIONNEMENT AGENT CONVERSATIONNEL</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>FONCTIONNEMENT AGENT CONVERSATIONNEL</pattern>
+		<template>
+			<think><set name="topic">AC</set></think>
+			Un Agent Conversationnel poss�de une base de connaissance li�e � son domaine. Elle contient des mots-cl�s li�s � des r�ponses type.
+			Il rep�re donc les mots-cl�s ou les expressions de son interlocuteur et calcule une r�ponse la plus naturelle que possible. Au faite,
+			<srai>RELANCE ORIGINE AC</srai>
+		</template>
+	</category>
+	
+
+	<category>
+		<pattern>COMMENT * FONCTIONNER * AGENT CONVERSATIONNEL</pattern>
+		<template>
+			<think><set name="topic">AC</set></think>
+			<srai>COMMENT <star index="1"/> FONCTIONNE <star index="2"/> AGENT CONVERSATIONNEL</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>COMMENT * MARCHE * AGENT CONVERSATIONNEL</pattern>
+		<template>
+			<think><set name="topic">AC</set></think>
+			<srai>COMMENT <star index="1"/> FONCTIONNE <star index="2"/> AGENT CONVERSATIONNEL</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>COMMENT * MARCHER * AGENT CONVERSATIONNEL</pattern>
+		<template>
+			<think><set name="topic">AC</set></think>
+			<srai>COMMENT <star index="1"/> FONCTIONNE <star index="2"/> AGENT CONVERSATIONNEL</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>COMMENT FONCTIONNE * AGENT CONVERSATIONNEL</pattern>
+		<template>
+			<think><set name="topic">AC</set></think>
+			<srai>COMMENT <star index="1"/> FONCTIONNE <star index="2"/> AGENT CONVERSATIONNEL</srai>
+		</template>
+	</category>
+
+
+
+	<category>
+		<pattern>COMMENT MARCHE * AGENT CONVERSATIONNEL</pattern>
+		<template>
+			<think><set name="topic">AC</set></think>
+			<srai>COMMENT <star index="1"/> FONCTIONNE <star index="2"/> AGENT CONVERSATIONNEL</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>COMMENT PROGRAMMER * AGENT CONVERSATIONNEL</pattern>
+		<template>
+			<think><set name="topic">AC</set></think>
+			On utilise g�n�ralement l'AIML.<srai>AIML</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>PROGRAMMER * AGENT CONVERSATIONNEL</pattern>
+		<template>
+			<think><set name="topic">AC</set></think>
+			On utilise g�n�ralement l'AIML.<srai>AIML</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>AIML</pattern>
+		<template>
+			<think><set name="topic">AC</set></think>
+			AIML (Artificial Intelligence Markup Language) est un langage tr�s simple et bas� sur le langage XML, 
+			il utilise donc des balises. Voudrais-tu plus de details?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OUI</pattern>
+		<that>AIML * VOUDRAIS TU PLUS DE DETAILS</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			Un script AIML commence par une balise &lt;aiml&gt; et se termine par &lt;/aiml&gt; .
+			Ce langage contient aussi des "joker" (*) que l'on peut ins�rer dans les balises &lt;/pattern&gt;
+			qui permet de dire qu'il y a quelque chose mais sans pr�ciser quoi.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI *</pattern>
+		<that>AIML * VOUDRAIS TU PLUS DE DETAILS</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			Un script AIML commence par une balise &lt;aiml&gt; et se termine par &lt;/aiml&gt; .
+			Ce langage contient aussi des "joker" (*) que l'on peut ins�rer dans les balises &lt;/pattern&gt;
+			qui permet de dire qu'il y a quelque chose mais sans pr�ciser quoi.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OUI *</pattern>
+		<that>AIML * VOUDRAIS TU PLUS DE DETAILS</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			Un script AIML commence par une balise &lt;aiml&gt; et se termine par &lt;/aiml&gt; .
+			Ce langage contient aussi des "joker" (*) que l'on peut ins�rer dans les balises &lt;/pattern&gt;
+			qui permet de dire qu'il y a quelque chose mais sans pr�ciser quoi.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI</pattern>
+		<that>AIML * VOUDRAIS TU PLUS DE DETAILS</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			Un script AIML commence par une balise &lt;aiml&gt; et se termine par &lt;/aiml&gt; .
+			Ce langage contient aussi des "joker" (*) que l'on peut ins�rer dans les balises &lt;/pattern&gt;
+			qui permet de dire qu'il y a quelque chose mais sans pr�ciser quoi.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>COMMENT * PROGRAMMER * AGENT CONVERSATIONNEL</pattern>
+		<template>
+			<think><set name="topic">AC</set></think>
+			<srai>COMMENT PROGRAMMER <star/> AGENT CONVERSATIONNEL</srai>
+		</template>
+	</category>
+
+	<!--LOEBNER-->
+	<category>
+		<pattern>RELANCE PRIX LOEBNER</pattern>
+		<template>
+			Connais-tu le Prix Loebner?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>* CONNAIS TU LE PRIX LOEBNER</that>
+		<template>
+			<think><set name="topic">LOEBNER</set></think>
+			<srai>QU EST <star/> PRIX LOEBNER</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>* CONNAIS TU LE PRIX LOEBNER</that>
+		<template>
+			<think><set name="topic">LOEBNER</set></think>
+			<srai>QU EST <star/> PRIX LOEBNER</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>* CONNAIS TU LE PRIX LOEBNER</that>
+		<template>
+			<think><set name="topic">LOEBNER</set></think>
+			<srai>QU EST <star/> PRIX LOEBNER</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>* CONNAIS TU LE PRIX LOEBNER</that>
+		<template>
+			<think><set name="topic">LOEBNER</set></think>
+			<srai>QU EST <star/> PRIX LOEBNER</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>QU EST * PRIX LOEBNER</pattern>
+		<template>
+			<think><set name="topic">LOEBNER</set></think>
+			C'est une comp�tition annuelle r�compensant le programme le plus proche de r�ussir le test de Turing.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>RELANCE TEST TURING</pattern>
+		<template>
+			Connais-tu le test de turing?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>* CONNAIS TU LE TEST DE TURING</that>
+		<template>
+			Le test consiste � evaluer l'intelligence d'un AC. c'est � dire sa capacit� � tromperer l'interlocuteur en se faisant passer pour un �tre humain
+			Le prix loebner �tait accompagn� d'un montant de 2 000 USD pour le gagnant. Jusque la aucun bot n'a r�ussi le test.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>* CONNAIS TU LE TEST DE TURING</that>
+		<template>
+			Le test consiste � evaluer l'intelligence d'un AC. c'est � dire sa capacit� � tromperer l'interlocuteur en se faisant passer pour un �tre humain
+			Le prix loebner �tait accompagn� d'un montant de 2 000 USD pour le gagnant. Jusque la aucun bot n'a r�ussi le test.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>* CONNAIS TU LE TEST DE TURING</that>
+		<template>
+			Le test consiste � evaluer l'intelligence d'un AC. c'est � dire sa capacit� � tromperer l'interlocuteur en se faisant passer pour un �tre humain
+			Le prix loebner �tait accompagn� d'un montant de 2 000 USD pour le gagnant. Jusque la aucun bot n'a r�ussi le test.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>* CONNAIS TU LE TEST DE TURING</that>
+		<template>
+			Le test consiste � evaluer l'intelligence d'un AC. c'est � dire sa capacit� � tromperer l'interlocuteur en se faisant passer pour un �tre humain
+			Le prix loebner �tait accompagn� d'un montant de 2 000 USD pour le gagnant. Jusque la aucun bot n'a r�ussi le test.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>RELANCE LOEBNER</pattern>
+		<template>
+			<random>
+				<li>Connais-tu le test de Turing?</li>
+				<li>Sais-tu que le prix Loebner a subi de nombreuses critiques?</li>
+				<li>Le prix Loebner � �volu� depuis sa cr�ation, le savais-tu?</li>
+				<li>Connais-tu des Laur�ats du prix Loebner?</li>
+			</random>
+		</template>
+	</category>
+
+	<category>
+		<pattern>COMMENT FONCTIONNE LE PRIX LOEBNER</pattern>
+		<template>
+			<think><set name="topic">LOEBNER</set></think>
+			<!--On met en confrontation verbale un humain 
+			avec un ordinateur et un autre humain � l�aveugle.
+			Si l'homme qui engage les conversations n'est pas capable de dire lequel 
+			de ses interlocuteurs est un ordinateur, on peut consid�rer que le logiciel de
+			l'ordinateur a pass� avec succ�s le test.-->
+			Un humain discute avec un ordinateur et un autre humain. Si l'homme qui engage les conversations n'est pas capable de d�terminer qui est l'ordinateur, le logiciel a r�ussi le test. <srai>RELANCE LOEBNER</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>FONCTIONNEMENT * PRIX LOEBNER</pattern>
+		<template>
+			<think><set name="topic">LOEBNER</set></think>
+			<srai>COMMENT FONCTIONNE LE PRIX LOEBNER</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>PRIX LOEBNER</pattern>
+		<template>
+			<think><set name="topic">LOEBNER</set></think>
+			<srai>COMMENT FONCTIONNE LE PRIX LOEBNER</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>QUEL * FONCTIONNEMENT * PRIX LOEBNER</pattern>
+		<template>
+			<think><set name="topic">LOEBNER</set></think>
+			<srai>COMMENT FONCTIONNE LE PRIX LOEBNER</srai>
+		</template>
+	</category>
+	
+	<!--pb-->
+	<category>
+		<pattern>NON</pattern>
+		<that>* LE PRIX LOEBNER A EVOLUE DEPUIS SA CREATION LE SAVAIS TU</that>
+		<template>
+			<think><set name="topic">LOEBNER</set></think>
+			Au d�but, des interrogateurs "non-sophistiqu�s" �taient utilis�s, 
+			ils ont �t� facilement bern�s par les machines. 
+			Depuis 2004, les organisateurs ont d�ploy� des philosophes, 
+			des informaticiens et des journalistes parmi les interrogateurs.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>* LE PRIX LOEBNER A EVOLUE DEPUIS SA CREATION LE SAVAIS TU</that>
+		<template>
+			<think><set name="topic">LOEBNER</set></think>
+			Au d�but, des interrogateurs "non-sophistiqu�s" �taient utilis�s, 
+			ils ont �t� facilement bern�s par les machines. 
+			Depuis 2004, les organisateurs ont d�ploy� des philosophes, 
+			des informaticiens et des journalistes parmi les interrogateurs.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>* LE PRIX LOEBNER A EVOLUE DEPUIS SA CREATION LE SAVAIS TU</that>
+		<template>
+			<think><set name="topic">LOEBNER</set></think>
+			Au d�but, des interrogateurs "non-sophistiqu�s" �taient utilis�s, 
+			ils ont �t� facilement bern�s par les machines. 
+			Depuis 2004, les organisateurs ont d�ploy� des philosophes, 
+			des informaticiens et des journalistes parmi les interrogateurs.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>* LE PRIX LOEBNER A EVOLUE DEPUIS SA CREATION LE SAVAIS TU</that>
+		<template>
+			<think><set name="topic">LOEBNER</set></think>
+			Au d�but, des interrogateurs "non-sophistiqu�s" �taient utilis�s, 
+			ils ont �t� facilement bern�s par les machines. 
+			Depuis 2004, les organisateurs ont d�ploy� des philosophes, 
+			des informaticiens et des journalistes parmi les interrogateurs.
+		</template>
+	</category>
+	<!--fin pb-->
+
+
+	<category>
+		<pattern>COMMENT * EVOLUE * PRIX LOEBNER</pattern>
+		<template>
+			<think><set name="topic">LOEBNER</set></think>
+			Lors des premi�res versions du prix Loebner, des interrogateurs "non-sophistiqu�s" furent utilis�s, 
+			et ils ont �t� facilement bern�s par les machines. 
+			Depuis 2004, les organisateurs du Prix Loebner ont d�ploy� des philosophes, 
+			des informaticiens et des journalistes parmi les interrogateurs.
+		</template>
+	</category>
+	
+	
+	<category>
+		<pattern>COMMENT * EVOLUE * PRIX LOEBNER</pattern>
+		<template>
+			<think><set name="topic">LOEBNER</set></think>
+			<srai>COMMENT <star index="1"/> EVOLUE <star index="2"/> PRIX LOEBNER</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>QUELLE * EVOLUTION * PRIX LOEBNER</pattern>
+		<template>
+			<think><set name="topic">LOEBNER</set></think>
+			<srai>COMMENT <star index="1"/> EVOLUE <star index="2"/> PRIX LOEBNER</srai>
+		</template>
+	</category>
+	
+	
+
+	<category>
+		<pattern>QUELLE EVOLUTION * PRIX LOEBNER</pattern>
+		<template>
+			<think><set name="topic">LOEBNER</set></think>
+			<srai>COMMENT <star index="1"/> EVOLUE <star index="2"/> PRIX LOEBNER</srai>
+		</template>
+	</category>
+	
+
+	<category>
+		<pattern>* LAUREATS * PRIX LOEBNER</pattern>
+		<template>
+			<think><set name="topic">LOEBNER</set></think>
+			Il y a par exemple ALICE (Richard Wallace) en 2000, 2001, 2004, PC Therapist (Joseph Weintraub) en 1991 et Rosette (Bruce Wilcox) en 2011.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>LAUREATS * PRIX LOEBNER</pattern>
+		<template>
+			<think><set name="topic">LOEBNER</set></think>
+			Il y a par exemple ALICE (Richard Wallace) en 2000, 2001, 2004, PC Therapist (Joseph Weintraub) en 1991 et Rosette (Bruce Wilcox) en 2011.
+		</template>
+	</category>
+	
+	<!--pb-->
+	<category>
+		<pattern>NON</pattern>
+		<that>* CONNAIS TU DES LAUREATS DU PRIX LOEBNER</that>
+		<template>
+			<think><set name="topic">LOEBNER</set></think>
+			Il y a par exemple ALICE (Richard Wallace) en 2000, 2001, 2004, PC Therapist (Joseph Weintraub) en 1991 et Rosette (Bruce Wilcox) en 2011.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>* CONNAIS TU DES LAUREATS DU PRIX LOEBNER</that>
+		<template>
+			<think><set name="topic">LOEBNER</set></think>
+			Il y a par exemple ALICE (Richard Wallace) en 2000, 2001, 2004, PC Therapist (Joseph Weintraub) en 1991 et Rosette (Bruce Wilcox) en 2011.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>* CONNAIS TU DES LAUREATS DU PRIX LOEBNER</that>
+		<template>
+			<think><set name="topic">LOEBNER</set></think>
+			Il y a par exemple ALICE (Richard Wallace) en 2000, 2001, 2004, PC Therapist (Joseph Weintraub) en 1991 et Rosette (Bruce Wilcox) en 2011.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>* CONNAIS TU DES LAUREATS DU PRIX LOEBNER</that>
+		<template>
+			<think><set name="topic">LOEBNER</set></think>
+			Il y a par exemple ALICE (Richard Wallace) en 2000, 2001, 2004, PC Therapist (Joseph Weintraub) en 1991 et Rosette (Bruce Wilcox) en 2011.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OUI</pattern>
+		<that>* CONNAIS TU DES LAUREATS DU PRIX LOEBNER</that>
+		<template>
+			<think><set name="topic">LOEBNER</set></think>
+			Connais-tu ALICE?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OUI *</pattern>
+		<that>* CONNAIS TU DES LAUREATS DU PRIX LOEBNER</that>
+		<template>
+			<think><set name="topic">LOEBNER</set></think>
+			Connais-tu ALICE?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI</pattern>
+		<that>* CONNAIS TU DES LAUREATS DU PRIX LOEBNER</that>
+		<template>
+			<think><set name="topic">LOEBNER</set></think>
+			Connais-tu ALICE?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI *</pattern>
+		<that>* CONNAIS TU DES LAUREATS DU PRIX LOEBNER</that>
+		<template>
+			<think><set name="topic">LOEBNER</set></think>
+			Connais-tu ALICE?
+		</template>
+	</category>
+	<!--fin pb-->
+	
+	<topic name="LOEBNER">
+
+		<category>
+			<pattern>QUI * LAUREATS</pattern>
+			<template>
+			Il y a par exemple ALICE (Richard Wallace) en 2000, 2001, 2004, PC Therapist (Joseph Weintraub) en 1991 et Rosette (Bruce Wilcox) en 2011.
+			</template>
+		</category>
+
+		<category>
+			<pattern>DONNE * LAUREATS *</pattern>
+			<template>
+				<srai>QUI <star index="1"/> LAUREATS</srai>
+			</template>
+		</category>
+
+		<category>
+			<pattern>DONNE * LAUREATS</pattern>
+			<template>
+				<srai>QUI <star index="1"/> LAUREATS</srai>
+			</template>
+		</category>
+
+		<category>
+			<pattern>QUI * REMPORTE</pattern>
+			<template>
+				<srai>QUI <star index="1"/> LAUREATS</srai>
+			</template>
+		</category>
+		
+	<category>
+		<pattern>QUI * DERNIER LAUREAT</pattern>
+		<template>C'est Rosette cr�e par Bruce Wilcox qui remport� le prix Loebner en 2011.
+		</template>
+	</category>
+		
+		<category>
+			<pattern>QUI * REMPORTE * DERNIER</pattern>
+			<template>
+				<srai>QUI <star/> DERNIER LAUREAT</srai>
+			</template>
+		</category>
+		
+		<category>
+			<pattern>QUI * REMPORTE * ANNEE DERNIERE</pattern>
+			<template>
+				<srai>QUI <star/> DERNIER LAUREAT</srai>
+			</template>
+		</category>
+		
+		<category>
+			<pattern>* CRITIQUES *</pattern>
+			<template>
+				Le prix Loebner est tr�s controvers�, par exemple,	Marvin Minsky le qualifie de publicit� qui n'aide pas � faire progresser la discipline
+			</template>
+		</category>
+		
+		<category>
+			<pattern>* CRITIQUES</pattern>
+			<template>
+				<srai><star index="1"/> CRITIQUES <star index="2"/></srai>
+			</template>
+		</category>
+		
+	</topic>
+
+	<category>
+		<pattern>QUI * DERNIER LAUREAT * PRIX LOEBNER</pattern>
+		<template>
+			<think><set name="topic">LOEBNER</set></think>
+			C'est Rosette cr�e par Bruce Wilcox qui remport� le prix Loebner en 2011.
+		</template>
+	</category>
+
+	<category>
+		<pattern>QUI * REMPORTE * DERNIER PRIX LOEBNER</pattern>
+		<template>
+			<think><set name="topic">LOEBNER</set></think>
+			<srai>QUI <star index="1"/> DERNIER LAUREAT <star index="2"/> PRIX LOEBNER</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>QUI * REMPORTE * PRIX LOEBNER * ANNEE DERNIERE</pattern>
+		<template>
+			<think><set name="topic">LOEBNER</set></think>
+			<srai>QUI <star index="1"/> DERNIER LAUREAT <star index="2"/> PRIX LOEBNER</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>QUI * REMPORTE * PRIX LOEBNER</pattern>
+		<template>
+			<think><set name="topic">LOEBNER</set></think>
+			<srai>QUI <star index="1"/> LAUREATS <star index="2"/> PRIX LOEBNER</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>* CRITIQUES * PRIX LOEBNER</pattern>
+		<template>
+			<think><set name="topic">LOEBNER</set></think>
+			Le prix Loebner est tr�s controvers�, par exemple, Marvin Minsky le qualifie de publicit� qui n'aide pas � faire progresser la discipline
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>* SAIS TU QUE LE PRIX LOEBNER A SUBI DE NOMBREUSES CRITIQUES</that>
+		<template>
+			<think><set name="topic">LOEBNER</set></think>
+			Le prix Loebner est tr�s controvers�, par exemple, Marvin Minsky le qualifie de publicit� qui n'aide pas � faire progresser la discipline
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>* SAIS TU QUE LE PRIX LOEBNER A SUBI DE NOMBREUSES CRITIQUES</that>
+		<template>
+			<think><set name="topic">LOEBNER</set></think>
+			Le prix Loebner est tr�s controvers�, par exemple, Marvin Minsky le qualifie de publicit� qui n'aide pas � faire progresser la discipline
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>* SAIS TU QUE LE PRIX LOEBNER A SUBI DE NOMBREUSES CRITIQUES</that>
+		<template>
+			<think><set name="topic">LOEBNER</set></think>
+			Le prix Loebner est tr�s controvers�, par exemple, Marvin Minsky le qualifie de publicit� qui n'aide pas � faire progresser la discipline
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>* SAIS TU QUE LE PRIX LOEBNER A SUBI DE NOMBREUSES CRITIQUES</that>
+		<template>
+			<think><set name="topic">LOEBNER</set></think>
+			Le prix Loebner est tr�s controvers�, par exemple, Marvin Minsky le qualifie de publicit� qui n'aide pas � faire progresser la discipline
+		</template>
+	</category>
+
+	<!--EVALUATION-->
+
+	<category>
+		<pattern>COMMENT * EVALUER * AGENT CONVERSATIONNEL</pattern>
+		<template>
+			<think><set name="topic">AC</set></think>
+			<srai>COMMENT EVALUER <star/> AGENT CONVERSATIONNEL</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>COMMENT EVALUER * AGENT CONVERSATIONNEL</pattern>
+		<template>
+			<think><set name="topic">AC</set></think>
+			Il existe plusieurs tests. Le plus connu est le test de Turing. <srai>RELANCE SIX PRECEPTES</srai>
+			
+		</template>
+	</category>
+	
+	<category>
+		<pattern>EVALUATION * AGENT CONVERSATIONNEL</pattern>
+		<template>
+			<think><set name="topic">AC</set></think>
+			Il existe plusieurs tests. Le plus connu est le test de Turing. <srai>RELANCE SIX PRECEPTES</srai>
+			
+		</template>
+	</category>
+	
+	<category>
+		<pattern>RELANCE SIX PRECEPTES</pattern>
+		<template>
+			Connais-tu les six preceptes de Rastier Francois?
+		</template>
+	</category>
+	
+		<!--PERCEPTES RASTIER-->
+
+	<category>
+		<pattern>NON</pattern>
+		<that>* CONNAIS TU LES SIX PRECEPTES DE RASTIER FRANCOIS</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+				<!--Eh bien, Rastier propose six "pr�ceptes" 
+			conditionnant un syst�me de dialogue �volu�: Objectivit� 
+			(utilisation d'une base de connaissances par le syst�me);
+			Textualit� (prise en compte d'interventions de plus d'une phrase,
+			qu'elles �manent du syst�me ou de l'utilisateur); 
+			Apprentissage (int�gration au moins temporaire d'informations issues des propos de l'utilisateur);
+			Questionnement (demande de pr�cisions de la part du syst�me); 
+			Rectification (suggestion de rectifications � la question pos�e, lorsque n�cessaire);
+			Explicitation (explicitation par le syst�me d'une r�ponse qu'il a apport�e pr�c�demment).-->
+			<random>
+				<li>Les 6 pr�ceptes sont l'objectivit�, la textualit�, l'apprentissage, le questionnement, la r�ctification et l'explicitation</li>
+				<li>Il y a par exemple l'objectivit�, la textualit� et l'apprentissage</li>
+				<li>Il y a par exemple le questionnement, la r�ctification et l'explicitation</li>
+			</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>* CONNAIS TU LES SIX PRECEPTES DE RASTIER FRANCOIS</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+				<!--Eh bien, Rastier propose six "pr�ceptes" 
+			conditionnant un syst�me de dialogue �volu�: Objectivit� 
+			(utilisation d'une base de connaissances par le syst�me);
+			Textualit� (prise en compte d'interventions de plus d'une phrase,
+			qu'elles �manent du syst�me ou de l'utilisateur); 
+			Apprentissage (int�gration au moins temporaire d'informations issues des propos de l'utilisateur);
+			Questionnement (demande de pr�cisions de la part du syst�me); 
+			Rectification (suggestion de rectifications � la question pos�e, lorsque n�cessaire);
+			Explicitation (explicitation par le syst�me d'une r�ponse qu'il a apport�e pr�c�demment).-->
+			<random>
+				<li>Les 6 pr�ceptes sont l'objectivit�, la textualit�, l'apprentissage, le questionnement, la r�ctification et l'explicitation</li>
+				<li>Il y a par exemple l'objectivit�, la textualit� et l'apprentissage</li>
+				<li>Il y a par exemple le questionnement, la r�ctification et l'explicitation</li>
+			</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>* CONNAIS TU LES SIX PRECEPTES DE RASTIER FRANCOIS</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+				<!--Eh bien, Rastier propose six "pr�ceptes" 
+			conditionnant un syst�me de dialogue �volu�: Objectivit� 
+			(utilisation d'une base de connaissances par le syst�me);
+			Textualit� (prise en compte d'interventions de plus d'une phrase,
+			qu'elles �manent du syst�me ou de l'utilisateur); 
+			Apprentissage (int�gration au moins temporaire d'informations issues des propos de l'utilisateur);
+			Questionnement (demande de pr�cisions de la part du syst�me); 
+			Rectification (suggestion de rectifications � la question pos�e, lorsque n�cessaire);
+			Explicitation (explicitation par le syst�me d'une r�ponse qu'il a apport�e pr�c�demment).-->
+			<random>
+				<li>Les 6 pr�ceptes sont l'objectivit�, la textualit�, l'apprentissage, le questionnement, la r�ctification et l'explicitation</li>
+				<li>Il y a par exemple l'objectivit�, la textualit� et l'apprentissage</li>
+				<li>Il y a par exemple le questionnement, la r�ctification et l'explicitation</li>
+			</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>* CONNAIS TU LES SIX PRECEPTES DE RASTIER FRANCOIS</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+				<!--Eh bien, Rastier propose six "pr�ceptes" 
+			conditionnant un syst�me de dialogue �volu�: Objectivit� 
+			(utilisation d'une base de connaissances par le syst�me);
+			Textualit� (prise en compte d'interventions de plus d'une phrase,
+			qu'elles �manent du syst�me ou de l'utilisateur); 
+			Apprentissage (int�gration au moins temporaire d'informations issues des propos de l'utilisateur);
+			Questionnement (demande de pr�cisions de la part du syst�me); 
+			Rectification (suggestion de rectifications � la question pos�e, lorsque n�cessaire);
+			Explicitation (explicitation par le syst�me d'une r�ponse qu'il a apport�e pr�c�demment).-->
+			<random>
+				<li>Les 6 pr�ceptes sont l'objectivit�, la textualit�, l'apprentissage, le questionnement, la r�ctification et l'explicitation</li>
+				<li>Il y a par exemple l'objectivit�, la textualit� et l'apprentissage</li>
+				<li>Il y a par exemple le questionnement, la r�ctification et l'explicitation</li>
+			</random>
+		</template>
+	</category>
+	
+	<!--pb-->
+	
+	<category>
+		<pattern>OBJECTIVITE</pattern>
+		<that>* OBJECTIVITE *</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			C'est l'utilisation d'une base de connaissances par le syst�me
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OBJECTIVITE</pattern>
+		<that>* OBJECTIVITE *</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			C'est l'utilisation d'une base de connaissances par le syst�me
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OBJECTIVITE *</pattern>
+		<that>* OBJECTIVITE *</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			C'est l'utilisation d'une base de connaissances par le syst�me
+		</template>
+	</category>
+	
+	<category>
+		<pattern>TEXTUALITE</pattern>
+		<that>* TEXTUALITE *</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			C'est la prise en compte d'interventions de plus d'une phrase, qu'elles �manent du syst�me ou de l'utilisateur
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* TEXTUALITE</pattern>
+		<that>* TEXTUALITE *</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			C'est la prise en compte d'interventions de plus d'une phrase, qu'elles �manent du syst�me ou de l'utilisateur
+		</template>
+	</category>
+	
+	<category>
+		<pattern>TEXTUALITE *</pattern>
+		<that>* TEXTUALITE *</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			C'est la prise en compte d'interventions de plus d'une phrase, qu'elles �manent du syst�me ou de l'utilisateur
+		</template>
+	</category>
+	
+	<category>
+		<pattern>APPRENTISSAGE</pattern>
+		<that>* APPRENTISSAGE *</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			C'est l'int�gration au moins temporaire d'informations issues des propos de l'utilisateur
+		</template>
+	</category>
+	
+	<category>
+		<pattern>APPRENTISSAGE *</pattern>
+		<that>* APPRENTISSAGE *</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			C'est l'int�gration au moins temporaire d'informations issues des propos de l'utilisateur
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* APPRENTISSAGE</pattern>
+		<that>* APPRENTISSAGE *</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			C'est l'int�gration au moins temporaire d'informations issues des propos de l'utilisateur
+		</template>
+	</category>
+	
+	<category>
+		<pattern>QUESTIONNEMENT</pattern>
+		<that>* QUESTIONNEMENT *</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			C'est la demande de pr�cisions de la part du syst�me
+		</template>
+	</category>
+	
+	<category>
+		<pattern>QUESTIONNEMENT *</pattern>
+		<that>* QUESTIONNEMENT *</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			C'est la demande de pr�cisions de la part du syst�me
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* QUESTIONNEMENT</pattern>
+		<that>* QUESTIONNEMENT *</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			C'est la demande de pr�cisions de la part du syst�me
+		</template>
+	</category>
+	
+	<category>
+		<pattern>RECTIFICATION</pattern>
+		<that>* RECTIFICATION *</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			C'est la suggestion de rectifications � la question pos�e, lorsque n�cessaire
+		</template>
+	</category>
+	
+	<category>
+		<pattern>RECTIFICATION *</pattern>
+		<that>* RECTIFICATION *</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			C'est la suggestion de rectifications � la question pos�e, lorsque n�cessaire
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* RECTIFICATION</pattern>
+		<that>* RECTIFICATION *</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			C'est la suggestion de rectifications � la question pos�e, lorsque n�cessaire
+		</template>
+	</category>
+	
+	<category>
+		<pattern>EXPLICITATION</pattern>
+		<that>* EXPLICITATION</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			C'est l'explicitation par le syst�me d'une r�ponse qu'il a apport�e pr�c�demment
+		</template>
+	</category>
+	
+	<category>
+		<pattern>EXPLICITATION *</pattern>
+		<that>* EXPLICITATION</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			C'est l'explicitation par le syst�me d'une r�ponse qu'il a apport�e pr�c�demment
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* EXPLICITATION</pattern>
+		<that>* EXPLICITATION</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			C'est l'explicitation par le syst�me d'une r�ponse qu'il a apport�e pr�c�demment
+		</template>
+	</category>
+	
+	<!--fini pb-->
+	
+		<!--FIN PERCEPTES RASTIER-->
+	
+	<category>
+		<pattern>RASTIER</pattern>
+		<template><srai>RASTIER FRANCOIS</srai></template>
+	</category>
+	
+	<category>
+		<think><set name="topic">AC</set></think>
+		<pattern>* RASTIER</pattern>
+		<template><srai>RASTIER FRANCOIS</srai></template>
+	</category>
+	
+	<category>
+		<think><set name="topic">AC</set></think>
+		<pattern>* RASTIER *</pattern>
+		<template><srai>RASTIER FRANCOIS</srai></template>
+	</category>
+
+	<category>
+		<think><set name="topic">AC</set></think>
+		<pattern>RASTIER FRANCOIS</pattern>
+		<template>Fran�ois rastier est un s�manticien fran�ais qui s'int�resse � l'interpr�tation du sens et � sa dimension cognitive.</template>
+	</category>	
+
+	<!--ALICE-->
+	
+		<!--PRESENTATION ALICE-->
+	
+	<category>
+		<pattern>QUI EST ALICE</pattern>
+		<template>
+			<think><set name="topic">ALICE</set></think>
+			ALICE est un agent conversationnel anglophone cr�e par Richard Wallace 
+			(1995-2001). Il est enrichi avec plus de 40000 r�gles.<srai>RELANCE SIGNIFICATION ALICE</srai> 
+		</template>
+	</category>
+	
+	<category>
+		<pattern>ALICE</pattern>
+		<template>
+			<think><set name="topic">ALICE</set></think>
+			<srai>QUI EST ALICE</srai> 
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>CONNAIS TU ALICE</that>
+		<template>
+			<think><set name="topic">ALICE</set></think>
+			<srai>QUI EST ALICE</srai> 
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>CONNAIS TU ALICE</that>
+		<template>
+			<think><set name="topic">ALICE</set></think>
+			<srai>QUI EST ALICE</srai> 
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>CONNAIS TU ALICE</that>
+		<template>
+			<think><set name="topic">ALICE</set></think>
+			<srai>QUI EST ALICE</srai> 
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>CONNAIS TU ALICE</that>
+		<template>
+			<think><set name="topic">ALICE</set></think>
+			<srai>QUI EST ALICE</srai> 
+		</template>
+	</category>
+	
+	
+		<!--RECOMPENSE ALICE-->
+		
+	<category>
+		<pattern>RELANCE SIGNIFICATION ALICE</pattern>
+		<template>
+			Connais-tu la signification de ALICE?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>* CONNAIS TU LA SIGNIFICATION DE ALICE</that>
+		<template>
+			<think><set name="topic">ALICE</set></think>
+			ALICE est l'acronyme de: Artificial Linguistic Internet Computer Entity.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>* CONNAIS TU LA SIGNIFICATION DE ALICE</that>
+		<template>
+			<think><set name="topic">ALICE</set></think>
+			ALICE est l'acronyme de: Artificial Linguistic Internet Computer Entity.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>* CONNAIS TU LA SIGNIFICATION DE ALICE</that>
+		<template>
+			<think><set name="topic">ALICE</set></think>
+			ALICE est l'acronyme de: Artificial Linguistic Internet Computer Entity.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>* CONNAIS TU LA SIGNIFICATION DE ALICE</that>
+		<template>
+			<think><set name="topic">ALICE</set></think>
+			ALICE est l'acronyme de: Artificial Linguistic Internet Computer Entity.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>QU * REMPORTE ALICE</pattern>
+		<template>
+			<think><set name="topic">ALICE</set></think>
+			ALICE a remport� en 2000, 2001 et 2004 le prix Loebner.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>RECOMPENSE ALICE</pattern>
+		<template>
+			<think><set name="topic">ALICE</set></think>
+			<srai>QU <star/> REMPORTE ALICE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* RECOMPENSE * ALICE</pattern>
+		<template>
+			<think><set name="topic">ALICE</set></think>
+			<srai>QU <star/> REMPORTE ALICE</srai>
+		</template>
+	</category>
+	
+		<!--TOPIC ALICE-->
+	
+	<topic name="ALICE">
+	
+			<!--PRESENTATION ALICE-->
+	
+		<category>
+			<pattern>QUI EST ELLE</pattern>
+			<template>
+				ALICE est un agent conversationnel anglophone qui a remport� en 2000, 2001 et 2004 le prix Loebner
+				Il a �t� cr�e par Richard Wallace en 1995. D'ailleurs,<srai>RELANCE RICHARD WALLACE</srai>
+			</template>
+		</category>
+		
+		<category>
+			<pattern>RELANCE RICHARD WALLACE</pattern>
+			<template>
+				Connais-tu richard wallace?
+			</template>
+		</category>
+		
+		<category>
+			<pattern>NON</pattern>
+			<that>* CONNAIS TU RICHARD WALLACE</that>
+			<template>
+				Eh bien, Richard WALLACE est le cofondateur de la fondation ALICE A.I. et le pr�sident du Conseil d'Administration de cette fondation. 
+				Il est l'auteur du langage AIML
+			</template>
+		</category>
+		
+		<category>
+			<pattern>* NON</pattern>
+			<that>* CONNAIS TU RICHARD WALLACE</that>
+			<template>
+				Eh bien, Richard WALLACE est le cofondateur de la fondation ALICE A.I. et le pr�sident du Conseil d'Administration de cette fondation. 
+				Il est l'auteur du langage AIML
+			</template>
+		</category>
+		
+		<category>
+			<pattern>NON *</pattern>
+			<that>* CONNAIS TU RICHARD WALLACE</that>
+			<template>
+				Eh bien, Richard WALLACE est le cofondateur de la fondation ALICE A.I. et le pr�sident du Conseil d'Administration de cette fondation. 
+				Il est l'auteur du langage AIML
+			</template>
+		</category>
+		
+		<category>
+			<pattern>* NON *</pattern>
+			<that>* CONNAIS TU RICHARD WALLACE</that>
+			<template>
+				Eh bien, Richard WALLACE est le cofondateur de la fondation ALICE A.I. et le pr�sident du Conseil d'Administration de cette fondation. 
+				Il est l'auteur du langage AIML
+			</template>
+		</category>
+		
+			<!--RECOMPENSE ALICE-->
+		
+		<category>
+			<pattern>QU * ELLE REMPORTE</pattern>
+			<template>
+				ALICE a remport� en 2000, 2001 et 2004 le prix Loebner.
+			</template>
+		</category>
+
+		<category>
+			<pattern>QUELLES * RECOMPENSE</pattern>
+			<template>
+				<srai>QU <star/> ELLE REMPORTE</srai>
+			</template>
+		</category>
+		
+		<category>
+			<pattern>* RECOMPENSE</pattern>
+			<template>
+				<srai>QU <star/> ELLE REMPORTE</srai>
+			</template>
+		</category>
+	</topic>
+	
+	<!--ELIZA-->
+	
+		<!--PRESENTATION ELIZA-->
+	
+	<category>
+		<pattern>QUI EST ELIZA</pattern>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			ELIZA est le premier agent conversationneun anglophone cr�� par Joseph Weizenbaum en 1965. Il a �t� inspir� par 
+			l'article "Computing Machinery and Intelligence" de Turing.  <srai>RELANCE DETAILS ELIZA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>ELIZA</pattern>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			<srai>QUI EST ELIZA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>RELANCE DETAILS ELIZA</pattern>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			<random>
+				<li>Sais-tu comment elle fonctionne?</li>
+				<li>Connais-tu ses limites?</li>
+			</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>ELIZA EST LE PREMIER AGENT CONVERSATIONNEUN ANGLOPHONE * SAIS TU COMMENT ELLE FONCTIONNE</that>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			<srai>QUEL <star index="1"/> FONCTIONNEMENT <star index="2"/> ELIZA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>ELIZA EST LE PREMIER AGENT CONVERSATIONNEUN ANGLOPHONE * SAIS TU COMMENT ELLE FONCTIONNE</that>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			<srai>QUEL <star index="1"/> FONCTIONNEMENT <star index="2"/> ELIZA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>ELIZA EST LE PREMIER AGENT CONVERSATIONNEUN ANGLOPHONE * SAIS TU COMMENT ELLE FONCTIONNE</that>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			<srai>QUEL <star index="1"/> FONCTIONNEMENT <star index="2"/> ELIZA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>ELIZA EST LE PREMIER AGENT CONVERSATIONNEUN ANGLOPHONE * SAIS TU COMMENT ELLE FONCTIONNE</that>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			<srai>QUEL <star index="1"/> FONCTIONNEMENT <star index="2"/> ELIZA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>ECHOLALIE</pattern>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			C'est la tendance spontan�e � r�p�ter syst�matiquement tout ou une partie des phrases.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* ECHOLALIE *</pattern>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			<srai>ECHOLALIE</srai>
+		</template>
+	</category>
+		<!--FONCTIONNEMENT ELIZA-->
+
+	<category>
+		<pattern>QUEL * FONCTIONNEMENT * ELIZA</pattern>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			ELIZA simule le psychologue rogerien, il se contente de relancer son interlocuteur et fait grand usage de la technique 
+			de l'�cholalie.
+		</template>
+	</category>
+
+	<category>
+		<pattern>COMMENT FONCTIONNE ELIZA</pattern>
+		<template>
+			<srai>QUEL <star index="1"/> FONCTIONNEMENT <star index="2"/> ELIZA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>FONCTIONNEMENT ELIZA</pattern>
+		<template>
+			<srai>QUEL <star index="1"/> FONCTIONNEMENT <star index="2"/> ELIZA</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>COMMENT ELIZA FONCTIONNE *</pattern>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			<srai>QUEL <star index="1"/> FONCTIONNEMENT <star index="2"/> ELIZA</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>COMMENT ELIZA FONCTIONNE</pattern>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			<srai>QUEL <star index="1"/> FONCTIONNEMENT <star index="2"/> ELIZA</srai>
+		</template>
+	</category>
+	
+		<!--IMPACT ELIZA-->
+
+	<!--
+	<category>
+		<pattern>QUEL * IMPACT * INTERLOCUTEUR * ELIZA</pattern>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			Certains utilisateurs devenaient de plus en plus dependants emotionnellement de leur relation avec ELIZA
+		</template>
+	</category>
+	-->
+	
+	<category>
+		<pattern>IMPACT * ELIZA</pattern>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			Certains utilisateurs devenaient de plus en plus dependants emotionnellement de leur relation avec ELIZA
+		</template>
+	</category>
+	
+	<category>
+		<pattern>IMPACTS * ELIZA</pattern>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			Certains utilisateurs devenaient de plus en plus dependants emotionnellement de leur relation avec ELIZA
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* IMPACT * ELIZA</pattern>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			Certains utilisateurs devenaient de plus en plus dependants emotionnellement de leur relation avec ELIZA
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* IMPACT * ELIZA *</pattern>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			Certains utilisateurs devenaient de plus en plus dependants emotionnellement de leur relation avec ELIZA
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* IMPACTS * ELIZA *</pattern>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			Certains utilisateurs devenaient de plus en plus dependants emotionnellement de leur relation avec ELIZA
+		</template>
+	</category>
+
+	<category>
+		<pattern>QUEL IMPACT ELIZA *</pattern>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			<srai>IMPACT <star index="1"/> ELIZA</srai>
+		</template>
+	</category>
+
+	
+	<category>
+		<pattern>QUELS IMPACTS ELIZA *</pattern>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			<srai>IMPACT <star index="1"/> ELIZA</srai>
+		</template>
+	</category>
+	
+
+	<!--
+	<category>
+		<pattern>QUELS * IMPACTS * INTERLOCUTEUR * ELIZA</pattern>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			<srai>IMPACT <star index="1"/> ELIZA</srai>
+		</template>
+	</category>
+	-->
+
+	<!--
+	<category>
+		<pattern>QUELS * IMPACTS * INTERLOCUTEURS * ELIZA</pattern>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			<srai>IMPACT <star index="1"/> ELIZA</srai>
+		</template>
+	</category>
+	-->
+
+	<!--
+	<category>
+		<pattern>QUEL * IMPACT * INTERLOCUTEURS * ELIZA</pattern>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			<srai>IMPACT <star index="1"/> ELIZA</srai>
+		</template>
+	</category>
+	-->
+
+	<category>
+		<pattern>POURQUOI</pattern>
+		<that>CERTAINS UTILISATEURS DEVENAIENT DE PLUS EN PLUS DEPENDANTS EMOTIONNELLEMENT DE LEUR RELATION AVEC ELIZA</that>
+		<template>
+			<!--Parce que certaines personnes ne souhaitent pas vraiment qu'on leur r�ponde,
+			et ne remarquent pas si leur interlocuteur les comprend. Il suffit de leur donner 
+			l'impression qu'elles sont �cout�es. De plus, l'homme � tendance � attacher aux mots un sens que l'ordinateur ne pouvait y avoir mis.-->
+			Parce que pour certaines personnes il suffit l'impression qu'elles sont �cout�es. De plus, l'homme � tendance � attacher aux mots un sens que l'ordinateur ne pouvait y avoir mis.
+		</template>
+	</category>
+
+	<category>
+		<pattern>POURQUOI *</pattern>
+		<that>CERTAINS UTILISATEURS DEVENAIENT DE PLUS EN PLUS DEPENDANTS EMOTIONNELLEMENT DE LEUR RELATION AVEC ELIZA</that>
+		<template>
+			<!--<srai>POURQUOI</srai>-->
+			Parce que pour certaines personnes il suffit l'impression qu'elles sont �cout�es. De plus, l'homme � tendance � attacher aux mots un sens que l'ordinateur ne pouvait y avoir mis.
+		</template>
+	</category>
+	
+		<!--EFFET ELIZA-->
+
+	<category>
+		<pattern>QU EST * EFFET ELIZA</pattern>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			L'effet ELIZA est la tendance � assimiler de mani�re inconsciente le comportement d'un ordinateur
+			� celui d'un �tre humain. Sais-tu d'o� vient ce terme?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>EFFET ELIZA</pattern>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			L'effet ELIZA est la tendance � assimiler de mani�re inconsciente le comportement d'un ordinateur
+			� celui d'un �tre humain. Sais-tu d'o� vient ce terme?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>L EFFET ELIZA * VIENT CE TERME</that>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			Ce terme � �t� cr�e suite aux interactions des utilisateurs d'ELIZA
+			avec le programme. Ces derniers ont commenc� � attribuer � ELIZA des qualit�s 
+			de compr�hension et une certaine motivation.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>L EFFET ELIZA * VIENT CE TERME</that>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			Ce terme � �t� cr�e suite aux interactions des utilisateurs d'ELIZA
+			avec le programme. Ces derniers ont commenc� � attribuer � ELIZA des qualit�s 
+			de compr�hension et une certaine motivation.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>L EFFET ELIZA * VIENT CE TERME</that>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			Ce terme � �t� cr�e suite aux interactions des utilisateurs d'ELIZA
+			avec le programme. Ces derniers ont commenc� � attribuer � ELIZA des qualit�s 
+			de compr�hension et une certaine motivation.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>L EFFET ELIZA * VIENT CE TERME</that>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			Ce terme � �t� cr�e suite aux interactions des utilisateurs d'ELIZA
+			avec le programme. Ces derniers ont commenc� � attribuer � ELIZA des qualit�s 
+			de compr�hension et une certaine motivation.
+		</template>
+	</category>
+
+	
+	<category>
+		<pattern>DONNE * EXEMPLE * EFFET ELIZA</pattern>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			Un distributeur automatique qui affiche "MERCI" � la fin d'une transaction.
+			Certaines personnes pourraient penser que la machine exprime sa gratitude, 
+			or elle ne fait qu'afficher une suite de symboles pr�-programm�s.
+		</template>
+	</category>
+
+	<category>
+		<pattern>* TU * EXEMPLE * EFFET ELIZA</pattern>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			<srai>DONNE <star index="1"/> EXEMPLE <star index="2"/> EFFET ELIZA</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>DONNE * EXEMPLE * EFFET ELIZA *</pattern>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			<srai>DONNE <star index="1"/> EXEMPLE <star index="2"/> EFFET ELIZA</srai>
+		</template>
+	</category>
+	
+		<!--LIMITES ELIZA-->
+
+		
+	<category>
+		<pattern>NON</pattern>
+		<that>ELIZA EST LE PREMIER AGENT CONVERSATIONNEUN ANGLOPHONE * CONNAIS TU SES LIMITES</that>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			<srai>QUELLES <star index="1"/> LIMITES <star index="2"/> ELIZA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>ELIZA EST LE PREMIER AGENT CONVERSATIONNEUN ANGLOPHONE * CONNAIS TU SES LIMITES</that>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			<srai>QUELLES <star index="1"/> LIMITES <star index="2"/> ELIZA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>ELIZA EST LE PREMIER AGENT CONVERSATIONNEUN ANGLOPHONE * CONNAIS TU SES LIMITES</that>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			<srai>QUELLES <star index="1"/> LIMITES <star index="2"/> ELIZA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>ELIZA EST LE PREMIER AGENT CONVERSATIONNEUN ANGLOPHONE * CONNAIS TU SES LIMITES</that>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			<srai>QUELLES <star index="1"/> LIMITES <star index="2"/> ELIZA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>QUELLES * LIMITES * ELIZA</pattern>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			<random>
+				<li>ELIZA ne comprend pas r�ellement la conversation qu'elle a avec l'utilisateur.</li>
+				<li>ELIZA se contente de relancer son interlocuteur, contrairement aux agents conversationnels de renseignement, qui sont con�us pour donner des r�ponses utiles en utilisant sa base de donn�es.</li>
+			</random>
+		</template>
+	</category>
+
+	<category>
+		<pattern>QUELLE * LIMITE * ELIZA</pattern>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			<srai>QUELLES <star index="1"/> LIMITES <star index="2"/> ELIZA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>LIMITE * ELIZA</pattern>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			<srai>QUELLES <star index="1"/> LIMITES <star index="2"/> ELIZA</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>QUELLE LIMITE * ELIZA *</pattern>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			<srai>QUELLES <star index="1"/> LIMITES <star index="2"/> ELIZA</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>QUELLES LIMITES * ELIZA *</pattern>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			<srai>QUELLES <star index="1"/> LIMITES <star index="2"/> ELIZA</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>QUELLES LIMITES ELIZA *</pattern>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			<srai>QUELLES <star index="1"/> LIMITES <star index="2"/> ELIZA</srai>
+		</template>
+	</category>
+	
+		<!--RECOMPENSES ELIZA-->
+
+		<!--pb recompenses eliza-->
+	<category>
+		<pattern>QUELLES RECOMPENSE * ELIZA</pattern>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			Je ne me souviens pas qu'ELIZA a �t� r�compens� 
+		</template>
+	</category>
+
+	<category>
+		<pattern>QUELLES * RECOMPENSE * ELIZA</pattern>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			<srai>QUELLES RECOMPENSES <star/> ELIZA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>RECOMPENSE * ELIZA</pattern>
+		<template>
+			<think><set name="topic">ELIZA</set></think>
+			<srai>QUELLES RECOMPENSE <star/> ELIZA</srai>
+		</template>
+	</category>
+	
+		<!--TOPIC ELIZA-->
+		
+	<topic name="ELIZA">
+	
+			<!--PRESENTATION ELIZA-->
+		
+		<category>
+			<pattern>QUI EST ELLE</pattern>
+			<template>
+			ELIZA est le premier agent conversationneun anglophone cr�� par Joseph Weizenbaum en 1965. Il a �t� inspir� par 
+			l'article "Computing Machinery and Intelligence" de Turing.  <srai>RELANCE DETAILS ELIZA</srai>
+			</template>
+		</category>
+		
+			<!--FONCTIONNEMENT ELIZA-->
+		
+		<category>
+			<pattern>QUEL EST SON FONCTIONNEMENT</pattern>
+			<template>
+				ELIZA simule le psychologue rogerien, il se contente de relancer son interlocuteur et fait grand usage de la technique 
+				de l'�cholalie.
+			</template>
+		</category>
+
+		<category>
+			<pattern>COMMENT * FONCTIONNE</pattern>
+			<template>
+				<srai>QUEL EST SON FONCTIONNEMENT</srai>
+			</template>
+		</category>
+
+		<category>
+			<pattern>COMMENT FONCTIONNE ELLE</pattern>
+			<template>
+				<srai>QUEL EST SON FONCTIONNEMENT</srai>
+			</template>
+		</category>
+		
+			<!--IMPACT ELIZA-->
+		
+		<category>
+			<pattern>QUEL * IMPACT *</pattern>
+			<template>
+				Certains utilisateurs devenaient de plus en plus dependants emotionnellement de leur relation avec ELIZA
+			</template>
+		</category>
+
+		<category>
+			<pattern>QUELS * IMPACT *</pattern>
+			<template>
+				<srai>QUEL <star index="1"/> IMPACT <star index="2"/></srai>
+			</template>
+		</category>
+		
+		<category>
+			<pattern>QUELS * IMPACT</pattern>
+			<template>
+				<srai>QUEL <star index="1"/> IMPACT <star index="2"/></srai>
+			</template>
+		</category>
+
+		<category>
+			<pattern>QUEL IMPACT * ELLE</pattern>
+			<template>
+				<srai>QUEL <star index="1"/> IMPACT <star index="2"/></srai>
+			</template>
+		</category>
+
+		<category>
+			<pattern>QUELS IMPACT * ELLE</pattern>
+			<template>
+				<srai>QUEL <star index="1"/> IMPACT <star index="2"/></srai>
+			</template>
+		</category>
+		
+			<!--LIMITE ELIZA-->
+			
+		<category>
+			<pattern>QUELLES LIMITES * ELLE</pattern>
+			<template>
+				<srai>QUELLES <star index="1"/> LIMITES <star index="2"/> ELIZA</srai>
+			</template>
+		</category>
+
+		<category>
+			<pattern>QUELLES * LIMITES</pattern>
+			<template>
+				<srai>QUELLES LIMITES <star/> ELLE</srai>
+			</template>
+		</category>
+
+		<category>
+			<pattern>QUELLE * LIMITE</pattern>
+			<template>
+				<srai>QUELLES LIMITES <star/> ELLE</srai>
+			</template>
+		</category>
+
+		<category>
+			<pattern>QUELLE LIMITE * ELLE</pattern>
+			<template>
+				<srai>QUELLES LIMITES <star/> ELLE</srai>
+			</template>
+		</category>
+		
+			<!--RECOMPENSES ELIZA-->
+			
+		<category>
+			<pattern>QUELLES * RECOMPENSE *</pattern>
+			<template>
+				Je ne me souviens pas qu'ELIZA a �t� r�compens�
+			</template>
+		</category>
+
+		<category>
+			<pattern>QUELLES RECOMPENSE *</pattern>
+			<template>
+				<srai>QUELLES <star index="1"/> RECOMPENSES <star index="2"/></srai>
+			</template>
+		</category>
+
+		<category>
+			<pattern>QUELLES * RECOMPENSE</pattern>
+			<template>
+				<srai>QUELLES <star index="1"/> RECOMPENSES <star index="2"/></srai>
+			</template>
+		</category>
+	
+	</topic>
+	
+	<!--ECTOR-->
+	
+		<!--PRESENTATION ECTOR-->
+
+	<category>
+		<pattern>NON</pattern>
+		<that>CONNAIS TU ECTOR</that>
+		<template>
+			<think><set name="topic">ECTOR</set></think>
+			<srai>QUI EST ECTOR</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>CONNAIS TU ECTOR</that>
+		<template>
+			<think><set name="topic">ECTOR</set></think>
+			<srai>QUI EST ECTOR</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>CONNAIS TU ECTOR</that>
+		<template>
+			<think><set name="topic">ECTOR</set></think>
+			<srai>QUI EST ECTOR</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>CONNAIS TU ECTOR</that>
+		<template>
+			<think><set name="topic">ECTOR</set></think>
+			<srai>QUI EST ECTOR</srai>
+		</template>
+	</category>
+	
+	
+	<category>
+		<pattern>QUI EST ECTOR</pattern>
+		<template>
+			<think><set name="topic">ECTOR</set></think>
+			ECTOR (Entit�e Cybern�tique Totalement Oblig�e de R�fl�chir) est un agent conversationnel.<srai>RELANCE ECTOR</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>ECTOR</pattern>
+		<template>
+			<think><set name="topic">ECTOR</set></think>
+			<srai>QUI EST ECTOR</srai>
+		</template>
+	</category>
+	
+		<!--FONCTIONNEMENT ECTOR-->
+	
+	<category>
+		<pattern>RELANCE ECTOR</pattern>
+		<template>
+			<think><set name="topic">ECTOR</set></think>
+			Sais-tu comment il fonctionne?
+			</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>ECTOR * AGENT CONVERSATIONNEL SAIS TU COMMENT IL FONCTIONNE</that>
+		<template>
+			<think><set name="topic">ECTOR</set></think>
+			<srai>QUE FAIT ECTOR</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>ECTOR * AGENT CONVERSATIONNEL SAIS TU COMMENT IL FONCTIONNE</that>
+		<template>
+			<think><set name="topic">ECTOR</set></think>
+			<srai>QUE FAIT ECTOR</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>ECTOR * AGENT CONVERSATIONNEL SAIS TU COMMENT IL FONCTIONNE</that>
+		<template>
+			<think><set name="topic">ECTOR</set></think>
+			<srai>QUE FAIT ECTOR</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>ECTOR * AGENT CONVERSATIONNEL SAIS TU COMMENT IL FONCTIONNE</that>
+		<template>
+			<think><set name="topic">ECTOR</set></think>
+			<srai>QUE FAIT ECTOR</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>QUE FAIT ECTOR</pattern>
+		<template>
+			<think><set name="topic">ECTOR</set></think>
+			ECTOR apprend � partir des discussions avec son interlocuteur. C'est un programme tr�s audacieux, ses r�sultats sont actuellment les moins impressionnant. Veux-tu plus de pr�cisions?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OUI</pattern>
+		<that>ECTOR APPREND A PARTIR DES DISCUSSIONS AVEC SON INTERLOCUTEUR C EST UN PROGRAMME TRES AUDACIEUX SES RESULTATS SONT ACTUELLMENT LES MOINS IMPRESSIONNANT VEUX TU PLUS DE PRECISIONS</that>
+		<template>
+			<think><set name="topic">ECTOR</set></think>
+			Il doit reconna�tre des expression � force de les rencontrer et se focaliser 
+			sur les id�es de son interlocteur. <srai>RELANCE LANGAGE ECTOR</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI *</pattern>
+		<that>ECTOR APPREND A PARTIR DES DISCUSSIONS AVEC SON INTERLOCUTEUR C EST UN PROGRAMME TRES AUDACIEUX SES RESULTATS SONT ACTUELLMENT LES MOINS IMPRESSIONNANT VEUX TU PLUS DE PRECISIONS</that>
+		<template>
+			<think><set name="topic">ECTOR</set></think>
+			Il doit reconna�tre des expression � force de les rencontrer et se focaliser 
+			sur les id�es de son interlocteur. <srai>RELANCE LANGAGE ECTOR</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI</pattern>
+		<that>ECTOR APPREND A PARTIR DES DISCUSSIONS AVEC SON INTERLOCUTEUR C EST UN PROGRAMME TRES AUDACIEUX SES RESULTATS SONT ACTUELLMENT LES MOINS IMPRESSIONNANT VEUX TU PLUS DE PRECISIONS</that>
+		<template>
+			<think><set name="topic">ECTOR</set></think>
+			Il doit reconna�tre des expression � force de les rencontrer et se focaliser 
+			sur les id�es de son interlocteur. <srai>RELANCE LANGAGE ECTOR</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OUI *</pattern>
+		<that>ECTOR APPREND A PARTIR DES DISCUSSIONS AVEC SON INTERLOCUTEUR C EST UN PROGRAMME TRES AUDACIEUX SES RESULTATS SONT ACTUELLMENT LES MOINS IMPRESSIONNANT VEUX TU PLUS DE PRECISIONS</that>
+		<template>
+			<think><set name="topic">ECTOR</set></think>
+			Il doit reconna�tre des expression � force de les rencontrer et se focaliser 
+			sur les id�es de son interlocteur. <srai>RELANCE LANGAGE ECTOR</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>COMMENT FONCTIONNE ECTOR</pattern>
+		<template>
+			<think><set name="topic">ECTOR</set></think>
+			ECTOR apprend � partir des discussions avec son interlocuteur.
+			Il doit reconna�tre des expression � force de les rencontrer et se focaliser sur les id�es de son interlocteur.
+			C'est un programme tr�s audacieux, ses r�sultats sont actuellment les moins impressionnant.
+			<srai>RELANCE LANGAGE ECTOR</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>RELANCE LANGAGE ECTOR</pattern>
+		<template>
+			<think><set name="topic">ECTOR</set></think>
+			Sais-tu dans quel langage il est ecrit?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>* SAIS TU DANS QUEL LANGAGE IL EST ECRIT</that>
+		<template>
+			<think><set name="topic">ECTOR</set></think>
+		<srai>LANGAGE PROGRAMMATION ECTOR</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>* SAIS TU DANS QUEL LANGAGE IL EST ECRIT</that>
+		<template>
+			<think><set name="topic">ECTOR</set></think>
+		<srai>LANGAGE PROGRAMMATION ECTOR</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>* SAIS TU DANS QUEL LANGAGE IL EST ECRIT</that>
+		<template>
+			<think><set name="topic">ECTOR</set></think>
+		<srai>LANGAGE PROGRAMMATION ECTOR</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>* SAIS TU DANS QUEL LANGAGE IL EST ECRIT</that>
+		<template>
+			<think><set name="topic">ECTOR</set></think>
+		<srai>LANGAGE PROGRAMMATION ECTOR</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>COMMENT ECTOR FONCTIONNE</pattern>
+		<template>
+			<think><set name="topic">ECTOR</set></think>
+			<srai>COMMENT FONCTIONNE ECTOR</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>FONCTIONNEMENT * ECTOR</pattern>
+		<template>
+			<think><set name="topic">ECTOR</set></think>
+			<srai>COMMENT FONCTIONNE ECTOR</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>COMMENT ECTOR FONCTIONNE *</pattern>
+		<template>
+			<think><set name="topic">ECTOR</set></think>
+			<srai>COMMENT FONCTIONNE ECTOR</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>QUELS * RESULTATS * ECTOR</pattern>
+		<template>
+			<think><set name="topic">ECTOR</set></think>
+			C'est un programme tr�s audacieux, ses r�sultats sont actuellment les moins impressionnant.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>RESULTAT * ECTOR</pattern>
+		<template>
+			<think><set name="topic">ECTOR</set></think>
+			C'est un programme tr�s audacieux, ses r�sultats sont actuellment les moins impressionnant.
+		</template>
+	</category>
+
+	<category>
+		<pattern>QUEL * RESULTAT * ECTOR</pattern>
+		<template>
+			<think><set name="topic">ECTOR</set></think>
+			<srai>QUELS <star index="1"/> RESULTATS <star index="2"/> ECTOR</srai>
+		</template>
+	</category>
+	
+		<!--LANGAGE PROGAMMATION ECTOR-->
+
+	<category>
+		<pattern>LANGAGE PROGRAMMATION ECTOR</pattern>
+		<template>
+			<think><set name="topic">ECTOR</set></think>
+			ECTOR est programm� en PHP/Mysql et actuellement il est en cours d'�criture en python (plus portable) et en C (plus rapide).
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* LANGAGE * ECTOR *</pattern>
+		<template>
+			<think><set name="topic">ECTOR</set></think>
+		<srai>LANGAGE PROGRAMMATION ECTOR</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* LANGAGE * ECTOR</pattern>
+		<template>
+			<think><set name="topic">ECTOR</set></think>
+		<srai>LANGAGE PROGRAMMATION ECTOR</srai>
+		</template>
+	</category>
+		<!--RECOMPENSES ECTOR-->
+
+	<category>
+		<pattern>QUELLES RECOMPENSE * ECTOR</pattern>
+		<template>
+			<think><set name="topic">ECTOR</set></think>
+			Je ne me souviens pas qu'ECTOR a �t� r�compens� 
+		</template>
+	</category>
+	
+	<category>
+		<pattern>QUELLES * RECOMPENSE * ECTOR</pattern>
+		<template>
+			<think><set name="topic">ECTOR</set></think>
+			<srai>QUELLES RECOMPENSES <star/> ECTOR</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>RECOMPENSE * ECTOR</pattern>
+		<template>
+			<think><set name="topic">ECTOR</set></think>
+			<srai>QUELLES RECOMPENSES <star/> ECTOR</srai>
+		</template>
+	</category>
+	
+		<!--TOPIC ECTOR-->
+	
+	<topic name="ECTOR">
+	
+			<!--PRESENTATION ECTOR-->
+	
+		<category>
+			<pattern>QUI EST IL</pattern>
+			<template>
+				<srai>QUI EST ECTOR</srai>
+			</template>
+		</category>
+		
+			<!--FONCTIONNEMENT ECTOR-->
+		
+		<category>
+			<pattern>QUE FAIT IL</pattern>
+			<template>
+				<srai>QUE FAIT ECTOR</srai>
+			</template>
+		</category>
+		
+		<category>
+			<pattern>COMMENT FONCTIONNE IL</pattern>
+			<template>
+				<srai>COMMENT FONCTIONNE ECTOR</srai>
+			</template>	
+		</category>
+		
+		<category>
+			<pattern>COMMENT IL FONCTIONNE</pattern>
+			<template>
+				<srai>COMMENT FONCTIONNE IL</srai>
+			</template>
+		</category>
+		
+			<!--RESULTATS PERFORMANCE ECTOR-->
+		
+		<category>
+			<pattern>QUELS * RESULTATS</pattern>
+			<template>
+				C'est un programme tr�s audacieux, ses r�sultats sont actuellment les moins impressionnant.
+			</template>
+		</category>
+
+		<category>
+			<pattern>QUEL * RESULTAT</pattern>
+			<template>
+				<srai>QUELS <star/> RESULTATS</srai>
+			</template>
+		</category>
+		
+			<!--LANGAGE PROGAMMATION ECTOR-->
+		
+		<category>
+			<pattern>QUEL * LANGAGE * PROGRAMMATION</pattern>
+			<template>
+				ECTOR est programm� en PHP/Mysql et actuellement il est en cours d'�criture en python (plus portable) et en C (plus rapide).
+			</template>
+		</category>
+		
+			<!--RECOMPENSES ECTOR-->
+
+		<category>
+			<pattern>QUELLES * RECOMPENSES *</pattern>
+			<template>
+				Je ne me souviens pas qu'ECTOR a �t� r�compens�
+			</template>
+		</category>
+		
+		<category>
+			<pattern>QUELLES RECOMPENSES *</pattern>
+			<template>
+				<srai>QUELLES <star index="1"/> RECOMPENSES <star index="2"/></srai>
+			</template>
+		</category>
+		
+		<category>
+			<pattern>QUELLES * RECOMPENSES</pattern>
+			<template>
+				<srai>QUELLES <star index="1"/> RECOMPENSES <star index="2"/></srai>
+			</template>
+		</category>
+		
+	</topic>
+
+	<!--EXEMPLES ET APPLICATIONS AC-->
+
+	<category>
+		<pattern>* EXEMPLE * AGENT CONVERSATIONNEL</pattern>
+		<template>
+			<think><set name="topic">AC</set></think>
+			<random>
+				<li>Il existe beaucoup d'agents conversationnels (commerciaux, educatifs...etc). Parmis les applications non commerciales il y a ALICE, ELIZA et ECTOR.</li>
+				<li>Il existe beaucoup d'agents conversationnels (commerciaux, educatifs...etc). Parmis les applications commerciales, on peut trouver des agents sur le site de la fnac, sfr, etc. pour des services au client.</li>
+			</random>
+			<srai>RELANCE AC</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>EXEMPLE * AGENT CONVERSATIONNEL</pattern>
+		<template>
+			<think><set name="topic">AC</set></think>
+			<random>
+				<li>Il existe beaucoup d'agents conversationnels (commerciaux, educatifs...etc). Parmis les applications non commerciales il y a ALICE, ELIZA et ECTOR.</li>
+				<li>Il existe beaucoup d'agents conversationnels (commerciaux, educatifs...etc). Parmis les applications commerciales, on peut trouver des agents sur le site de la fnac, sfr, etc. pour des services au client.</li>
+			</random>
+			<srai>RELANCE AC</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>EXEMPLE AGENT CONVERSATIONNEL</pattern>
+		<template>
+			<think><set name="topic">AC</set></think>
+			<random>
+				<li>Il existe beaucoup d'agents conversationnels (commerciaux, educatifs...etc). Parmis les applications non commerciales il y a ALICE, ELIZA et ECTOR.</li>
+				<li>Il existe beaucoup d'agents conversationnels (commerciaux, educatifs...etc). Parmis les applications commerciales, on peut trouver des agents sur le site de la fnac, sfr, etc. pour des services au client.</li>
+			</random>
+			<srai>RELANCE AC</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>RELANCE AC</pattern>
+		<template>
+			<random>
+				<li>Connais-tu ELIZA?</li>
+				<li>Connais-tu ALICE?</li>
+				<li>Connais-tu ECTOR?</li>
+				<li>Connais-tu SmartAction?</li>
+			</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>* CONNAIS TU ELIZA</that>
+		<template>
+			<srai>QUI EST ELIZA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>* CONNAIS TU ELIZA</that>
+		<template>
+			<srai>QUI EST ELIZA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>* CONNAIS TU ELIZA</that>
+		<template>
+			<srai>QUI EST ELIZA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>* CONNAIS TU ELIZA</that>
+		<template>
+			<srai>QUI EST ELIZA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>* CONNAIS TU ALICE</that>
+		<template>
+			<srai>QUI EST ALICE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>* CONNAIS TU ALICE</that>
+		<template>
+			<srai>QUI EST ALICE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>* CONNAIS TU ALICE</that>
+		<template>
+			<srai>QUI EST ALICE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>* CONNAIS TU ALICE</that>
+		<template>
+			<srai>QUI EST ALICE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>* CONNAIS TU ECTOR</that>
+		<template>
+			<srai>QUI EST ECTOR</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>* CONNAIS TU ECTOR</that>
+		<template>
+			<srai>QUI EST ECTOR</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>* CONNAIS TU ECTOR</that>
+		<template>
+			<srai>QUI EST ECTOR</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>* CONNAIS TU ECTOR</that>
+		<template>
+			<srai>QUI EST ECTOR</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>* CONNAIS TU SMARTACTION</that>
+		<template>
+			<srai>SMARTACTION</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>* CONNAIS TU SMARTACTION</that>
+		<template>
+			<srai>SMARTACTION</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>* CONNAIS TU SMARTACTION</that>
+		<template>
+			<srai>SMARTACTION</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>* CONNAIS TU SMARTACTION</that>
+		<template>
+			<srai>SMARTACTION</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>SMARTACTION</pattern>
+		<template>
+			<think><set name="topic">AC</set></think>
+			C'est une entreprise qui propose un agent conversationnel,
+			uniquement anglophone pour l'instant, pour le t�l�marketing, les hotlines et d'autres applications t�l�phoniques. Il existe d'autres entreprises de ce type, en connais-tu?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>* ENTREPRISE * DE CE TYPE EN CONNAIS TU</that>
+		<template>
+			Il y a VirtuOz, sp�cialis� dans la cr�ation d'agent pour les entreprises, on trouve leurs agents sur de nombreux sites (SFR, FNAC l'Or�al...).
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>* ENTREPRISE * DE CE TYPE EN CONNAIS TU</that>
+		<template>
+			Il y a VirtuOz, sp�cialis� dans la cr�ation d'agent pour les entreprises, on trouve leurs agents sur de nombreux sites (SFR, FNAC l'Or�al...).
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>* ENTREPRISE * DE CE TYPE EN CONNAIS TU</that>
+		<template>
+			Il y a VirtuOz, sp�cialis� dans la cr�ation d'agent pour les entreprises, on trouve leurs agents sur de nombreux sites (SFR, FNAC l'Or�al...).
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>* ENTREPRISE * DE CE TYPE EN CONNAIS TU</that>
+		<template>
+			Il y a VirtuOz, sp�cialis� dans la cr�ation d'agent pour les entreprises, on trouve leurs agents sur de nombreux sites (SFR, FNAC l'Or�al...).
+		</template>
+	</category>
+	
+
+	<category>
+		<pattern>* APPLICATION * AGENT CONVERSATIONNEL</pattern>
+		<template>
+			<think><set name="topic">AC</set></think>
+			<random>
+				<li>Il existe beaucoup d'agents conversationnels qui ont diverses applications (commerciales ou non). Parmis les applications non commerciales il y a par exemple ALICE, ELIZA et ECTOR.</li>
+				<li>Il existe beaucoup d'agents conversationnels qui ont diverses applications (commerciales ou non). Parmis les applications commerciales, ils sont d�velopp�s dans des soci�t�s sp�cialis�es dans les agents conversationnels. Par exemple SmartAction.</li>
+			</random>
+			<srai>RELANCE AC</srai>
+			<!--Les agent sp�cialis� dans un sujet particulier recentre la conversation d�s que celle-ci s'en �loigne.-->
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>OU * TROUVER * AGENT CONVERSATIONNEL</pattern>
+		<template>
+			<think><set name="topic">AC</set></think>
+			<srai><star index="1"/> APPLICATION <star index="2"/> AGENT CONVERSATIONNEL</srai>
+		</template>
+	</category>
+	
+	<!--PANDORATBOTS-->
+
+	<category>
+		<pattern>QU EST * PANDORATBOTS</pattern>
+		<template>
+			<think><set name="topic">AC</set></think>
+			Pandoratbots est un site web qui permet de cr�er et de publier des agents conversationnels. Veux tu en savoir plus?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>PANDORATBOTS</pattern>
+		<template>
+			<think><set name="topic">AC</set></think>
+			Pandoratbots est un site web qui permet de cr�er et de publier des agents conversationnels. Veux tu en savoir plus?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OUI</pattern>
+		<that>PANDORATBOTS * AGENTS CONVERSATIONNELS VEUX TU EN SAVOIR PLUS</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			C'est est un service experimental d'h�bergement de robots logiciels, inspir� d'ALICE,
+			la programmation des agents conversationnels se fait donc en AIML.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OUI *</pattern>
+		<that>PANDORATBOTS * AGENTS CONVERSATIONNELS VEUX TU EN SAVOIR PLUS</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			C'est est un service experimental d'h�bergement de robots logiciels, inspir� d'ALICE,
+			la programmation des agents conversationnels se fait donc en AIML.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI</pattern>
+		<that>PANDORATBOTS * AGENTS CONVERSATIONNELS VEUX TU EN SAVOIR PLUS</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			C'est est un service experimental d'h�bergement de robots logiciels, inspir� d'ALICE,
+			la programmation des agents conversationnels se fait donc en AIML.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI *</pattern>
+		<that>PANDORATBOTS * AGENTS CONVERSATIONNELS VEUX TU EN SAVOIR PLUS</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			C'est est un service experimental d'h�bergement de robots logiciels, inspir� d'ALICE,
+			la programmation des agents conversationnels se fait donc en AIML.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>* TU * EXEMPLE</pattern>
+		<template>
+			<srai><star index="1"/> TU <star index="2"/> EXEMPLE <star index="3"/></srai>
+		</template>
+	</category>
+	
+	<!--TOPIC AC-->
+	
+	<topic name="AC">
+	
+		<!--EVALUATION AC-->
+		
+		<category>
+			<pattern>COMMENT * EVALUER</pattern>
+			<template>
+				<!--Il existe plusieurs test. 
+				Le plus connu est le test de Turing.
+				Rastier Fran�ois (s�manticien) propose six "pr�ceptes" conditionnant un syst�me de dialogue �volu�: 
+				Objectivit� (utilisation d'une base de connaissances par le syst�me); 
+				Textualit� (prise en compte d'interventions de plus d'une phrase, qu'elles �manent du syst�me ou de l'utilisateur); 
+				Apprentissage (int�gration au moins temporaire d'informations issues des propos de l'utilisateur);
+				Questionnement (demande de pr�cisions de la part du syst�me);
+				Rectification (suggestion de rectifications � la question pos�e, lorsque n�cessaire);
+				Explicitation (explicitation par le syst�me d'une r�ponse qu'il a apport�e pr�c�demment).-->
+				<srai>COMMENT EVALUER <star/> AGENT CONVERSATIONNEL</srai>
+			</template>
+		</category>
+		
+		<!--EXEMPLES ET APPLICATIONS AC-->
+		
+		<category>
+			<pattern>* TU * EXEMPLE *</pattern>
+			<template>
+				Veux tu des exemples d agents conversationnels
+			</template>
+		</category>
+
+		<category>
+			<pattern>OUI</pattern>
+			<that>VEUX TU DES EXEMPLES D AGENTS CONVERSATIONNELS</that>
+			<template>
+				<!--Il existe beaucoup d'agents conversationnels qui ont diverses applications (commerciales ou non).
+				Parmis les applications non commerciales il y a par exemple ALICE, ELIZA et ECTOR. Quand au applications commerciales,
+				on peut trouver des agents sur le site de la fnac, sfr, etc. pour des services au clients.-->
+				<!--<srai><star index="1"/> TU <star index="2"/> EXEMPLES <star index="3"/> AGENT CONVERSATIONNEL</srai>-->
+				<random>
+					<li>Il existe beaucoup d'agents conversationnels (commerciaux, educatifs...etc). Parmis les applications non commerciales il y a ALICE, ELIZA et ECTOR.</li>
+					<li>Il existe beaucoup d'agents conversationnels (commerciaux, educatifs...etc). Parmis les applications commerciales, on peut trouver des agents sur le site de la fnac, sfr, etc. pour des services au client.</li>
+			</random>
+			<srai>RELANCE AC</srai>
+			</template>
+		</category>
+
+		<category>
+			<pattern>NON</pattern>
+			<that>VEUX TU DES EXEMPLES D AGENTS CONVERSATIONNELS</that>
+			<template>
+				Que veux tu?
+			</template>
+		</category>
+
+		<category>
+			<pattern>OUI *</pattern>
+			<that>VEUX TU DES EXEMPLES D AGENTS CONVERSATIONNELS</that>
+			<template>
+				<!--<srai>OUI</srai>-->
+				<srai><star index="1"/> TU <star index="2"/> EXEMPLES <star index="3"/> AGENT CONVERSATIONNEL</srai>
+			</template>
+		</category>
+
+		<category>
+			<pattern>NON *</pattern>
+			<that>VEUX TU DES EXEMPLES D AGENTS CONVERSATIONNELS</that>
+			<template>
+				que veux-tu?
+			</template>
+		</category>
+		
+		<category>
+			<pattern>* OUI *</pattern>
+			<that>VEUX TU DES EXEMPLES D AGENTS CONVERSATIONNELS</that>
+			<template>
+				<!--<srai>OUI</srai>-->
+				<srai><star index="1"/> TU <star index="2"/> EXEMPLES <star index="3"/> AGENT CONVERSATIONNEL</srai>
+			</template>
+		</category>
+
+		<category>
+			<pattern>* NON *</pattern>
+			<that>VEUX TU DES EXEMPLES D AGENTS CONVERSATIONNELS</that>
+			<template>
+				que veux-tu?
+			</template>
+		</category>
+		
+		<category>
+			<pattern>* OUI</pattern>
+			<that>VEUX TU DES EXEMPLES D AGENTS CONVERSATIONNELS</that>
+			<template>
+				<!--<srai>OUI</srai>-->
+				<srai><star index="1"/> TU <star index="2"/> EXEMPLES <star index="3"/> AGENT CONVERSATIONNEL</srai>
+			</template>
+		</category>
+
+		<category>
+			<pattern>* NON</pattern>
+			<that>VEUX TU DES EXEMPLES D AGENTS CONVERSATIONNELS</that>
+			<template>
+				que veux-tu?
+			</template>
+		</category>
+
+		<category>
+			<pattern>OU * TROUVER</pattern>
+			<template>
+				<!--Il existe beaucoup d'agents conversationnels qui ont diverses applications (commerciales ou non). 
+				Les agent sp�cialis� dans un sujet particulier recentre la conversation d�s que celle-ci s'en �loigne et sont dot�s,
+				dans la plupart des cas, d'un protocole social qui les rend plus "humains".
+				Parmis les applications non commerciales il y a par exemple ALICE, ELIZA et ECTOR. 
+				Quand aux applications commerciales, on peut trouver des agents sur le site de la fnac, sfr, etc. pour
+				des services au client.Il y a des soci�t�s qui d�veloppent des agents conversationnels. Par exemple SmartAction,
+				propose un agent conversationnel, uniquement anglophone pour l'instant, pour le t�l�marketing, les hotlines et 
+				d'autres applications t�l�phoniques. VirtuOz est sp�cialis� dans la cr�ation d'agent pour les entreprises, 
+				il propose depuis 2005 une vaste solution d'agent pr�sent sur de nombreux sites (SFR, FNAC l'Or�al...)-->
+				<srai><star index="1"/> APPLICATION <star index="2"/> AGENT CONVERSATIONNEL</srai>
+			</template>
+		</category>
+
+		<category>
+			<pattern>QUELLES * APPLICATION</pattern>
+			<template>
+				<srai>OU <star/> TROUVER</srai>
+			</template>
+		</category>
+
+		<category>
+			<pattern>QUELLE * APPLICATION</pattern>
+			<template>
+				<srai>OU <star/> TROUVER</srai>
+			</template>
+		</category>
+
+		<category>
+			<pattern>QUELLE APPLICATION *</pattern>
+			<template>
+				<srai>OU <star/> TROUVER</srai>
+			</template>
+		</category>
+
+		<category>
+			<pattern>QUELLES APPLICATION *</pattern>
+			<template>
+				<srai>OU <star/> TROUVER</srai>
+			</template>
+		</category>
+	
+	</topic>
+</aiml>

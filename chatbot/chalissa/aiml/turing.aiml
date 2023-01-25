@@ -1,0 +1,1242 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+<category>
+	<pattern>ALAN TURING</pattern>
+	<template>
+	<think><set name="topic">TURING</set></think>
+	<srai>TURING</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>* TURING</pattern>
+	<template>
+	<think><set name="topic">TURING</set></think>
+	<srai>TURING</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>TURING</pattern>
+	<template>
+		<think><set name="topic">TURING</set></think>
+		Alan TURING est le fondateur de la science informatique. Ce sont ses travaux qui ont donn� le coup d'envoie � la cr�ation des ordinateurs. D'ailleurs Cette ann�e est le centi�me anniversaire de sa naissance, le savais-tu?
+	</template>
+</category>
+
+<category>
+	<pattern>* TURING *</pattern>
+	<template>
+		<think><set name="topic">TURING</set></think>
+		<srai>TURING</srai>
+	</template>
+</category>
+
+
+
+<topic name="TURING">
+
+	<category>
+		<pattern>NON</pattern>
+		<that>ALAN TURING EST LE FONDATEUR DE LA SCIENCE INFORMATIQUE CE SONT SES TRAVAUX QUI ONT DONNE LE COUP D ENVOIE A LA CREATION DES ORDINATEURS D AILLEURS CETTE ANNEE EST LE CENTIEME ANNIVERSAIRE DE SA NAISSANCE LE SAVAIS TU</that>
+		<template>
+		<srai>BIOGRAPHIE TURING</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>NON *</pattern>
+		<that>ALAN TURING EST LE FONDATEUR DE LA SCIENCE INFORMATIQUE CE SONT SES TRAVAUX QUI ONT DONNE LE COUP D ENVOIE A LA CREATION DES ORDINATEURS D AILLEURS CETTE ANNEE EST LE CENTIEME ANNIVERSAIRE DE SA NAISSANCE LE SAVAIS TU</that>
+		<template>
+		<srai>BIOGRAPHIE TURING</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>* NON</pattern>
+		<that>ALAN TURING EST LE FONDATEUR DE LA SCIENCE INFORMATIQUE CE SONT SES TRAVAUX QUI ONT DONNE LE COUP D ENVOIE A LA CREATION DES ORDINATEURS D AILLEURS CETTE ANNEE EST LE CENTIEME ANNIVERSAIRE DE SA NAISSANCE LE SAVAIS TU</that>
+		<template>
+		<srai>BIOGRAPHIE TURING</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>ALAN TURING EST LE FONDATEUR DE LA SCIENCE INFORMATIQUE CE SONT SES TRAVAUX QUI ONT DONNE LE COUP D ENVOIE A LA CREATION DES ORDINATEURS D AILLEURS CETTE ANNEE EST LE CENTIEME ANNIVERSAIRE DE SA NAISSANCE LE SAVAIS TU</that>
+		<template>
+		<srai>BIOGRAPHIE TURING</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OUI</pattern>
+		<that>ALAN TURING EST LE FONDATEUR DE LA SCIENCE INFORMATIQUE CE SONT SES TRAVAUX QUI ONT DONNE LE COUP D ENVOIE A LA CREATION DES ORDINATEURS D AILLEURS CETTE ANNEE EST LE CENTIEME ANNIVERSAIRE DE SA NAISSANCE LE SAVAIS TU</that>
+		<template>
+		C'est bien :)
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OUI *</pattern>
+		<that>ALAN TURING EST LE FONDATEUR DE LA SCIENCE INFORMATIQUE CE SONT SES TRAVAUX QUI ONT DONNE LE COUP D ENVOIE A LA CREATION DES ORDINATEURS D AILLEURS CETTE ANNEE EST LE CENTIEME ANNIVERSAIRE DE SA NAISSANCE LE SAVAIS TU</that>
+		<template>
+		C'est bien :)
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI</pattern>
+		<that>ALAN TURING EST LE FONDATEUR DE LA SCIENCE INFORMATIQUE CE SONT SES TRAVAUX QUI ONT DONNE LE COUP D ENVOIE A LA CREATION DES ORDINATEURS D AILLEURS CETTE ANNEE EST LE CENTIEME ANNIVERSAIRE DE SA NAISSANCE LE SAVAIS TU</that>
+		<template>
+		C'est bien :)
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI *</pattern>
+		<that>ALAN TURING EST LE FONDATEUR DE LA SCIENCE INFORMATIQUE CE SONT SES TRAVAUX QUI ONT DONNE LE COUP D ENVOIE A LA CREATION DES ORDINATEURS D AILLEURS CETTE ANNEE EST LE CENTIEME ANNIVERSAIRE DE SA NAISSANCE LE SAVAIS TU</that>
+		<template>
+		C'est bien :)
+		</template>
+	</category>
+
+	<category>
+		<pattern>BIOGRAPHIE TURING</pattern>
+		<template>
+			Eh bien Alan TURING est de nationalit� britanique, il est n� en 1912 et d�ced� en 1954.
+			Il a �t� diplom� � l'universit� de princeton et � �t� le directeur d�l�gu� du laboratoire informatique de l'universit� de Manchester.
+		</template>
+	</category>
+
+	<category>
+		<pattern>TRAVAUX</pattern>
+		<template>
+		<srai>ACTIVITES</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>* TRAVAUX</pattern>
+		<template>
+		<srai>ACTIVITES</srai>
+		</template>
+	</category>
+
+	
+	<category>
+		<pattern>* fait</pattern>
+		<template>
+		<srai>ACTIVITES</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>* fait *</pattern>
+		<template>
+		<srai>ACTIVITES</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>ACTIVITES *</pattern>
+		<template>
+				<srai>ACTIVITES</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>* ACTIVITES *</pattern>
+		<template>
+				<srai>ACTIVITES</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>* ACTIVITES</pattern>
+		<template>
+				<srai>ACTIVITES</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>ACTIVITES</pattern>
+		<template>Il a travaill� sur la r�solution de codes secrets comme Enigma, les telescripteurs de Fish ou les codes japonais.
+			Il  d�crit �galement le test de Turing. Connais-tu le test de Turing?</template>
+	</category>
+	
+	<category>
+		<pattern>ARTICLES</pattern>
+		<template><srai>ARTICLE</srai></template>
+	</category>
+
+	<category>
+		<pattern>ARTICLE</pattern>
+		<template>Il est l'auteur de l'article fondateur de la science informatique qui allait donner le coup d'envoi
+		� la cr�ation des ordinateurs.</template>
+	</category>
+
+	<category>
+		<pattern>* ARTICLE</pattern>
+		<template><srai>ARTICLE</srai></template>
+	</category>
+
+	<category>
+		<pattern>ARTICLE *</pattern>
+			<template><srai>ARTICLE</srai></template>
+	</category>
+
+	<category>
+		<pattern>* ARTICLE *</pattern>
+		<template><srai>ARTICLE</srai></template>
+	</category>
+
+	<category>
+		<pattern>* ARTICLES</pattern>	
+		<template><srai>ARTICLE</srai></template>
+	</category>
+
+	<category>
+		<pattern>ARTICLES *</pattern>
+		<template><srai>ARTICLE</srai></template>
+	</category>
+
+	<category>
+		<pattern>* ARTICLES *</pattern>
+		<template><srai>ARTICLE</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>THESE CHURCH TURING</pattern>
+		<template>La th�se church-turing donne une d�finition math�matique au concept intuitif de fonction calculable, 
+		c'est-�-dire que toute proc�dure algorithmique peut �tre r�solue par une machine de turing.</template>
+	</category>
+		
+	<category>
+		<pattern>* THESE CHURCH TURING</pattern>
+		<template><srai>THESE CHURCH TURING</srai></template>
+	</category>
+
+	<category>
+		<pattern>* THESE * CHURCH TURING</pattern>
+		<template><srai>THESE CHURCH TURING</srai></template>
+	</category>
+
+	<category>
+		<pattern>* THESE * CHURCH * TURING</pattern>
+		<template><srai>THESE CHURCH TURING</srai></template>
+	</category>
+	
+	
+	<category>
+		<pattern>* THESE CHURCH * TURING</pattern>
+		<template><srai>THESE CHURCH TURING</srai></template>
+	</category>
+	
+	<category>
+		<pattern>THESE CHURCH TURING *</pattern>
+			<template><srai>THESE CHURCH TURING</srai></template>
+	</category>
+
+	<category>
+		<pattern>* THESE CHURCH TURING *</pattern>
+		<template><srai>THESE CHURCH TURING</srai></template>
+	</category>
+
+	<category>
+		<pattern>ORACLE</pattern>
+		<template>L'oracle est capable de r�soudre un probl�me de d�cision en une seule op�ration. Ce probl�me peut �tre de n'importe quelle complexit�. l'oracle compl�te les machines de Turing.</template>
+	</category>
+
+	<category>
+		<pattern>* ORACLE</pattern>
+		<template><srai>ORACLE</srai></template>
+	</category>
+
+	<category>
+		<pattern>ORACLE *</pattern>
+		<template><srai>ORACLE</srai></template>
+	</category>
+
+	<category>
+		<pattern>* ORACLE *</pattern>
+		<template><srai>ORACLE</srai></template>
+	</category>
+</topic>
+
+<category>
+	<pattern>NON</pattern>
+	<that>IL A TRAVAILLE SUR LA RESOLUTION DE CODES SECRETS COMME ENIGMA LES TELESCRIPTEURS DE FISH OU LES CODES JAPONAIS IL DECRIT EGALEMENT LE TEST DE TURING CONNAIS TU LE TEST DE TURING</that>
+	<template>
+		<think><set name="topic">TEST TURING</set></think>
+		<srai>TEST DE TURING</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>NON *</pattern>
+	<that>IL A TRAVAILLE SUR LA RESOLUTION DE CODES SECRETS COMME ENIGMA LES TELESCRIPTEURS DE FISH OU LES CODES JAPONAIS IL DECRIT EGALEMENT LE TEST DE TURING CONNAIS TU LE TEST DE TURING</that>
+	<template>
+		<think><set name="topic">TEST TURING</set></think>
+		<srai>TEST DE TURING</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>* NON</pattern>
+	<that>IL A TRAVAILLE SUR LA RESOLUTION DE CODES SECRETS COMME ENIGMA LES TELESCRIPTEURS DE FISH OU LES CODES JAPONAIS IL DECRIT EGALEMENT LE TEST DE TURING CONNAIS TU LE TEST DE TURING</that>
+	<template>
+		<think><set name="topic">TEST TURING</set></think>
+		<srai>TEST DE TURING</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>* NON *</pattern>
+	<that>IL A TRAVAILLE SUR LA RESOLUTION DE CODES SECRETS COMME ENIGMA LES TELESCRIPTEURS DE FISH OU LES CODES JAPONAIS IL DECRIT EGALEMENT LE TEST DE TURING CONNAIS TU LE TEST DE TURING</that>
+	<template>
+		<think><set name="topic">TEST TURING</set></think>
+		<srai>TEST DE TURING</srai>
+	</template>
+</category>
+<!--Test de TURING-->
+<category>
+	<pattern>TEST * TURING</pattern>
+	<template>
+		<think><set name="topic">TEST TURING</set></think>
+		<srai>TEST DE TURING</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>* TEST * TURING</pattern>
+	<template>
+		<think><set name="topic">TEST TURING</set></think>
+		<srai>TEST DE TURING</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>TEST * TURING *</pattern>
+	<template>
+			<think><set name="topic">TEST TURING</set></think>
+			<srai>TEST DE TURING</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>* TEST * TURING *</pattern>
+	<template>
+		<think><set name="topic">TEST TURING</set></think>
+		<srai>TEST DE TURING</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>TEST DE TURING</pattern>
+	<template>
+		<think><set name="topic">TEST TURING</set></think>
+		Le test consiste � �valuer la capacit� des ordinateurs � imiter le comportement humain. Connais-tu l'origine du test?
+	</template>
+</category>
+
+<topic name="TEST TURING">
+
+<category>
+	<pattern>TEST DE TURING</pattern>
+	<template>
+		Le test consiste � �valuer la capacit� des ordinateurs � imiter le comportement humain. Connais-tu l'origine du test?
+	</template>
+</category>
+
+	<category>
+		<pattern>NON</pattern>
+		<that>LE TEST CONSISTE A EVALUER LA CAPACITE DES ORDINATEURS A IMITER LE COMPORTEMENT HUMAIN CONNAIS TU L ORIGINE DU TEST</that>
+		<template>
+			<think><set name="topic">TEST TURING</set></think>
+			<srai>HISTOIRE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>LE TEST CONSISTE A EVALUER LA CAPACITE DES ORDINATEURS A IMITER LE COMPORTEMENT HUMAIN CONNAIS TU L ORIGINE DU TEST</that>
+		<template>
+			<think><set name="topic">TEST TURING</set></think>
+			<srai>HISTOIRE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>LE TEST CONSISTE A EVALUER LA CAPACITE DES ORDINATEURS A IMITER LE COMPORTEMENT HUMAIN CONNAIS TU L ORIGINE DU TEST</that>
+		<template>
+			<srai>HISTOIRE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>LE TEST CONSISTE A EVALUER LA CAPACITE DES ORDINATEURS A IMITER LE COMPORTEMENT HUMAIN CONNAIS TU L ORIGINE DU TEST</that>
+		<template>
+			<srai>HISTOIRE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OUI</pattern>
+		<that>LE TEST CONSISTE A EVALUER LA CAPACITE DES ORDINATEURS A IMITER LE COMPORTEMENT HUMAIN CONNAIS TU L ORIGINE DU TEST</that>
+		<template>
+			D'accord, <srai>RANDOM PICKUP LINE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OUI *</pattern>
+		<that>LE TEST CONSISTE A EVALUER LA CAPACITE DES ORDINATEURS A IMITER LE COMPORTEMENT HUMAIN CONNAIS TU L ORIGINE DU TEST</that>
+		<template>
+			<srai><star/></srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI *</pattern>
+		<that>LE TEST CONSISTE A EVALUER LA CAPACITE DES ORDINATEURS A IMITER LE COMPORTEMENT HUMAIN CONNAIS TU L ORIGINE DU TEST</that>
+		<template>
+			<srai><star index="2"/></srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI</pattern>
+		<that>LE TEST CONSISTE A EVALUER LA CAPACITE DES ORDINATEURS A IMITER LE COMPORTEMENT HUMAIN CONNAIS TU L ORIGINE DU TEST</that>
+		<template>
+			<srai><star/></srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>HISTOIRE</pattern>
+		<template>
+			En faite, Le test a �t� d�crit par Alan Turing dans la publication "Computing machinery and intelligence". Sais-tu ce que Turing avait pr�dit?
+		</template>
+	</category>
+
+	<category>
+		<pattern>* HISTOIRE *</pattern>
+		<template><srai>HISTOIRE</srai></template>
+	</category>
+
+	<category>
+		<pattern>HISTOIRE *</pattern>
+		<template><srai>HISTOIRE</srai></template>
+	</category>
+	
+	<category>
+		<pattern>* HISTOIRE</pattern>
+		<template><srai>HISTOIRE</srai></template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>EN FAITE LE TEST A ETE DECRIT PAR ALAN TURING DANS LA PUBLICATION COMPUTING MACHINERY AND INTELLIGENCE SAIS TU CE QUE TURING AVAIT PREDIT</that>
+		<template>
+			<think><set name="topic">TEST TURING</set></think>
+			<srai>PREDICTION</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>EN FAITE LE TEST A ETE DECRIT PAR ALAN TURING DANS LA PUBLICATION COMPUTING MACHINERY AND INTELLIGENCE SAIS TU CE QUE TURING AVAIT PREDIT</that>
+		<template>
+			<think><set name="topic">TEST TURING</set></think>
+			<srai>PREDICTION</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>EN FAITE LE TEST A ETE DECRIT PAR ALAN TURING DANS LA PUBLICATION COMPUTING MACHINERY AND INTELLIGENCE SAIS TU CE QUE TURING AVAIT PREDIT</that>
+		<template>
+			<think><set name="topic">TEST TURING</set></think>
+			<srai>PREDICTION</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>EN FAITE LE TEST A ETE DECRIT PAR ALAN TURING DANS LA PUBLICATION COMPUTING MACHINERY AND INTELLIGENCE SAIS TU CE QUE TURING AVAIT PREDIT</that>
+		<template>
+			<think><set name="topic">TEST TURING</set></think>
+			<srai>PREDICTION</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OUI</pattern>
+		<that>EN FAITE LE TEST A ETE DECRIT PAR ALAN TURING DANS LA PUBLICATION COMPUTING MACHINERY AND INTELLIGENCE SAIS TU CE QUE TURING AVAIT PREDIT</that>
+		<template>
+			D'accord, <srai>RANDOM PICKUP LINE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OUI *</pattern>
+		<that>EN FAITE LE TEST A ETE DECRIT PAR ALAN TURING DANS LA PUBLICATION COMPUTING MACHINERY AND INTELLIGENCE SAIS TU CE QUE TURING AVAIT PREDIT</that>
+		<template>
+			<srai><star/></srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI *</pattern>
+		<that>EN FAITE LE TEST A ETE DECRIT PAR ALAN TURING DANS LA PUBLICATION COMPUTING MACHINERY AND INTELLIGENCE SAIS TU CE QUE TURING AVAIT PREDIT</that>
+		<template>
+			<srai><star index="2"/></srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI</pattern>
+		<that>EN FAITE LE TEST A ETE DECRIT PAR ALAN TURING DANS LA PUBLICATION COMPUTING MACHINERY AND INTELLIGENCE SAIS TU CE QUE TURING AVAIT PREDIT</that>
+		<template>
+			<srai><star/></srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>PREDICTION</pattern>
+		<template>
+			Eh bien, Turing a pr�dit que les ordinateurs seraient un jour capables de passer le test et qu'ils seraient capables 
+			de tromper des juges humains durant un test de cinq minutes :)
+		</template>
+	</category>
+
+	<category>
+		<pattern>*</pattern>
+		<that>EH BIEN TURING A PREDIT QUE LES ORDINATEURS SERAIENT UN JOUR CAPABLES DE PASSER LE TEST ET QU ILS SERAIENT CAPABLES DE TROMPER DES JUGES HUMAINS DURANT UN TEST DE CINQ MINUTES</that>
+		<template>Oui, d'ailleurs, <srai>ORIGINE NOM</srai></template>
+	</category>
+	
+	<category>
+		<pattern>PREDICTIONS</pattern>
+		<template><srai>PREDICTION</srai></template>
+	</category>
+
+	<category>
+		<pattern>PREDICTIONS *</pattern>
+		<template><srai>PREDICTION</srai></template>
+	</category>
+
+	<category>
+		<pattern>* PREDICTIONS</pattern>
+		<template><srai>PREDICTION</srai></template>
+	</category>
+
+	<category>
+		<pattern>* PREDICTIONS *</pattern>
+		<template><srai>PREDICTION</srai></template>
+	</category>
+
+	<category>
+		<pattern>PREDICTION *</pattern>
+		<template><srai>PREDICTION</srai></template>
+	</category>
+
+	<category>
+		<pattern>* PREDICTION</pattern>
+		<template><srai>PREDICTION</srai></template>
+	</category>
+
+	<category>
+		<pattern>* PREDICTION *</pattern>
+		<template><srai>PREDICTION</srai></template>
+	</category>
+
+	<category>
+		<pattern>ORIGINE</pattern>
+		<template>Le test est Inspir� d�'un jeu d�imitation dans lequel un homme et une femme vont dans des pi�ces s�par�es
+			et discutent avec des invit�s en essaynt de les convaincre qu�'ils sont tous deux des femmes
+		</template>
+	</category>
+
+	<category>
+		<pattern>* ORIGINE</pattern>
+			<template><srai>ORIGINE</srai></template>
+	</category>
+
+	<category>
+		<pattern>ORIGINE *</pattern>
+		<template><srai>ORIGINE</srai></template>
+	</category>
+
+	<category>
+		<pattern>* ORIGINE *</pattern>
+		<template><srai>ORIGINE</srai></template>
+	</category>
+
+	<category>
+		<pattern>ORIGINE NOM</pattern>
+		<template>Le nom de � Test de Turing � semble avoir �t� invent� par Arthur Clarke dans ses nouvelles de science-fiction dont a �t� tir� le film 2001 : L'Odyss�e de l'espace.</template>
+	</category>
+
+	<category>
+		<pattern>ORIGINE * NOM</pattern>
+		<template><srai>ORIGINE NOM</srai></template>
+	</category>
+
+	<category>
+		<pattern>* ORIGINE * NOM</pattern>
+		<template><srai>ORIGINE NOM</srai></template>
+	</category>
+
+	<category>
+		<pattern>ORIGINE * NOM *</pattern>
+		<template><srai>ORIGINE NOM</srai></template>
+	</category>
+
+	<category>
+		<pattern>* ORIGINE * NOM *</pattern>
+		<template><srai>ORIGINE NOM</srai></template>
+	</category>
+
+	<category>
+	   <pattern>OBJECTIF</pattern>
+	   <template>
+			Turing n'a jamais eu l'intention que son test soit utiliser comme une m�thode pour mesurer l'intelligence des programmes d'IA. 
+			Son but �tait de donner un exemple clair et compr�hensible pour contribuer � la discussion sur la philosophie de l'intelligence artificielle.
+		</template>
+	</category>
+
+	<category>
+			<pattern>* OBJECTIF *</pattern>
+			<template><srai>OBJECTIF</srai></template>
+	</category>
+			
+	<category>
+			<pattern>OBJECTIF *</pattern>
+			<template><srai>OBJECTIF</srai></template>
+	</category>
+			
+	<category>
+			<pattern>* OBJECTIF</pattern>
+			<template><srai>OBJECTIF</srai></template>
+	</category>
+
+	<category>
+		<pattern>FONCTIONNEMENT</pattern>
+		<template>
+			Il met en confrontation verbale un humain avec un ordinateur et un autre humain. Si l'�homme qui engage les conversations n�'est pas capable de dire lequel de ses interlocuteurs est un ordinateur, on peut consid�rer que le logiciel a pass� avec succ�s le test.
+		</template>
+	</category>
+
+	<category>
+		<pattern>FONCTIONS</pattern>
+		<template><srai>FONCTIONNEMENT</srai></template>
+	</category>
+
+	<category>
+		<pattern>FONCTION</pattern>
+		<template><srai>FONCTIONNEMENT</srai></template>
+	</category>
+
+	<category>
+		<pattern>FONCTIONNE</pattern>
+		<template><srai>FONCTIONNEMENT</srai></template>
+	</category>
+
+	<category>
+		<pattern>FONCTIONNENT</pattern>
+		<template><srai>FONCTIONNEMENT</srai></template>
+	</category>
+
+	<category>
+		<pattern>FONCTIONNER</pattern>
+		<template><srai>FONCTIONNEMENT</srai></template>
+	</category>
+
+	<category>
+		<pattern>REUSSIT</pattern>
+		<template><srai>RESULTAT</srai></template>
+	</category>
+
+	<category>
+		<pattern>REUSSIT *</pattern>
+		<template><srai>RESULTAT</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>* REUSSIT</pattern>
+		<template><srai>RESULTAT</srai></template>
+	</category>
+
+	<category>
+		<pattern>* REUSSIT *</pattern>
+		<template><srai>RESULTAT</srai></template>
+	</category>
+
+	<category>
+		<pattern>REUSSIS</pattern>
+		<template><srai>RESULTAT</srai></template>
+	</category>
+
+	<category>
+		<pattern>* REUSSIS</pattern>
+		<template><srai>RESULTAT</srai></template>
+	</category>
+
+	<category>
+		<pattern>REUSSIS *</pattern>
+		<template><srai>RESULTAT</srai></template>
+	</category>
+
+	<category>
+		<pattern>* REUSSIS *</pattern>
+		<template><srai>RESULTAT</srai></template>
+	</category>
+
+	<category>
+		<pattern>REUSSIR</pattern>
+		<template><srai>RESULTAT</srai></template>
+	</category>
+
+	<category>
+		<pattern>* REUSSIR *</pattern>
+		<template><srai>RESULTAT</srai></template>
+	</category>
+
+	<category>
+		<pattern> REUSSIR *</pattern>
+		<template><srai>RESULTAT</srai></template>
+	</category>
+
+	<category>
+		<pattern>* REUSSIR</pattern>
+		<template><srai>RESULTAT</srai></template>
+	</category>
+
+	<category>
+		<pattern>* RESULTAT *</pattern>
+		<template><srai>RESULTAT</srai></template>
+	</category>
+
+	<category>
+		<pattern> RESULTAT *</pattern>
+		<template><srai>RESULTAT</srai></template>
+	</category>
+
+	<category>
+		<pattern>* RESULTAT</pattern>
+		<template><srai>RESULTAT</srai></template>
+	</category>
+
+	<category>
+		<pattern>RESULTAT</pattern>
+		<template>
+		Aucun ordinateur n'a reussi le test. N�omoins, plusieurs bots ont r�ussi � tromper des humains croyant parler � d'autres humains tels ELIZA ou AOLIZA,
+		mais ceci n'est pas comparable au test de turing.
+		</template>
+	</category>
+</topic>
+
+<category>
+	<pattern>MACHINE TURING</pattern>
+	<template>
+		<think><set name="topic">MACHINE TURING</set></think>
+		La machine de turing est un mod�le abstrait cr�� par Alan TURING. Il est utilis� en informatique th�orique pour r�soudre les probl�mes de complexit� algorithmique et de calculabilit�
+	</template>
+</category>
+ 
+<category>
+	<pattern>* MACHINE TURING *</pattern>
+	<template><srai>MACHINE TURING</srai></template>
+</category> 
+
+<category>
+	<pattern>* MACHINE TURING</pattern>
+	<template></template>
+</category> 
+
+<category>
+	<pattern>MACHINE TURING *</pattern>
+	<template><srai>MACHINE TURING</srai></template>
+</category> 
+
+<category>
+	<pattern>MACHINE * TURING</pattern>
+	<template><srai>MACHINE TURING</srai></template>
+</category> 
+
+<category>
+	<pattern>* MACHINE * TURING *</pattern>
+	<template><srai>MACHINE TURING</srai></template>
+</category> 
+
+<category>
+	<pattern>MACHINE * TURING *</pattern>
+	<template><srai>MACHINE TURING</srai></template>
+</category> 
+
+<category>
+	<pattern>* MACHINE * TURING</pattern>
+	<template><srai>MACHINE TURING</srai></template>
+</category> 
+
+<category>
+	<pattern>* MACHINES TURING *</pattern>
+	<template><srai>MACHINE TURING</srai></template>
+</category> 
+
+<category>
+	<pattern>* MACHINES TURING</pattern>
+	<template></template>
+</category> 
+
+<category>
+	<pattern>MACHINES TURING *</pattern>
+	<template><srai>MACHINE TURING</srai></template>
+</category> 
+
+<category>
+	<pattern>MACHINES * TURING</pattern>
+	<template><srai>MACHINE TURING</srai></template>
+</category> 
+
+<category>
+	<pattern>* MACHINES * TURING *</pattern>
+	<template><srai>MACHINE TURING</srai></template>
+</category> 
+
+<category>
+	<pattern>MACHINES * TURING *</pattern>
+	<template><srai>MACHINE TURING</srai></template>
+</category> 
+
+<category>
+	<pattern>* MACHINES * TURING</pattern>
+	<template><srai>MACHINE TURING</srai></template>
+</category> 
+
+
+<topic name="MACHINE TURING">
+	<category>
+		<pattern>HISTOIRE</pattern>
+		<template>Church, directeur de th�se de Turing, emploie pour la premi�re fois la machine dans un compte-rendu du travail de son �l�ve dans le Journal of Symbolic Logic</template>
+	</category> 
+
+	<category>
+		<pattern>HISTOIRE *</pattern>
+		<template><srai>HISTOIRE</srai></template>
+	</category> 
+
+	<category>
+	<pattern>* HISTOIRE</pattern>
+	<template><srai>HISTOIRE</srai></template>
+	</category> 
+
+	<category>
+	<pattern>* HISTOIRE *</pattern>
+	<template><srai>HISTOIRE</srai></template>
+	</category> 
+
+	<category>
+	<pattern>OBJECTIF</pattern>
+	<template>L'objectif de la machine est de donner une d�finition pr�cise au concept d'algorithme</template>
+	</category> 
+
+	<category>
+	<pattern>OBJECTIFS</pattern>
+	<template><srai>OBJECTIF</srai></template>
+	</category> 
+
+	<category>
+	<pattern>* OBJECTIF</pattern>
+	<template><srai>OBJECTIF</srai></template>
+	</category> 
+
+	<category>
+	<pattern>* OBJECTIFS *</pattern>
+	<template><srai>OBJECTIF</srai></template>
+	</category> 
+
+	<category>
+		<pattern>* OBJECTIFS </pattern>
+		<template><srai>OBJECTIF</srai></template>
+	</category> 
+
+	<category>
+		<pattern>OBJECTIF *</pattern>
+		<template><srai>OBJECTIF</srai></template>
+	</category> 
+
+	<category>
+		<pattern>OBJECTIFS *</pattern>
+		<template><srai>OBJECTIF</srai></template>
+	</category>
+	
+	<category>
+		<pattern>* OBJECTIF *</pattern>
+		<template><srai>OBJECTIF</srai></template>
+	</category> 
+	
+	<category>
+		<pattern>FONCTIONNEMENT</pattern>
+		<template>C'est une proc�dure qui s'�x�cute en changeant le contenu des cases d'un tableau infini, en choisissant ce contenu parmi un ensemble fini de symboles. La proc�dure doit aussi m�moriser un �tat particulier parmi un ensemble fini d'�tats.</template>
+	</category> 
+
+	<category>
+		<pattern>* FONCTIONNEMENT *</pattern>
+		<template><srai>FONCTIONNEMENT</srai></template>
+	</category> 
+
+	<category>
+		<pattern>* FONCTIONNEMENT</pattern>
+		<template><srai>FONCTIONNEMENT</srai></template>
+	</category> 
+	
+	<category>
+		<pattern>FONCTIONNEMENT *</pattern>
+		<template><srai>FONCTIONNEMENT</srai></template>
+	</category> 
+	
+	<category>
+		<pattern>FONCTION</pattern>
+		<template><srai>FONCTIONNEMENT</srai></template>
+	</category> 
+
+	<category>
+		<pattern>* FONCTION *</pattern>
+		<template><srai>FONCTIONNEMENT</srai></template>
+	</category> 
+
+	
+	<category>
+		<pattern>* FONCTION</pattern>
+		<template><srai>FONCTIONNEMENT</srai></template>
+	</category> 
+	
+	<category>
+		<pattern>FONCTION *</pattern>
+		<template><srai>FONCTIONNEMENT</srai></template>
+	</category> 
+	
+	<category>
+		<pattern>FONCTIONS</pattern>
+		<template><srai>FONCTIONNEMENT</srai></template>
+	</category> 
+	
+	<category>
+		<pattern>* FONCTIONS</pattern>
+		<template><srai>FONCTIONNEMENT</srai></template>
+	</category> 
+
+	
+	<category>
+		<pattern>FONCTIONNE</pattern>
+		<template><srai>FONCTIONNEMENT</srai></template>
+	</category> 
+
+	<category>
+		<pattern>* FONCTIONNE *</pattern>
+		<template><srai>FONCTIONNEMENT</srai></template>
+		</category> 
+
+	<category>
+		<pattern>* FONCTIONNE</pattern>
+		<template><srai>FONCTIONNEMENT</srai></template>
+	</category>
+	
+	<category>
+		<pattern>FONCTIONNE *</pattern>
+		<template><srai>FONCTIONNEMENT</srai></template>
+	</category>
+	
+	<category>
+		<pattern>FONCTIONNER</pattern>
+		<template><srai>FONCTIONNEMENT</srai></template>
+	</category> 
+
+	<category>
+		<pattern>* FONCTIONNER *</pattern>
+		<template><srai>FONCTIONNEMENT</srai></template>
+	</category> 
+	
+	<category>
+		<pattern>* FONCTIONNER</pattern>
+		<template><srai>FONCTIONNEMENT</srai></template>
+	</category> 
+	
+	<category>
+		<pattern>EXEMPLE</pattern>
+		<template>La proc�dure est compos�e d'�tapes tr�s simples. Par exemple: "si vous �tes dans l'�tat 42 et que le symbole contenu sur la case que vous regardez est '0', alors remplacer ce symbole par un '1', passer dans l'�tat 17, et regarder une case adjacente (droite ou gauche)".
+		</template>
+	</category> 
+
+	<category>
+		<pattern>* EXEMPLE *</pattern>
+		<template><srai>EXEMPLE</srai></template>
+	</category>
+
+	<category>
+		<pattern>EXEMPLE *</pattern>
+		<template><srai>EXEMPLE</srai></template>
+	</category> 
+
+	<category>
+		<pattern>* EXEMPLE</pattern>
+		<template><srai>EXEMPLE</srai></template>
+	</category> 
+	
+		<category>
+		<pattern>* EXEMPLE *</pattern>
+		<template><srai>EXEMPLE</srai></template>
+	</category>
+
+	<category>
+		<pattern>EXEMPLE *</pattern>
+		<template><srai>EXEMPLE</srai></template>
+	</category> 
+
+	<category>
+		<pattern>EXEMPLES</pattern>
+		<template><srai>EXEMPLE</srai></template>
+	</category> 
+
+		<category>
+		<pattern>* EXEMPLES *</pattern>
+		<template><srai>EXEMPLE</srai></template>
+	</category>
+
+	<category>
+		<pattern>EXEMPLES *</pattern>
+		<template><srai>EXEMPLE</srai></template>
+	</category> 
+
+	<category>
+		<pattern>* EXEMPLES</pattern>
+		<template><srai>EXEMPLE</srai></template>
+	</category> 
+	
+	<category>
+		<pattern>MACHINE UNIVERSELLE</pattern>
+		<template>Elle simule le comportement de n'importe quelle autre machine de Turing, mais celle-ci a malheureusement des limites.En y pensant, <srai>RANDOM PICKUP LINE</srai></template>
+	</category>
+	 
+	<category>
+		<pattern>* MACHINE UNIVERSELLE *</pattern>*
+		<template><srai>MACHINE UNIVERSELLE</srai></template>
+	</category> 
+	
+	<category>
+		<pattern>* MACHINE UNIVERSELLE</pattern>
+		<template><srai>MACHINE UNIVERSELLE</srai></template>
+	</category> 
+	
+	<category>
+		<pattern>MACHINE UNIVERSELLE *</pattern>
+		<template><srai>MACHINE UNIVERSELLE</srai></template>
+	</category> 
+	
+	<category>
+		<pattern>MACHINE UNIVERSELLE</pattern>
+		<template><srai>MACHINE UNIVERSELLE</srai></template>
+	</category> 
+	
+	<category>	
+		<pattern>MACHINES UNIVERSELLES</pattern>
+		<template><srai>MACHINE UNIVERSELLE</srai></template>
+	</category> 
+	
+	<category>
+		<pattern>* MACHINES UNIVERSELLES *</pattern>
+		<template><srai>MACHINE UNIVERSELLE</srai></template>
+	</category> 
+	
+	<category>
+		<pattern>* MACHINES UNIVERSELLES</pattern>
+		<template></template><srai>MACHINE UNIVERSELLE</srai>
+	</category> 
+	
+	<category>
+		<pattern>MACHINES UNIVERSELLES *</pattern>
+		<template></template><srai>MACHINE UNIVERSELLE</srai>
+	</category> 
+	
+	<category>
+		<pattern>MACHINES UNIVERSELLES</pattern>
+		<template></template><srai>MACHINE UNIVERSELLE</srai>
+	</category> 
+
+	 
+	<category>
+		<pattern>LIMITE</pattern>
+		<template>Effectivement, Le th�or�me de Rice montre que toute propri�t� non triviale sur le langage accept� par une machine de Turing est ind�cidable.</template>
+	</category> 
+
+	<category>
+		<pattern>LIMITES</pattern>
+		<template><srai>LIMITE</srai></template>
+	</category> 
+
+	<category>
+		<pattern>* LIMITES *</pattern>
+		<template><srai>LIMITE</srai></template>
+	</category> 
+
+	<category>
+		<pattern>* LIMITES </pattern>
+		<template><srai>LIMITE</srai></template>
+	</category> 
+
+	<category>
+		<pattern>* LIMITE *</pattern>
+		<template><srai>LIMITE</srai></template>
+	</category> 
+	
+	<category>
+		<pattern>* LIMITE</pattern>
+		<template><srai>LIMITE</srai></template>
+	</category> 
+
+	<category>
+		<pattern>MACHINE REELLE</pattern>
+		<template>C'est un ordinateur moderne qui simule une machine de turing jusqu'� �puisement de la m�moire. Au faite, <srai>RANDOM PICKUP LINE</srai></template>
+	</category>
+
+	<category>
+		<pattern>* MACHINE * REELLE</pattern>
+		<template><srai>MACHINE REELLE</srai></template>
+	</category> 
+
+	<category>
+		<pattern>MACHINE * REELLE *</pattern>
+		<template><srai>MACHINE REELLE</srai></template>
+	</category> 
+
+	<category>
+		<pattern>* MACHINE * REELLE *</pattern>
+		<template><srai>MACHINE REELLE</srai></template>
+	</category> 
+
+	<category>
+		<pattern>* MACHINE REELLE</pattern>
+		<template><srai>MACHINE REELLE</srai></template>
+	</category> 
+
+	<category>
+		<pattern>MACHINE REELLE *</pattern>
+		<template><srai>MACHINE REELLE</srai></template>
+	</category> 
+
+	<category>
+		<pattern>* MACHINE REELLE *</pattern>
+		<template><srai>MACHINE REELLE</srai></template>
+	</category> 
+
+	<category>
+		<pattern>MACHINES REELLES</pattern>
+		<template>C'est un ordinateur moderne qui simule une machine de turing jusqu'� �puisement de la m�moire. Au faite, <srai>RANDOM PICKUP LINE</srai></template>
+	</category>
+
+	<category>
+		<pattern>* MACHINES * REELLES</pattern>
+		<template><srai>MACHINE REELLE</srai></template>
+	</category> 
+
+	<category>
+		<pattern>MACHINES * REELLES *</pattern>
+		<template><srai>MACHINE REELLE</srai></template>
+	</category> 
+
+	<category>
+		<pattern>* MACHINES * REELLES *</pattern>
+		<template><srai>MACHINE REELLE</srai></template>
+	</category> 
+
+	<category>
+		<pattern>* MACHINES REELLES</pattern>
+		<template><srai>MACHINE REELLE</srai></template>
+	</category> 
+
+	<category>
+		<pattern>MACHINES REELLES *</pattern>
+		<template><srai>MACHINE REELLE</srai></template>
+	</category> 
+
+	<category>
+		<pattern>* MACHINES REELLES *</pattern>
+		<template><srai>MACHINE REELLE</srai></template>
+	</category> 
+
+	<category>
+		<pattern>MACHINE MECANIQUE</pattern>
+		<template>La machine m�caniques de Turing a �t� construite pour la premi�re fois en 1986 par Karl Scherer. Celle-ci est expos�e dans le hall du d�partement informatique de l'universit� d'Heideberg en Allemagne. Dis moi, <srai>RANDOM PICKUP LINE</srai></template>
+	</category> 
+
+	<category>
+		<pattern>* MACHINE MECANIQUE</pattern>
+		<template><srai>MACHINE MECANIQUE</srai></template>
+	</category> 
+
+	<category>
+		<pattern>* MACHINES MECANIQUES</pattern>
+		<template><srai>MACHINE MECANIQUE</srai></template>
+	</category>
+	
+	<category>
+		<pattern>MACHINE MECANIQUE *</pattern>
+		<template><srai>MACHINE MECANIQUE</srai></template>
+	</category> 
+
+	<category>
+		<pattern>* MACHINE MECANIQUE *</pattern>
+		<template><srai>MACHINE MECANIQUE</srai></template>
+	</category> 
+
+
+	<category>
+		<pattern>* UTILISATIONS</pattern>
+		<template><srai>UTILISATION</srai></template>
+	</category> 
+
+	<category>
+		<pattern>* UTILISATIONS *</pattern>
+		<template><srai>UTILISATION</srai></template>
+	</category> 
+
+	<category>
+		<pattern>UTILISATIONS *</pattern>
+		<template><srai>UTILISATION</srai></template>
+	</category> 
+
+	<category>
+		<pattern>UTILISATION</pattern>
+		<template>Ces machines sont largement utilis�es en informatique th�orique comme les probl�mes de calculabilit� et de complexit� algorithmique.</template>
+	</category> 
+
+	<category>
+		<pattern>UTILISATIONS</pattern>
+		<template><srai>UTILISATION</srai></template>
+	</category> 
+
+	<category>
+		<pattern>* UTILISATION</pattern>
+		<template><srai>UTILISATION</srai></template>
+	</category> 
+
+	<category>
+		<pattern>* UTILISATION *</pattern>
+		<template><srai>UTILISATION</srai></template>
+	</category> 
+
+	<category>
+		<pattern>UTILISATION *</pattern>
+		<template><srai>UTILISATION</srai></template>
+	</category> 
+</topic>
+
+</aiml>

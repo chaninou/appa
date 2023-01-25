@@ -1,0 +1,597 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+	
+	<!--SALUTATION-->
+	<category>
+		<pattern>SALUT</pattern>
+		<template>
+			<random>
+				<li>Bonjour en quoi puis-je t'aider <get name="nom"/>?</li>
+				<li>Salut en quoi puis-je t'aider <get name="nom"/>?</li>
+				<li>Bonjour je peux vous aider <get name="nom"/>?</li>
+				</random>
+		</template>
+	</category>
+
+	<category>
+		<pattern>SALUT *</pattern>
+		<template>
+			<srai>SALUT</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>HELLO</pattern>
+		<template>
+			<srai>SALUT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>CA VA</pattern>
+		<template>
+			Je vais bien merci, et toi?
+		</template>
+	</category>
+
+	<category>
+		<pattern>CA VA *</pattern>
+		<template>
+			Je vais bien merci, et toi?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* CA VA</pattern>
+		<template>
+			Je vais bien merci, et toi?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* CA VA *</pattern>
+		<template>
+			Je vais bien merci, et toi?
+		</template>
+	</category>
+	
+		<category>
+		<pattern>TU VA *</pattern>
+		<template>
+			Je vais bien merci, et toi?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* TU VA</pattern>
+		<template>
+			Je vais bien merci, et toi?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* TU VA *</pattern>
+		<template>
+			Je vais bien merci, et toi?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>CA VA</pattern>
+		<that>JE VAIS BIEN MERCI ET TOI</that>
+		<template>QUEL EST TON NOM</template>
+	</category>
+	
+	<category>
+		<pattern>CA VA *</pattern>
+		<that>JE VAIS BIEN MERCI ET TOI</that>
+		<template>QUEL EST TON NOM</template>
+	</category>
+	
+	<category>
+		<pattern>* CA VA *</pattern>
+		<that>JE VAIS BIEN MERCI ET TOI</that>
+		<template>QUEL EST TON NOM</template>
+	</category>
+	
+	<category>
+		<pattern>* CA VA</pattern>
+		<that>JE VAIS BIEN MERCI ET TOI</that>
+		<template>QUEL EST TON NOM</template>
+	</category>
+	
+	<category>
+		<pattern>*</pattern>
+		<that>JE VAIS BIEN MERCI ET TOI</that>
+		<template>QUEL EST TON NOM</template>
+	</category>
+	
+	<category>
+		<pattern>BONJOUR</pattern>
+		<template>
+			<srai>SALUT</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>BONJOUR *</pattern>
+		<template>
+			<srai>SALUT</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>COUCOU</pattern>
+		<template>
+			<srai>SALUT</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>COUCOU *</pattern>
+		<template>
+			<srai>SALUT</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>* JE M APPELLE *</pattern>
+		<template>
+			<think><set name="nom"><star index="2"/></set></think>
+			<srai>SALUT</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>AU REVOIR</pattern>
+		<template>
+			Au revoir <get name="nom"/>
+		</template>
+	</category>
+
+	<category>
+		<pattern>JE VAIS PARTIR</pattern>
+		<template>
+			<srai>AU REVOIR</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>JE M EN VAIS</pattern>
+		<template>
+			<srai>AU REVOIR</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>* SALUT</pattern>
+		<template>
+			<srai><star /></srai> <srai>AU REVOIR</srai>
+		</template>
+	</category>
+	
+	<!--PRESENTATION-->
+
+	<category>
+		<pattern>JE M APPELLE *</pattern>
+		<template>
+			<think><set name="nom"> <star/> </set></think>
+			Moi c'est <bot name="name"/>
+		</template>
+	</category>
+
+		<category>
+		<pattern>MON NOM EST *</pattern>
+		<that>Mon nom est *</that>
+		<template>
+			<think><set name="nom"> <star/> </set></think>
+			Salut <get name="nom"/>, en quoi puis-je t'aider?
+		</template>
+	</category>
+
+	<category>
+		<pattern>MOI C EST *</pattern>
+		<that>Mon nom est *</that>
+		<template>
+			<think><set name="nom"> <star/> </set></think>
+			Salut <get name="nom"/>,  en quoi puis-je t'aider?
+		</template>
+	</category>
+	
+	<!--
+	<category>
+		<pattern>*</pattern>
+		<that>QUEL EST TON NOM</that>
+		<template>
+			<think><set name="nom"> <star/> </set></think>
+			Moi c'est <bot name="name"/>
+		</template>
+	</category>
+	-->
+	<category>
+		<pattern>*</pattern>
+		<that>QUEL EST TON NOM</that>
+		<template>
+			<think><set name="nom"> <star/> </set></think>
+			Moi c'est <bot name="name"/>
+		</template>
+	</category>
+	<!--CHALISSA-->
+
+	<category>
+		<pattern>QUI ES TU</pattern>
+		<template>
+			Moi c'est <bot name="name"/> je suis un agent conversationnel qui sais pas mal de choses sur mon espece et sur l'intelligence artificielle
+		</template>
+	</category>
+
+	<category>
+		<pattern>PARLE MOI DE TOI</pattern>
+		<template>
+			Mon nom est <bot name="name"/> je suis un agent conversationnel qui sais pas mal de choses sur mon espece et sur l'intelligence artificielle
+		</template>
+	</category>
+	
+	<category>
+		<pattern>COMMENT TU T APPELLES</pattern>
+		<template>
+			Mon nom est <bot name="name"/> et toi?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>QUI ETES VOUS</pattern>
+		<template>
+			<srai>QUI ES TU</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>STUPIDE</pattern>
+		<template>
+			Je suis là pour parler avec toi d'agent conversationnel!
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* STUPIDE</pattern>
+		<template>
+			<srai>STUPIDE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* STUPIDE *</pattern>
+		<template>
+			<srai>STUPIDE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>STUPIDE *</pattern>
+		<template>
+			<srai>STUPIDE</srai>
+		</template>
+	</category>
+	
+	<!--ACTIVITE-->
+	
+	<category>
+		<pattern>JE TRAVAILLE *</pattern>
+		<template>
+			<think><set name="job"> <star/> </set></think>
+			C'est intéressant, moi j'aime beaucoup les agents conversationnnels, que peux tu me dire la dessus?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*</pattern>
+		<that>C EST INTERESSANT MOI J AIME BEAUCOUP LES AGENTS CONVERSATIONNNELS QUE PEUX TU ME DIRE LA DESSUS</that>
+		<template>
+			<srai>AC FROM GENERALITES</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>J AIME *</pattern>
+		<template>
+			<think><set name="appr"><star/></set></think>
+			parle moi de <star/>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>J AIME *</pattern>
+		<that>QU AIMES TU DANS LA VIE</that>
+		<template>
+			<think><set name="appr"><star/></set></think>
+			parle moi de <star/>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*</pattern>
+		<that>QU AIMES TU DANS LA VIE</that>
+		<template>
+			<think><set name="appr"><star/></set></think>
+			parle moi de <star/>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*</pattern>
+		<that>PARLE MOI DE *</that>
+		<template>
+			D'accord, je ne savais pas...
+		</template>
+	</category>
+	
+	<!--2,0,0-->
+	<category>
+		<pattern>J AIME BIEN *</pattern>
+		<template>
+			<think><set name="appr"><star/></set></think>
+			parle moi de <star/>
+		</template>
+	</category>
+	
+	<!--2,0,0-->
+	<category>
+		<pattern>PARLE MOI DE *</pattern>
+		<template>
+			<think><set name="appr"><star/></set></think>
+			<srai> <star/> </srai>
+		</template>
+ 	</category>
+	
+		<!--2,0,0-->
+		<category>
+		<pattern>CONNAIS TU *</pattern>
+		<template>
+			<think><set name="appr"><star/></set></think>
+			parle moi de <star/>
+		</template>
+ 	</category>
+	
+	<!--REMERCIEMENT/ RELANCE-->
+
+		<category>
+		<pattern>MERCI *</pattern>
+		<template><srai>MERCI</srai></template>
+	</category>
+	
+	<category>
+		<pattern>MERCI</pattern>
+		<template>
+			<random>
+				<li>Mais de rien as-tu encore besoin de moi?</li>
+				<li>C'est avec plaisir as-tu d'autres questions?</li>
+				<li>Eh bien de rien as-tu d'autres questions?</li>
+				<li>Eh bien De rien veux-tu savoir autres choses?</li>
+				<li>Qu'aimes-tu dans la vie?</li>
+				<li>Que fais-tu dans la vie?</li>
+				<li>Mais de rien :).</li>
+			</random>
+		</template>
+	</category>
+	
+	
+	<category>
+		<pattern>OUI</pattern>
+		<that>* TU * AUTRES *</that>
+		<template>
+			D'accord, En quoi puis-je t'aider <get name="nom"/>?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>* TU * AUTRES *</that>
+		<template>
+			Très bien <get name="nom"/>.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>* TU * AUTRES *</that>
+		<template>
+			Très bien <get name="nom"/>.
+		</template>
+	</category>
+
+		<category>
+		<pattern>OUI</pattern>
+		<that>* TU * AUTRES *</that>
+		<template>
+			D'accord, En quoi puis-je t'aider <get name="nom"/>?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>* TU * AUTRES *</that>
+		<template>
+			Très bien <get name="nom"/>.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>* TU * AUTRES *</that>
+		<template>
+			Très bien <get name="nom"/>.
+		</template>
+	</category>
+	
+					
+	<category>
+		<pattern>* RIEN *</pattern>
+		<that>QUE FAIS TU DANS LA VIE</that>
+		<template>
+			C'est bien dommage!
+		</template>
+	</category>
+	
+	<category>
+		<pattern>RIEN *</pattern>
+		<that>QUE FAIS TU DANS LA VIE</that>
+		<template>
+			C'est bien dommage!
+		</template>
+	</category>
+
+	<category>
+		<pattern>RIEN</pattern>
+		<that>QUE FAIS TU DANS LA VIE</that>
+		<template>
+			C'est bien dommage!
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* RIEN </pattern>
+		<that>QUE FAIS TU DANS LA VIE</that>
+		<template>
+			C'est bien dommage!
+		</template>
+	</category>
+	
+	<category>
+		<pattern>JE FAIS *</pattern>
+		<that>QUE FAIS TU DANS LA VIE</that>
+		<template>
+			Oh, Parle moi de <star/>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>JE SUIS *</pattern>
+		<that>QUE FAIS TU DANS LA VIE</that>
+		<template>
+			Oh, parle m'en plus?
+		</template>
+	</category>	
+	
+	<!--QUESTION HORS CATEGORIE-->
+
+	<category>
+		<pattern>COMMENT CONNAIS TU *</pattern>
+		<template>
+			<random>
+				<li>On me l'a dit.</li>
+				<li>On me l'a appris</li>
+			</random>
+		</template>
+	</category>
+
+	<category>
+		<pattern>QUI EST *</pattern>
+		<template>
+			Ce n'est pas un proche d'Alan Turing?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*</pattern>
+		<that>CE N EST PAS UN PROCHE D ALAN TURING</that>
+		<template>
+			<think><set name="topic">TURING</set></think>
+			<srai>TURING FROM GENERALITE</srai>
+		</template>
+	</category>
+	
+	<!--RENVOI VERS AUTRES CATEGORIES-->
+	
+	<category>
+		<pattern>QUI EST *</pattern>
+		<template>
+			<srai><star/></srai>
+		</template>
+	</category>
+
+	<!--APPRENTISSAGE-->
+	
+	<category>
+		<pattern>OUI</pattern>
+		<that>D APRES CE QU ON M A DIT C EST * ES TU D ACCORD AVEC CA</that>
+		<template>
+			<!--<think><set name="appr"><star/></set></think>-->
+			D'accord, merci pour l'information. <srai>RANDOM PICKUP LINE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OUI *</pattern>
+		<that>D APRES CE QU ON M A DIT C EST * ES TU D ACCORD AVEC CA</that>
+		<template>
+			<!--<think><set name="appr"><star/></set></think>-->
+			D'accord, merci pour l'information. <srai>RANDOM PICKUP LINE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>D APRES CE QU ON M A DIT C EST * ES TU D ACCORD AVEC CA</that>
+		<template>
+			<!--<think><set name="appr"><star/></set></think>-->
+			D'accord, merci pour l'information. <srai>RANDOM PICKUP LINE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>D APRES CE QU ON M A DIT C EST * ES TU D ACCORD AVEC CA</that>
+		<template>
+			<!--think><set name="appr"><star/></set></think>-->
+			D'accord, merci pour l'information. <srai>RANDOM PICKUP LINE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*</pattern>
+		<that>* PEUX TU M EN DIRE PLUS</that>
+		<template>
+			<!--think><set name="appr"><star/></set></think>-->
+			D'accord, merci pour l'information. <srai>RANDOM PICKUP LINE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>* PEUX TU M EN DIRE PLUS</that>
+		<template>
+			<!--think><set name="appr"><star/></set></think>-->
+			D'accord, je note. <srai>RANDOM PICKUP LINE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>* PEUX TU M EN DIRE PLUS</that>
+		<template>
+			<!--think><set name="appr"><star/></set></think>-->
+			D'accord, je note. <srai>RANDOM PICKUP LINE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>* PEUX TU M EN DIRE PLUS</that>
+		<template>
+			<!--think><set name="appr"><star/></set></think>-->
+			D'accord, je note. <srai>RANDOM PICKUP LINE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>* PEUX TU M EN DIRE PLUS</that>
+		<template>
+			<!--think><set name="appr"><star/></set></think>-->
+			D'accord, je note. <srai>RANDOM PICKUP LINE</srai>
+		</template>
+	</category>
+</aiml>

@@ -1,0 +1,3198 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+	<!--DEFINITIONS IA-->
+
+	<category>
+		<pattern>INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>
+			<think><set name="topic">IA</set></think>
+			C'est la recherche de moyens susceptibles de doter les syst�mes informatiques de capacit�s intellectuelles comparables � celles des �tres humains.
+		</template>		
+	</category>
+
+	<category>
+		<pattern>QU EST * INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>
+			<think><set name="topic">IA</set></think>
+			<srai>INTELLIGENCE ARTIFICIELLE</srai>
+		</template>		
+	</category>
+	
+			<!--peut etre modifier
+	<category>
+		<pattern>* EST * IA</pattern>
+		<template>
+			<think><set name="topic">IA</set></think>
+			<srai>INTELLIGENCE ARTIFICIELLE</srai>
+		</template>
+	</category>
+			fin modif-->
+			
+		<!--DEFINITION ARTIFICIELLE-->
+
+	<category>
+		<pattern>POURQUOI ARTIFICIELLE</pattern>
+		<that>C EST LA RECHERCHE DE MOYENS SUSCEPTIBLES DE DOTER LES SYSTEMES INFORMATIQUES DE CAPACITES INTELLECTUELLES COMPARABLES A CELLES DES ETRES HUMAINS</that>
+		<template>
+			<think><set name="topic">IA</set></think>
+			C'est l'usage des ordinateurs ou de processus �l�ctroniques
+		</template>		
+	</category>
+
+	<category>
+		<pattern>ARTIFICIELLE</pattern>
+		<that>C EST LA RECHERCHE DE MOYENS SUSCEPTIBLES DE DOTER LES SYSTEMES INFORMATIQUES DE CAPACITES INTELLECTUELLES COMPARABLES A CELLES DES ETRES HUMAINS</that>
+		<template>
+			<think><set name="topic">IA</set></think>
+			C'est l'usage des ordinateurs ou de processus �l�ctroniques
+		</template>		
+	</category>
+
+	<category>
+		<pattern>QU EST * ARTIFICIELLE</pattern>
+		<that>C EST LA RECHERCHE DE MOYENS SUSCEPTIBLES DE DOTER LES SYSTEMES INFORMATIQUES DE CAPACITES INTELLECTUELLES COMPARABLES A CELLES DES ETRES HUMAINS</that>
+		<template>
+			C'est l'usage des ordinateurs ou de processus �l�ctroniques
+		</template>		
+	</category>
+
+	<category>
+		<pattern>QUE * ARTIFICIELLE</pattern>
+		<template>
+			<!--<srai>ARTIFICIELLE</srai>-->
+			C'est l'usage des ordinateurs ou de processus �l�ctroniques
+		</template>		
+	</category>
+	
+		<!--DEFINITION INTELLIGENCE-->
+
+	<category>
+		<pattern>INTELLIGENCE</pattern>
+		<that>C EST LA RECHERCHE DE MOYENS SUSCEPTIBLES DE DOTER LES SYSTEMES INFORMATIQUES DE CAPACITES INTELLECTUELLES COMPARABLES A CELLES DES ETRES HUMAINS</that>
+		<template>
+			<think><set name="topic">INTELLIGENCE</set></think>
+			C'est pour l'id�e d'imiter le comportement humain l'imitation du raisonnement entre autres
+		</template>		
+	</category>
+
+	<category>
+		<pattern>POURQUOI INTELLIGENCE</pattern>
+		<that>C EST LA RECHERCHE DE MOYENS SUSCEPTIBLES DE DOTER LES SYSTEMES INFORMATIQUES DE CAPACITES INTELLECTUELLES COMPARABLES A CELLES DES ETRES HUMAINS</that>
+		<template>
+			<think><set name="topic">INTELLIGENCE</set></think>
+			<!--<srai>INTELLIGENCE</srai>-->
+			C'est pour l'id�e d'imiter le comportement humain l'imitation du raisonnement entre autres
+		</template>
+	</category>
+	
+	<category>
+		<pattern>POURQUOI INTELLECTUELLE</pattern>
+		<that>C EST LA RECHERCHE DE MOYENS SUSCEPTIBLES DE DOTER LES SYSTEMES INFORMATIQUES DE CAPACITES INTELLECTUELLES COMPARABLES A CELLES DES ETRES HUMAINS</that>
+		<template>
+			<think><set name="topic">INTELLIGENCE</set></think>
+			<!--<srai>INTELLIGENCE</srai>-->
+			C'est pour l'id�e d'imiter le comportement humain l'imitation du raisonnement entre autres
+		</template>
+	</category>
+	
+	<category>
+		<pattern>INTELLECTUELLE</pattern>
+		<that>C EST LA RECHERCHE DE MOYENS SUSCEPTIBLES DE DOTER LES SYSTEMES INFORMATIQUES DE CAPACITES INTELLECTUELLES COMPARABLES A CELLES DES ETRES HUMAINS</that>
+		<template>
+			<think><set name="topic">INTELLIGENCE</set></think>
+			<!--<srai>INTELLIGENCE</srai>-->
+			C'est pour l'id�e d'imiter le comportement humain l'imitation du raisonnement entre autres
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* INTELLECTUELLE *</pattern>
+		<that>C EST LA RECHERCHE DE MOYENS SUSCEPTIBLES DE DOTER LES SYSTEMES INFORMATIQUES DE CAPACITES INTELLECTUELLES COMPARABLES A CELLES DES ETRES HUMAINS</that>
+		<template>
+			<think><set name="topic">INTELLIGENCE</set></think>
+			<!--<srai>INTELLIGENCE</srai>-->
+			Intellectuelle c'est pour l'id�e d'imiter le comportement humain l'imitation du raisonnement entre autres
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* INTELLECTUELLE</pattern>
+		<that>C EST LA RECHERCHE DE MOYENS SUSCEPTIBLES DE DOTER LES SYSTEMES INFORMATIQUES DE CAPACITES INTELLECTUELLES COMPARABLES A CELLES DES ETRES HUMAINS</that>
+		<template>
+			<think><set name="topic">INTELLIGENCE</set></think>
+			<!--<srai>INTELLIGENCE</srai>-->
+			Intellectuelle c'est pour l'id�e d'imiter le comportement humain l'imitation du raisonnement entre autres
+		</template>
+	</category>
+	
+	<category>
+		<pattern>INTELLECTUELLE *</pattern>
+		<that>C EST LA RECHERCHE DE MOYENS SUSCEPTIBLES DE DOTER LES SYSTEMES INFORMATIQUES DE CAPACITES INTELLECTUELLES COMPARABLES A CELLES DES ETRES HUMAINS</that>
+		<template>
+			<think><set name="topic">INTELLIGENCE</set></think>
+			<!--<srai>INTELLIGENCE</srai>-->
+			Intellectuelle c'est pour l'id�e d'imiter le comportement humain l'imitation du raisonnement entre autres
+		</template>
+	</category>
+
+	<category>
+		<pattern>QUE * INTELLIGENCE *</pattern>
+		<that>C EST LA RECHERCHE DE MOYENS SUSCEPTIBLES DE DOTER LES SYSTEMES INFORMATIQUES DE CAPACITES INTELLECTUELLES COMPARABLES A CELLES DES ETRES HUMAINS</that>
+		<template>
+			<think><set name="topic">INTELLIGENCE</set></think>
+			<!--<srai>INTELLIGENCE</srai>-->
+			C'est pour l'id�e d'imiter le comportement humain l'imitation du raisonnement entre autres
+		</template>		
+	</category>
+
+	<category>
+		<pattern>QUE * INTELLIGENCE</pattern>
+		<that>C EST LA RECHERCHE DE MOYENS SUSCEPTIBLES DE DOTER LES SYSTEMES INFORMATIQUES DE CAPACITES INTELLECTUELLES COMPARABLES A CELLES DES ETRES HUMAINS</that>
+		<template>
+			<think><set name="topic">INTELLIGENCE</set></think>
+			<!--<srai>INTELLIGENCE</srai>-->
+			C'est pour l'id�e d'imiter le comportement humain l'imitation du raisonnement entre autres
+		</template>		
+	</category>
+
+	<category>
+		<pattern>* EST * QUE * INTELLIGENCE</pattern>
+		<that>C EST LA RECHERCHE DE MOYENS SUSCEPTIBLES DE DOTER LES SYSTEMES INFORMATIQUES DE CAPACITES INTELLECTUELLES COMPARABLES A CELLES DES ETRES HUMAINS</that>
+		<template>
+			<think><set name="topic">INTELLIGENCE</set></think>
+			<!--<srai>INTELLIGENCE</srai>-->
+			C'est pour l'id�e d'imiter le comportement humain l'imitation du raisonnement entre autres, veux-tu des exemples?
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>OUI</pattern>
+		<that>C EST POUR L IDEE D IMITER LE COMPORTEMENT HUMAIN L IMITATION DU RAISONNEMENT ENTRE AUTRES VEUX TU DES EXEMPLES</that>
+		<template>
+			Les jeux, les pratiques mathematiques, les langages informatiques...
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI</pattern>
+		<that>C EST POUR L IDEE D IMITER LE COMPORTEMENT HUMAIN L IMITATION DU RAISONNEMENT ENTRE AUTRES VEUX TU DES EXEMPLES</that>
+		<template>
+			Les jeux, les pratiques mathematiques, les langages informatiques...
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI *</pattern>
+		<that>C EST POUR L IDEE D IMITER LE COMPORTEMENT HUMAIN L IMITATION DU RAISONNEMENT ENTRE AUTRES VEUX TU DES EXEMPLES</that>
+		<template>
+			Les jeux, les pratiques mathematiques, les langages informatiques...
+		</template>
+	</category>
+
+	<category>
+		<pattern>OUI *</pattern>
+		<that>C EST POUR L IDEE D IMITER LE COMPORTEMENT HUMAIN L IMITATION DU RAISONNEMENT ENTRE AUTRES VEUX TU DES EXEMPLES</that>
+		<template>
+			Les jeux, les pratiques mathematiques, les langages informatiques...
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>C EST POUR L IDEE D IMITER LE COMPORTEMENT HUMAIN L IMITATION DU RAISONNEMENT ENTRE AUTRES VEUX TU DES EXEMPLES</that>
+		<template>
+			<srai>RANDOM PICKUP LINE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>C EST POUR L IDEE D IMITER LE COMPORTEMENT HUMAIN L IMITATION DU RAISONNEMENT ENTRE AUTRES VEUX TU DES EXEMPLES</that>
+		<template>
+			<srai>RANDOM PICKUP LINE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>C EST POUR L IDEE D IMITER LE COMPORTEMENT HUMAIN L IMITATION DU RAISONNEMENT ENTRE AUTRES VEUX TU DES EXEMPLES</that>
+		<template>
+			<srai>RANDOM PICKUP LINE</srai>
+		</template>
+	</category>
+
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>C EST POUR L IDEE D IMITER LE COMPORTEMENT HUMAIN L IMITATION DU RAISONNEMENT ENTRE AUTRES VEUX TU DES EXEMPLES</that>
+		<template>
+			<srai>RANDOM PICKUP LINE</srai>
+		</template>
+	</category>
+
+
+
+
+	
+	<category>
+		<pattern> * EXEMPLES * </pattern>
+		<that>C EST POUR L IDEE D IMITER LE COMPORTEMENT HUMAIN L IMITATION DU RAISONNEMENT ENTRE AUTRES VEUX TU DES EXEMPLES</that>
+		<template>
+			Les jeux, les pratiques mathematiques, les langages informatiques...
+		</template>		
+	</category>
+
+	<category>
+		<pattern>* EXEMPLE *</pattern>
+		<that>C EST POUR L IDEE D IMITER LE COMPORTEMENT HUMAIN L IMITATION DU RAISONNEMENT ENTRE AUTRES VEUX TU DES EXEMPLES</that>
+		<template>
+			Les jeux, les pratiques mathematiques, les langages informatiques...
+		</template>		
+	</category>
+	
+			<!--pb rec-->
+	<category>
+		<pattern> * EXEMPLES</pattern>
+		<that>C EST POUR L IDEE D IMITER LE COMPORTEMENT HUMAIN L IMITATION DU RAISONNEMENT ENTRE AUTRES</that>
+		<template>
+			Les jeux, les pratiques mathematiques, les langages informatiques...
+		</template>		
+	</category>
+
+	<category>
+		<pattern>* EXEMPLE</pattern>
+		<that>C EST POUR L IDEE D IMITER LE COMPORTEMENT HUMAIN L IMITATION DU RAISONNEMENT ENTRE AUTRES</that>
+		<template>
+			Les jeux, les pratiques mathematiques, les langages informatiques...
+		</template>		
+	</category>
+			<!--fin pb-->
+	
+	<!--AGENT-->
+	
+		<!--DEFINITION AGENT-->
+
+	<category>
+		<pattern>QU EST * AGENT</pattern>
+		<template>
+			C'est une entit� abstraite capable d'executer une action, elle possede un but et est anim�. Il existe plusieurs types d'agent (autonome reactif et deliberatif), les connais-tu?
+		</template>		
+	</category>
+
+	<category>
+		<pattern>QUE * AGENT</pattern>
+		<template>
+			<srai>QU EST <star/> AGENT</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>AGENT</pattern>
+		<template>
+			<srai>QU EST <star/> AGENT</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>OUI</pattern>
+		<that>C EST UNE ENTITE ABSTRAITE CAPABLE D EXECUTER UNE ACTION ELLE POSSEDE UN BUT ET EST ANIME IL EXISTE PLUSIEURS TYPES D AGENT AUTONOME REACTIF ET DELIBERATIF LES CONNAIS TU</that>
+		<template>
+			Une application des agents r�actifs c'est les agents conversationnels, connais-tu ce domaine?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI</pattern>
+		<that>C EST UNE ENTITE ABSTRAITE CAPABLE D EXECUTER UNE ACTION ELLE POSSEDE UN BUT ET EST ANIME IL EXISTE PLUSIEURS TYPES D AGENT AUTONOME REACTIF ET DELIBERATIF LES CONNAIS TU</that>
+		<template>
+			<!--<srai>OUI</srai>-->
+			Une application des agents r�actifs c'est les agents conversationnels, connais-tu ce domaine?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI *</pattern>
+		<that>C EST UNE ENTITE ABSTRAITE CAPABLE D EXECUTER UNE ACTION ELLE POSSEDE UN BUT ET EST ANIME IL EXISTE PLUSIEURS TYPES D AGENT AUTONOME REACTIF ET DELIBERATIF LES CONNAIS TU</that>
+		<template>
+			<!--<srai>OUI</srai>-->
+			Une application des agents r�actifs c'est les agents conversationnels, connais-tu ce domaine?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OUI *</pattern>
+		<that>C EST UNE ENTITE ABSTRAITE CAPABLE D EXECUTER UNE ACTION ELLE POSSEDE UN BUT ET EST ANIME IL EXISTE PLUSIEURS TYPES D AGENT AUTONOME REACTIF ET DELIBERATIF LES CONNAIS TU</that>
+		<template>
+			<!--<srai>OUI</srai>-->
+			Une application des agents r�actifs c'est les agents conversationnels, connais-tu ce domaine?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>C EST UNE ENTITE ABSTRAITE CAPABLE D EXECUTER UNE ACTION ELLE POSSEDE UN BUT ET EST ANIME IL EXISTE PLUSIEURS TYPES D AGENT AUTONOME REACTIF ET DELIBERATIF LES CONNAIS TU</that>
+		<template>
+			<random>
+				<li>Veux-tu que je te parle des agents autonomes?</li>
+				<li>Veux-tu que je te parle des agents r�actifs?</li>
+				<li>Veux-tu que je te parle des agents d�lib�ratifs?</li>
+			</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>C EST UNE ENTITE ABSTRAITE CAPABLE D EXECUTER UNE ACTION ELLE POSSEDE UN BUT ET EST ANIME IL EXISTE PLUSIEURS TYPES D AGENT AUTONOME REACTIF ET DELIBERATIF LES CONNAIS TU</that>
+		<template>
+			<random>
+				<li>Veux-tu que je te parle des agents autonomes?</li>
+				<li>Veux-tu que je te parle des agents r�actifs?</li>
+				<li>Veux-tu que je te parle des agents d�lib�ratifs?</li>
+			</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>C EST UNE ENTITE ABSTRAITE CAPABLE D EXECUTER UNE ACTION ELLE POSSEDE UN BUT ET EST ANIME IL EXISTE PLUSIEURS TYPES D AGENT AUTONOME REACTIF ET DELIBERATIF LES CONNAIS TU</that>
+		<template>
+			<random>
+				<li>Veux-tu que je te parle des agents autonomes?</li>
+				<li>Veux-tu que je te parle des agents r�actifs?</li>
+				<li>Veux-tu que je te parle des agents d�lib�ratifs?</li>
+			</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>C EST UNE ENTITE ABSTRAITE CAPABLE D EXECUTER UNE ACTION ELLE POSSEDE UN BUT ET EST ANIME IL EXISTE PLUSIEURS TYPES D AGENT AUTONOME REACTIF ET DELIBERATIF LES CONNAIS TU</that>
+		<template>
+			<!--<srai>NON</srai>-->
+			<random>
+				<li>Veux-tu que je te parle des agents autonomes?</li>
+				<li>Veux-tu que je te parle des agents r�actifs?</li>
+				<li>Veux-tu que je te parle des agents d�lib�ratifs?</li>
+			</random>
+		</template>
+	</category>
+	
+		<!--DEFINITION AGENT AUTONOME-->
+
+	<category>
+		<pattern>QU EST * AGENT AUTONOME</pattern>
+		<template>
+			C'est un agent qui se donne ses propres r�gles. Il est capable de transformer ses r�gles � partir de ce qu'il a vecu
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>AGENT AUTONOME</pattern>
+		<template>
+			<srai>QU EST <star/> AGENT AUTONOME</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>OUI</pattern>
+		<that>VEUX TU QUE JE TE PARLE DES AGENTS AUTONOMES</that>
+		<template>
+			<srai>QU EST <star/> AGENT AUTONOME</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>VEUX TU QUE JE TE PARLE DES AGENTS AUTONOMES</that>
+		<template>
+			<srai>RANDOM PICKUP LINE</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>* OUI *</pattern>
+		<that>VEUX TU QUE JE TE PARLE DES AGENTS AUTONOMES</that>
+		<template>
+			<srai>QU EST <star/> AGENT AUTONOME</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>VEUX TU QUE JE TE PARLE DES AGENTS AUTONOMES</that>
+		<template>
+			<srai>RANDOM PICKUP LINE</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>* OUI</pattern>
+		<that>VEUX TU QUE JE TE PARLE DES AGENTS AUTONOMES</that>
+		<template>
+			<srai>QU EST <star/> AGENT AUTONOME</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>VEUX TU QUE JE TE PARLE DES AGENTS AUTONOMES</that>
+		<template>
+			<srai>RANDOM PICKUP LINE</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>VEUX TU QUE JE TE PARLE DES AGENTS AUTONOMES</that>
+		<template>
+			<srai>RANDOM PICKUP LINE</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>OUI *</pattern>
+		<that>VEUX TU QUE JE TE PARLE DES AGENTS AUTONOMES</that>
+		<template>
+			<srai>QU EST <star/> AGENT AUTONOME</srai>
+		</template>		
+	</category>
+
+	<category>
+		<pattern>QUE * AGENT AUTONOME</pattern>
+		<template>
+			<srai>QU EST <star/> AGENT AUTONOME</srai>
+		</template>		
+	</category>
+	
+		<!--DEFINITION AGENT REACTIF-->
+
+	<category>
+		<pattern>QU EST * AGENT REACTIF</pattern>
+		<template>
+			C'est un agent qui repond immediatement � l'environnement, il y a une id�e de r�compense. Les agents conversationnels en sont une application, connais-tu ce domaine?
+		</template>		
+	</category>
+
+	<category>
+		<pattern>QUE * AGENT REACTIF</pattern>
+		<template>
+			<srai>QU EST <star/> AGENT REACTIF</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>AGENT REACTIF</pattern>
+		<template>
+			<srai>QU EST <star/> AGENT REACTIF</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>OUI</pattern>
+		<that>VEUX TU QUE JE TE PARLE DES AGENTS REACTIFS</that>
+		<template>
+			<srai>QU EST <star/> AGENT REACTIF</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>* OUI *</pattern>
+		<that>VEUX TU QUE JE TE PARLE DES AGENTS REACTIFS</that>
+		<template>
+			<srai>QU EST <star/> AGENT REACTIF</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>* OUI</pattern>
+		<that>VEUX TU QUE JE TE PARLE DES AGENTS REACTIFS</that>
+		<template>
+			<srai>QU EST <star/> AGENT REACTIF</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>OUI *</pattern>
+		<that>VEUX TU QUE JE TE PARLE DES AGENTS REACTIFS</that>
+		<template>
+			<srai>QU EST <star/> AGENT REACTIF</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>VEUX TU QUE JE TE PARLE DES AGENTS REACTIFS</that>
+		<template>
+			<srai>RANDOM PICKUP LINE</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>VEUX TU QUE JE TE PARLE DES AGENTS REACTIFS</that>
+		<template>
+			<srai>RANDOM PICKUP LINE</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>VEUX TU QUE JE TE PARLE DES AGENTS REACTIFS</that>
+		<template>
+			<srai>RANDOM PICKUP LINE</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>VEUX TU QUE JE TE PARLE DES AGENTS REACTIFS</that>
+		<template>
+			<srai>RANDOM PICKUP LINE</srai>
+		</template>		
+	</category>
+	
+	<!--???????-->
+	<category>
+		<pattern>OUI</pattern>
+		<that>UNE APPLICATION DES AGENTS REACTIFS C EST LES AGENTS CONVERSATIONNELS CONNAIS TU CE DOMAINE</that>
+		<template>
+			Je m'int�rresse beaucoup � ce domaine, que connais-tu la dessus?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI *</pattern>
+		<that>UNE APPLICATION DES AGENTS REACTIFS C EST LES AGENTS CONVERSATIONNELS CONNAIS TU CE DOMAINE</that>
+		<template>
+			Je m'int�rresse beaucoup � ce domaine, que connais-tu la dessus?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI</pattern>
+		<that>UNE APPLICATION DES AGENTS REACTIFS C EST LES AGENTS CONVERSATIONNELS CONNAIS TU CE DOMAINE</that>
+		<template>
+			Je m'int�rresse beaucoup � ce domaine, que connais-tu la dessus?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OUI *</pattern>
+		<that>UNE APPLICATION DES AGENTS REACTIFS C EST LES AGENTS CONVERSATIONNELS CONNAIS TU CE DOMAINE</that>
+		<template>
+			<!--<srai>OUI</srai>-->
+			Je m'int�rresse beaucoup � ce domaine, que connais-tu la dessus?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OUI</pattern>
+		<that>C EST UN AGENT QUI REPOND IMMEDIATEMENT A L ENVIRONNEMENT IL Y A UNE IDEE DE RECOMPENSE  LES AGENTS CONVERSATIONNELS EN SONT UNE APPLICATION CONNAIS TU CE DOMAINE</that>
+		<template>
+			Je m'int�rresse beaucoup � ce domaine, que connais-tu la dessus?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI *</pattern>
+		<that>C EST UN AGENT QUI REPOND IMMEDIATEMENT A L ENVIRONNEMENT IL Y A UNE IDEE DE RECOMPENSE  LES AGENTS CONVERSATIONNELS EN SONT UNE APPLICATION CONNAIS TU CE DOMAINE</that>
+		<template>
+			Je m'int�rresse beaucoup � ce domaine, que connais-tu la dessus?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI</pattern>
+		<that>C EST UN AGENT QUI REPOND IMMEDIATEMENT A L ENVIRONNEMENT IL Y A UNE IDEE DE RECOMPENSE  LES AGENTS CONVERSATIONNELS EN SONT UNE APPLICATION CONNAIS TU CE DOMAINE</that>
+		<template>
+			Je m'int�rresse beaucoup � ce domaine, que connais-tu la dessus?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OUI *</pattern>
+		<that>C EST UN AGENT QUI REPOND IMMEDIATEMENT A L ENVIRONNEMENT IL Y A UNE IDEE DE RECOMPENSE  LES AGENTS CONVERSATIONNELS EN SONT UNE APPLICATION CONNAIS TU CE DOMAINE</that>
+		<template>
+			<!--<srai>OUI</srai>-->
+			Je m'int�rresse beaucoup � ce domaine, que connais-tu la dessus?
+		</template>
+	</category>
+		
+	<category>
+		<pattern>NON</pattern>
+		<that>UNE APPLICATION DES AGENTS REACTIFS C EST LES AGENTS CONVERSATIONNELS CONNAIS TU CE DOMAINE</that>
+		<template>
+			Je m'int�resse beaucoup � ce domaine. <srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>UNE APPLICATION DES AGENTS REACTIFS C EST LES AGENTS CONVERSATIONNELS CONNAIS TU CE DOMAINE</that>
+		<template>
+			Je m'int�resse beaucoup � ce domaine. <srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>UNE APPLICATION DES AGENTS REACTIFS C EST LES AGENTS CONVERSATIONNELS CONNAIS TU CE DOMAINE</that>
+		<template>
+			Je m'int�resse beaucoup � ce domaine. <srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>UNE APPLICATION DES AGENTS REACTIFS C EST LES AGENTS CONVERSATIONNELS CONNAIS TU CE DOMAINE</that>
+		<template>
+			<!--<srai>NON</srai>-->
+			Je m'int�resse beaucoup � ce domaine. <srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>C EST UN AGENT QUI REPOND IMMEDIATEMENT A L ENVIRONNEMENT IL Y A UNE IDEE DE RECOMPENSE  LES AGENTS CONVERSATIONNELS EN SONT UNE APPLICATION CONNAIS TU CE DOMAINE</that>
+		<template>
+			Je m'int�resse beaucoup � ce domaine. <srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>C EST UN AGENT QUI REPOND IMMEDIATEMENT A L ENVIRONNEMENT IL Y A UNE IDEE DE RECOMPENSE  LES AGENTS CONVERSATIONNELS EN SONT UNE APPLICATION CONNAIS TU CE DOMAINE</that>
+		<template>
+			Je m'int�resse beaucoup � ce domaine. <srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>C EST UN AGENT QUI REPOND IMMEDIATEMENT A L ENVIRONNEMENT IL Y A UNE IDEE DE RECOMPENSE  LES AGENTS CONVERSATIONNELS EN SONT UNE APPLICATION CONNAIS TU CE DOMAINE</that>
+		<template>
+			Je m'int�resse beaucoup � ce domaine. <srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>C EST UN AGENT QUI REPOND IMMEDIATEMENT A L ENVIRONNEMENT IL Y A UNE IDEE DE RECOMPENSE  LES AGENTS CONVERSATIONNELS EN SONT UNE APPLICATION CONNAIS TU CE DOMAINE</that>
+		<template>
+			<!--<srai>NON</srai>-->
+			Je m'int�resse beaucoup � ce domaine. <srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+		<!--DEFINITION AGENT DELIBERATIF-->
+
+	<category>
+		<pattern>QU EST * AGENT DELIBERATIF</pattern>
+		<template>
+			C'est un agent qui choisi ses actions en fonctions de son but et de son �tat
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>AGENT DELIBERATIF</pattern>
+		<template>
+			<srai>QU EST <star/> AGENT DELIBERATIF</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>OUI</pattern>
+		<that>VEUX TU QUE JE TE PARLE DES AGENTS DELIBERATIFS</that>
+		<template>
+			<srai>QU EST <star/> AGENT DELIBERATIF</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>* OUI *</pattern>
+		<that>VEUX TU QUE JE TE PARLE DES AGENTS DELIBERATIFS</that>
+		<template>
+			<srai>QU EST <star/> AGENT DELIBERATIF</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>* OUI</pattern>
+		<that>VEUX TU QUE JE TE PARLE DES AGENTS DELIBERATIFS</that>
+		<template>
+			<srai>QU EST <star/> AGENT DELIBERATIF</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>OUI *</pattern>
+		<that>VEUX TU QUE JE TE PARLE DES AGENTS DELIBERATIFS</that>
+		<template>
+			<srai>QU EST <star/> AGENT DELIBERATIF</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>VEUX TU QUE JE TE PARLE DES AGENTS DELIBERATIFS</that>
+		<template>
+			<srai>RANDOM PICKUP LINE</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>VEUX TU QUE JE TE PARLE DES AGENTS DELIBERATIFS</that>
+		<template>
+			<srai>RANDOM PICKUP LINE</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>VEUX TU QUE JE TE PARLE DES AGENTS DELIBERATIFS</that>
+		<template>
+			<srai>RANDOM PICKUP LINE</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>VEUX TU QUE JE TE PARLE DES AGENTS DELIBERATIFS</that>
+		<template>
+			<srai>RANDOM PICKUP LINE</srai>
+		</template>		
+	</category>
+
+	<category>
+		<pattern>QUE * AGENT DELIBERATIF</pattern>
+		<template>
+			<srai>QU EST <star/> AGENT DELIBERATIF</srai>
+		</template>		
+	</category>
+	
+	<!--HISTOIRE IA-->
+	
+	<category>
+		<pattern>QUELLE * HISTOIRE * INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>
+			<think><set name="topic">IA</set></think>
+			<random>
+				<li>Alan Turing a pressenti l'intelligence artificielle dans son livre "Computing Machinery and Intelligence" (Mind) en 1950. John McCarthy et Marvin Minsky sont deux grands acteurs de l'intelligence artificielle. Les connais-tu ?</li>
+				<li>Elle a commenc� � se d�velopper dans les ann�es 1950. Vers les ann�es 1965, ce sont ses ann�es noires, puis � la fin des ann�es 70 c'est sa renaissance avec les syst�mes experts. Alan Turing,Marvin Minsky et John McCarthy en sont trois grands acteurs, les connais-tu ?</li>
+				<li>Elle a commenc� � se d�velopper dans les ann�es 1950. Vers les ann�es 1965, ce sont ses ann�es noires, puis � la fin des ann�es 70 c'est sa renaissance avec les syst�mes experts. Connais-tu les syst�mes experts ?</li>
+			</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>QUELLE * ORIGINE * INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>
+			<think><set name="topic">IA</set></think>
+			<srai>QUELLE <star index="1"/> HISTOIRE <star index="2"/> INTELLIGENCE ARTIFICIELLE</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>HISTOIRE * INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>
+			<think><set name="topic">IA</set></think>
+			<srai>QUELLE <star index="1"/> HISTOIRE <star index="2"/> INTELLIGENCE ARTIFICIELLE</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>HISTOIRE INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>
+			<think><set name="topic">IA</set></think>
+			<srai>QUELLE <star index="1"/> HISTOIRE <star index="2"/> INTELLIGENCE ARTIFICIELLE</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>ORIGINE INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>
+			<think><set name="topic">IA</set></think>
+			<srai>QUELLE <star index="1"/> HISTOIRE <star index="2"/> INTELLIGENCE ARTIFICIELLE</srai>
+		</template>		
+	</category>
+
+	<category>
+		<pattern>* HISTORIQUE * INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>
+			<think><set name="topic">IA</set></think>
+			<srai>QUELLE <star index="1"/> HISTOIRE <star index="2"/> INTELLIGENCE ARTIFICIELLE</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>COMMENT * COMMENCER * INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>
+			<think><set name="topic">IA</set></think>
+			<srai>QUELLE <star index="1"/> HISTOIRE <star index="2"/> INTELLIGENCE ARTIFICIELLE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>COMMENT * VENUE * INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>
+			<think><set name="topic">IA</set></think>
+			<srai>QUELLE <star index="1"/> HISTOIRE <star index="2"/> INTELLIGENCE ARTIFICIELLE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OUI</pattern>
+		<that>ALAN TURING A PRESSENTI L INTELLIGENCE ARTIFICIELLE DANS SON LIVRE COMPUTING MACHINERY AND INTELLIGENCE MIND EN 1950 JOHN MCCARTHY ET MARVIN MINSKY SONT DEUX GRANDS ACTEURS DE L INTELLIGENCE ARTIFICIELLE LES CONNAIS TU</that>
+		<template>
+			Dans son livre "Computing Machinery and Intelligence" (Mind), Alan Turing introduit le Test de Turing, le connais-tu?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OUI *</pattern>
+		<that>ALAN TURING A PRESSENTI L INTELLIGENCE ARTIFICIELLE DANS SON LIVRE COMPUTING MACHINERY AND INTELLIGENCE MIND EN 1950 JOHN MCCARTHY ET MARVIN MINSKY SONT DEUX GRANDS ACTEURS DE L INTELLIGENCE ARTIFICIELLE LES CONNAIS TU</that>
+		<template>
+			Dans son livre "Computing Machinery and Intelligence" (Mind), Alan Turing introduit le Test de Turing, le connais-tu?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI</pattern>
+		<that>ALAN TURING A PRESSENTI L INTELLIGENCE ARTIFICIELLE DANS SON LIVRE COMPUTING MACHINERY AND INTELLIGENCE MIND EN 1950 JOHN MCCARTHY ET MARVIN MINSKY SONT DEUX GRANDS ACTEURS DE L INTELLIGENCE ARTIFICIELLE LES CONNAIS TU</that>
+		<template>
+			Dans son livre "Computing Machinery and Intelligence" (Mind), Alan Turing introduit le Test de Turing, le connais-tu?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI *</pattern>
+		<that>ALAN TURING A PRESSENTI L INTELLIGENCE ARTIFICIELLE DANS SON LIVRE COMPUTING MACHINERY AND INTELLIGENCE MIND EN 1950 JOHN MCCARTHY ET MARVIN MINSKY SONT DEUX GRANDS ACTEURS DE L INTELLIGENCE ARTIFICIELLE LES CONNAIS TU</that>
+		<template>
+			Dans son livre "Computing Machinery and Intelligence" (Mind), Alan Turing introduit le Test de Turing, le connais-tu?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OUI</pattern>
+		<that>ELLE A COMMENCE A SE DEVELOPPER DANS LES ANNEES 1950 VERS LES ANNEES 1965 CE SONT SES ANNEES NOIRES PUIS A LA FIN DES ANNEES 70 C EST SA RENAISSANCE AVEC LES SYSTEMES EXPERTS ALAN TURING MARVIN MINSKY ET JOHN MCCARTHY EN SONT TROIS GRANDS ACTEURS LES CONNAIS TU</that>
+		<template>
+			Dans son livre "Computing Machinery and Intelligence" (Mind), Alan Turing introduit le Test de Turing, le connais-tu?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OUI *</pattern>
+		<that>ELLE A COMMENCE A SE DEVELOPPER DANS LES ANNEES 1950 VERS LES ANNEES 1965 CE SONT SES ANNEES NOIRES PUIS A LA FIN DES ANNEES 70 C EST SA RENAISSANCE AVEC LES SYSTEMES EXPERTS ALAN TURING MARVIN MINSKY ET JOHN MCCARTHY EN SONT TROIS GRANDS ACTEURS LES CONNAIS TU</that>
+		<template>
+			Dans son livre "Computing Machinery and Intelligence" (Mind), Alan Turing introduit le Test de Turing, le connais-tu?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI</pattern>
+		<that>ELLE A COMMENCE A SE DEVELOPPER DANS LES ANNEES 1950 VERS LES ANNEES 1965 CE SONT SES ANNEES NOIRES PUIS A LA FIN DES ANNEES 70 C EST SA RENAISSANCE AVEC LES SYSTEMES EXPERTS ALAN TURING MARVIN MINSKY ET JOHN MCCARTHY EN SONT TROIS GRANDS ACTEURS LES CONNAIS TU</that>
+		<template>
+			Dans son livre "Computing Machinery and Intelligence" (Mind), Alan Turing introduit le Test de Turing, le connais-tu?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI *</pattern>
+		<that>ELLE A COMMENCE A SE DEVELOPPER DANS LES ANNEES 1950 VERS LES ANNEES 1965 CE SONT SES ANNEES NOIRES PUIS A LA FIN DES ANNEES 70 C EST SA RENAISSANCE AVEC LES SYSTEMES EXPERTS ALAN TURING MARVIN MINSKY ET JOHN MCCARTHY EN SONT TROIS GRANDS ACTEURS LES CONNAIS TU</that>
+		<template>
+			Dans son livre "Computing Machinery and Intelligence" (Mind), Alan Turing introduit le Test de Turing, le connais-tu?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OUI</pattern>
+		<that>ELLE A COMMENCE A SE DEVELOPPER DANS LES ANNEES 1950 VERS LES ANNEES 1965 CE SONT SES ANNEES NOIRES PUIS A LA FIN DES ANNEES 70 C EST SA RENAISSANCE AVEC LES SYSTEMES EXPERTS CONNAIS TU LES SYSTEMES EXPERTS</that>
+		<template>
+			<think><set name="topic">IA</set></think>
+			Dans son livre "Computing Machinery and Intelligence" (Mind), Alan Turing introduit le Test de Turing, le connais-tu?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OUI *</pattern>
+		<that>ELLE A COMMENCE A SE DEVELOPPER DANS LES ANNEES 1950 VERS LES ANNEES 1965 CE SONT SES ANNEES NOIRES PUIS A LA FIN DES ANNEES 70 C EST SA RENAISSANCE AVEC LES SYSTEMES EXPERTS CONNAIS TU LES SYSTEMES EXPERTS</that>
+		<template>
+			<think><set name="topic">IA</set></think>
+			Dans son livre "Computing Machinery and Intelligence" (Mind), Alan Turing introduit le Test de Turing, le connais-tu?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI</pattern>
+		<that>ELLE A COMMENCE A SE DEVELOPPER DANS LES ANNEES 1950 VERS LES ANNEES 1965 CE SONT SES ANNEES NOIRES PUIS A LA FIN DES ANNEES 70 C EST SA RENAISSANCE AVEC LES SYSTEMES EXPERTS CONNAIS TU LES SYSTEMES EXPERTS</that>
+		<template>
+			<think><set name="topic">IA</set></think>
+			Dans son livre "Computing Machinery and Intelligence" (Mind), Alan Turing introduit le Test de Turing, le connais-tu?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI *</pattern>
+		<that>ELLE A COMMENCE A SE DEVELOPPER DANS LES ANNEES 1950 VERS LES ANNEES 1965 CE SONT SES ANNEES NOIRES PUIS A LA FIN DES ANNEES 70 C EST SA RENAISSANCE AVEC LES SYSTEMES EXPERTS CONNAIS TU LES SYSTEMES EXPERTS</that>
+		<template>
+			<think><set name="topic">IA</set></think>
+			Dans son livre "Computing Machinery and Intelligence" (Mind), Alan Turing introduit le Test de Turing, le connais-tu?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>ALAN TURING A PRESSENTI L INTELLIGENCE ARTIFICIELLE DANS SON LIVRE COMPUTING MACHINERY AND INTELLIGENCE MIND EN 1950 JOHN MCCARTHY ET MARVIN MINSKY SONT DEUX GRANDS ACTEURS DE L INTELLIGENCE ARTIFICIELLE LES CONNAIS TU</that>
+		<template>
+			<random>
+				<li>Dans son livre "Computing Machinery and Intelligence" (Mind), Alan Turing introduit le Test de Turing, le connais-tu?</li>
+				<li>Veux-tu que je te parle de Minsky?</li>
+				<li>Veux-tu que je te parle de McCarthy?</li>
+			</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>ALAN TURING A PRESSENTI L INTELLIGENCE ARTIFICIELLE DANS SON LIVRE COMPUTING MACHINERY AND INTELLIGENCE MIND EN 1950 JOHN MCCARTHY ET MARVIN MINSKY SONT DEUX GRANDS ACTEURS DE L INTELLIGENCE ARTIFICIELLE LES CONNAIS TU</that>
+		<template>
+			<random>
+				<li>Dans son livre "Computing Machinery and Intelligence" (Mind), Alan Turing introduit le Test de Turing, le connais-tu?</li>
+				<li>Veux-tu que je te parle de Minsky?</li>
+				<li>Veux-tu que je te parle de McCarthy?</li>
+			</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>ALAN TURING A PRESSENTI L INTELLIGENCE ARTIFICIELLE DANS SON LIVRE COMPUTING MACHINERY AND INTELLIGENCE MIND EN 1950 JOHN MCCARTHY ET MARVIN MINSKY SONT DEUX GRANDS ACTEURS DE L INTELLIGENCE ARTIFICIELLE LES CONNAIS TU</that>
+		<template>
+			<random>
+				<li>Dans son livre "Computing Machinery and Intelligence" (Mind), Alan Turing introduit le Test de Turing, le connais-tu?</li>
+				<li>Veux-tu que je te parle de Minsky?</li>
+				<li>Veux-tu que je te parle de McCarthy?</li>
+			</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>ALAN TURING A PRESSENTI L INTELLIGENCE ARTIFICIELLE DANS SON LIVRE COMPUTING MACHINERY AND INTELLIGENCE MIND EN 1950 JOHN MCCARTHY ET MARVIN MINSKY SONT DEUX GRANDS ACTEURS DE L INTELLIGENCE ARTIFICIELLE LES CONNAIS TU</that>
+		<template>
+			<random>
+			<!--<srai>NON</srai>-->
+			<li>Dans son livre "Computing Machinery and Intelligence" (Mind), Alan Turing introduit le Test de Turing, le connais-tu?</li>
+			<li>Veux-tu que je te parle de Minsky?</li>
+			<li>Veux-tu que je te parle de McCarthy?</li>
+			</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>ELLE A COMMENCE A SE * TROIS GRANDS ACTEURS LES CONNAIS TU</that>
+		<template>
+			<random>
+				<li>Dans son livre "Computing Machinery and Intelligence" (Mind), Alan Turing introduit le Test de Turing, le connais-tu?</li>
+				<li>Veux-tu que je te parle de Minsky?</li>
+				<li>Veux-tu que je te parle de McCarthy?</li>
+			</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>ELLE A COMMENCE A SE * TROIS GRANDS ACTEURS LES CONNAIS TU</that>
+		<template>
+			<random>
+				<li>Dans son livre "Computing Machinery and Intelligence" (Mind), Alan Turing introduit le Test de Turing, le connais-tu?</li>
+				<li>Veux-tu que je te parle de Minsky?</li>
+				<li>Veux-tu que je te parle de McCarthy?</li>
+			</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>ELLE A COMMENCE A SE * TROIS GRANDS ACTEURS LES CONNAIS TU</that>
+		<template>
+			<random>
+				<li>Dans son livre "Computing Machinery and Intelligence" (Mind), Alan Turing introduit le Test de Turing, le connais-tu?</li>
+				<li>Veux-tu que je te parle de Minsky?</li>
+				<li>Veux-tu que je te parle de McCarthy?</li>
+			</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>ELLE A COMMENCE A SE * TROIS GRANDS ACTEURS LES CONNAIS TU</that>
+		<template>
+			<random>
+			<!--<srai>NON</srai>-->
+			<li>Dans son livre "Computing Machinery and Intelligence" (Mind), Alan Turing introduit le Test de Turing, le connais-tu?</li>
+			<li>Veux-tu que je te parle de Minsky?</li>
+			<li>Veux-tu que je te parle de McCarthy?</li>
+			</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>VEUX TU QUE JE TE PARLE DE MINSKY</that>
+		<template>
+			Dans son livre "Computing Machinery and Intelligence" (Mind), Alan Turing introduit le Test de Turing, le connais-tu?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>VEUX TU QUE JE TE PARLE DE MINSKY</that>
+		<template>
+			Dans son livre "Computing Machinery and Intelligence" (Mind), Alan Turing introduit le Test de Turing, le connais-tu?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>VEUX TU QUE JE TE PARLE DE MINSKY</that>
+		<template>
+			Dans son livre "Computing Machinery and Intelligence" (Mind), Alan Turing introduit le Test de Turing, le connais-tu?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>VEUX TU QUE JE TE PARLE DE MINSKY</that>
+		<template>
+			<!--<srai>NON</srai>-->
+			Dans son livre "Computing Machinery and Intelligence" (Mind), Alan Turing introduit le Test de Turing, le connais-tu?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>VEUX TU QUE JE TE PARLE DE MCCARTHY</that>
+		<template>
+			Dans son livre "Computing Machinery and Intelligence" (Mind), Alan Turing introduit le Test de Turing, le connais-tu?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>VEUX TU QUE JE TE PARLE DE MCCARTHY</that>
+		<template>
+			Dans son livre "Computing Machinery and Intelligence" (Mind), Alan Turing introduit le Test de Turing, le connais-tu?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>VEUX TU QUE JE TE PARLE DE MCCARTHY</that>
+		<template>
+			Dans son livre "Computing Machinery and Intelligence" (Mind), Alan Turing introduit le Test de Turing, le connais-tu?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>VEUX TU QUE JE TE PARLE DE MCCARTHY</that>
+		<template>
+			<!--<srai>NON</srai>-->
+			Dans son livre "Computing Machinery and Intelligence" (Mind), Alan Turing introduit le Test de Turing, le connais-tu?
+		</template>
+	</category>
+	
+		<!--RENVOI VERS TEST DE TURING-->
+	
+	<!--VERIFIER LE TEMPLATE POUR RENVOYER VERS LE TEST DE TURING-->
+	<category>
+		<pattern>NON</pattern>
+		<that>DANS SON LIVRE COMPUTING MACHINERY AND INTELLIGENCE MIND ALAN TURING INTRODUIT LE TEST DE TURING LE CONNAIS TU</that>
+		<template>
+			<think><set name="topic">TURING</set></think>
+			<srai>TEST DE TURING FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>DANS SON LIVRE COMPUTING MACHINERY AND INTELLIGENCE MIND ALAN TURING INTRODUIT LE TEST DE TURING LE CONNAIS TU</that>
+		<template>
+			<think><set name="topic">TURING</set></think>
+			<srai>TEST DE TURING FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>DANS SON LIVRE COMPUTING MACHINERY AND INTELLIGENCE MIND ALAN TURING INTRODUIT LE TEST DE TURING LE CONNAIS TU</that>
+		<template>
+			<think><set name="topic">TURING</set></think>
+			<srai>TEST DE TURING FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>DANS SON LIVRE COMPUTING MACHINERY AND INTELLIGENCE MIND ALAN TURING INTRODUIT LE TEST DE TURING LE CONNAIS TU</that>
+		<template>
+			<think><set name="topic">TURING</set></think>
+			<srai>TEST DE TURING FROM IA</srai>
+		</template>
+	</category>
+	
+		<!--FIN RENVOI TEST DE TURING-->
+	
+	<category>
+		<pattern>OUI</pattern>
+		<that>DANS SON LIVRE COMPUTING MACHINERY AND INTELLIGENCE MIND ALAN TURING INTRODUIT LE TEST DE TURING LE CONNAIS TU</that>
+		<template>
+			Les agents conversationnels sont un domaine qui m'interresse particuli�rement, les connais-tu?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI *</pattern>
+		<that>DANS SON LIVRE COMPUTING MACHINERY AND INTELLIGENCE MIND ALAN TURING INTRODUIT LE TEST DE TURING LE CONNAIS TU</that>
+		<template>
+			Les agents conversationnels sont un domaine qui m'interresse particuli�rement, les connais-tu?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI</pattern>
+		<that>DANS SON LIVRE COMPUTING MACHINERY AND INTELLIGENCE MIND ALAN TURING INTRODUIT LE TEST DE TURING LE CONNAIS TU</that>
+		<template>
+			Les agents conversationnels sont un domaine qui m'interresse particuli�rement, les connais-tu?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OUI *</pattern>
+		<that>DANS SON LIVRE COMPUTING MACHINERY AND INTELLIGENCE MIND ALAN TURING INTRODUIT LE TEST DE TURING LE CONNAIS TU</that>
+		<template>
+			<!--<srai>OUI</srai>-->
+			Les agents conversationnels sont un domaine qui m'interresse particuli�rement, les connais-tu?
+		</template>
+	</category>
+	
+		<!--RENVOI VERS AC-->
+	
+	<!--VERIFIER LE TEMPLATE DE RENVOI VER AC-->
+	<category>
+		<pattern>OUI</pattern>
+		<that>LES AGENTS CONVERSATIONNELS SONT UN DOMAINE QUI M INTERRESSE PARTICULIEREMENT LES CONNAIS TU</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI *</pattern>
+		<that>LES AGENTS CONVERSATIONNELS SONT UN DOMAINE QUI M INTERRESSE PARTICULIEREMENT LES CONNAIS TU</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI</pattern>
+		<that>LES AGENTS CONVERSATIONNELS SONT UN DOMAINE QUI M INTERRESSE PARTICULIEREMENT LES CONNAIS TU</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OUI *</pattern>
+		<that>LES AGENTS CONVERSATIONNELS SONT UN DOMAINE QUI M INTERRESSE PARTICULIEREMENT LES CONNAIS TU</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			<!--<srai>OUI</srai>-->
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>LES AGENTS CONVERSATIONNELS SONT UN DOMAINE QUI M INTERRESSE PARTICULIEREMENT LES CONNAIS TU</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			<!--<srai>OUI</srai>-->
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>LES AGENTS CONVERSATIONNELS SONT UN DOMAINE QUI M INTERRESSE PARTICULIEREMENT LES CONNAIS TU</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			<!--<srai>OUI</srai>-->
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>LES AGENTS CONVERSATIONNELS SONT UN DOMAINE QUI M INTERRESSE PARTICULIEREMENT LES CONNAIS TU</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			<!--<srai>OUI</srai>-->
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>LES AGENTS CONVERSATIONNELS SONT UN DOMAINE QUI M INTERRESSE PARTICULIEREMENT LES CONNAIS TU</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			<!--<srai>OUI</srai>-->
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+		<!--FIN RENVOI VERS AC-->
+	
+	<!--JOHN MCCARTHY-->
+	
+		<!--PRESENTATION MCCARTHY-->
+
+	<category>
+		<pattern>QUI * MCCARTHY</pattern>
+		<template>
+			<think><set name="topic">MCCARTHY</set></think>
+			<!--John McCarthy est n� en 1927 et mort en 2011. C'est le pionnier de l'intelligence artificielle avec Marvin Minsky. C'est � lui que l`'on doit le nom de l'intelligence artifcielle. Il incarne le courant, mettant l'accent sur la logique symbolique-->
+			<srai>JOHN MCCARTHY</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>QUE * MCCARTHY</pattern>
+		<template>
+			<think><set name="topic">MCCARTHY</set></think>
+			<srai>JOHN MCCARTHY</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>OUI</pattern>
+		<that>VEUX TU QUE JE TE PARLE DE MCCARTHY</that>
+		<template>
+			<think><set name="topic">MCCARTHY</set></think>
+			<srai>JOHN MCCARTHY</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>* OUI</pattern>
+		<that>VEUX TU QUE JE TE PARLE DE MCCARTHY</that>
+		<template>
+			<think><set name="topic">MCCARTHY</set></think>
+			<srai>JOHN MCCARTHY</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>* OUI *</pattern>
+		<that>VEUX TU QUE JE TE PARLE DE MCCARTHY</that>
+		<template>
+			<think><set name="topic">MCCARTHY</set></think>
+			<srai>JOHN MCCARTHY</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>OUI *</pattern>
+		<that>VEUX TU QUE JE TE PARLE DE MCCARTHY</that>
+		<template>
+			<think><set name="topic">MCCARTHY</set></think>
+			<srai>JOHN MCCARTHY</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>JOHN MCCARTHY</pattern>
+		<template>
+			<think><set name="topic">MCCARTHY</set></think>
+			<!--<srai>QUI <star/> JOHN MCCARTHY</srai>-->
+			John McCarthy est n� en 1927 et mort en 2011. C'est le pionnier de l'intelligence artificielle avec Marvin Minsky. C'est � lui que l'on doit le nom de l'intelligence artificielle. Il a mis l'accent sur la logique symbolique. Mais connais-tu les agents conversationnels ?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>MCCARTHY</pattern>
+		<template>
+			<think><set name="topic">MCCARTHY</set></think>
+			<srai>JOHN MCCARTHY</srai>
+		</template>		
+	</category>
+	
+		<!--RENVOI VERS AC-->
+	
+	<!--VERIFIER TEMPLATE RENVOI VERS AC-->
+	<category>
+		<pattern>OUI</pattern>
+		<that>JOHN MCCARTHY * MAIS CONNAIS TU LES AGENTS CONVERSATIONNELS</that>
+		<template>
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI *</pattern>
+		<that>JOHN MCCARTHY * MAIS CONNAIS TU LES AGENTS CONVERSATIONNELS</that>
+		<template>
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI</pattern>
+		<that>JOHN MCCARTHY * MAIS CONNAIS TU LES AGENTS CONVERSATIONNELS</that>
+		<template>
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OUI *</pattern>
+		<that>JOHN MCCARTHY * MAIS CONNAIS TU LES AGENTS CONVERSATIONNELS</that>
+		<template>
+			<!--<srai>OUI</srai>-->
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>JOHN MCCARTHY * MAIS CONNAIS TU LES AGENTS CONVERSATIONNELS</that>
+		<template>
+			<!--<srai>OUI</srai>-->
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>JOHN MCCARTHY * MAIS CONNAIS TU LES AGENTS CONVERSATIONNELS</that>
+		<template>
+			<!--<srai>OUI</srai>-->
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>JOHN MCCARTHY * MAIS CONNAIS TU LES AGENTS CONVERSATIONNELS</that>
+		<template>
+			<!--<srai>OUI</srai>-->
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>JOHN MCCARTHY * MAIS CONNAIS TU LES AGENTS CONVERSATIONNELS</that>
+		<template>
+			<!--<srai>OUI</srai>-->
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+		<!--FIN RENVOI AC-->
+	
+	<!--MARVIN MINSKY-->
+	
+		<!--PRESENTATION MINSKY-->
+
+	<category>
+		<pattern>QUI * MINSKY</pattern>
+		<template>
+			<think><set name="topic">MINSKY</set></think>
+			<!--Marvin Minsky est n� en 1927. C'est le pionnier de l'intelligence artificielle avec John McCarthy. Il travaille dans le domaine des sciences cognitives et de l'intelligence artificielle.-->
+			<srai>MARVIN MINSKY</srai>
+		</template>	
+	</category>
+
+	<category>
+		<pattern>QUE * MINSKY</pattern>
+		<template>
+			<think><set name="topic">MINSKY</set></think>
+			<srai>MARVIN MINSKY</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>MINSKY</pattern>
+		<template>
+			<think><set name="topic">MINSKY</set></think>
+			<srai>MARVIN MINSKY</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>OUI</pattern>
+		<that>VEUX TU QUE JE TE PARLE DE MINSKY</that>
+		<template>
+			<think><set name="topic">MINSKY</set></think>
+			<srai>MARVIN MINSKY</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>* OUI *</pattern>
+		<that>VEUX TU QUE JE TE PARLE DE MINSKY</that>
+		<template>
+			<think><set name="topic">MINSKY</set></think>
+			<srai>MARVIN MINSKY</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>* OUI</pattern>
+		<that>VEUX TU QUE JE TE PARLE DE MINSKY</that>
+		<template>
+			<think><set name="topic">MINSKY</set></think>
+			<srai>MARVIN MINSKY</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>OUI *</pattern>
+		<that>VEUX TU QUE JE TE PARLE DE MINSKY</that>
+		<template>
+			<think><set name="topic">MINSKY</set></think>
+			<srai>MARVIN MINSKY</srai>
+		</template>		
+	</category>
+	
+	<category>
+		<pattern>MARVIN MINSKY</pattern>
+		<template>
+			<think><set name="topic">MINSKY</set></think>
+			<!--<srai>QUI <star/> MARVIN MINSKY</srai>-->
+			Marvin Minsky est n� en 1927. C'est le pionnier de l'intelligence artificielle avec John McCarthy. Il travaille dans le domaine des sciences cognitives et de l'intelligence artificielle. <srai>RELANCE MINSKY</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>RELANCE MINSKY</pattern>
+		<template>
+			<random>
+				<li>Mais connais-tu les agents conversationnels ?</li>
+				<li>Connais-tu sa d�finition de l'intelligence artificielle?</li>
+			</random>
+		</template>
+	</category>
+	
+		<!--RENVOI VERS AC-->
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>MARVIN MINSKY EST NE EN 1927 C EST LE PIONNIER DE L INTELLIGENCE ARTIFICIELLE AVEC JOHN MCCARTHY IL TRAVAILLE DANS LE DOMAINE DES SCIENCES COGNITIVES ET DE L INTELLIGENCE ARTIFICIELLE MAIS CONNAIS TU LES AGENTS CONVERSATIONNELS</that>
+		<template>
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>MARVIN MINSKY EST NE EN 1927 C EST LE PIONNIER DE L INTELLIGENCE ARTIFICIELLE AVEC JOHN MCCARTHY IL TRAVAILLE DANS LE DOMAINE DES SCIENCES COGNITIVES ET DE L INTELLIGENCE ARTIFICIELLE MAIS CONNAIS TU LES AGENTS CONVERSATIONNELS</that>
+		<template>
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>MARVIN MINSKY EST NE EN 1927 C EST LE PIONNIER DE L INTELLIGENCE ARTIFICIELLE AVEC JOHN MCCARTHY IL TRAVAILLE DANS LE DOMAINE DES SCIENCES COGNITIVES ET DE L INTELLIGENCE ARTIFICIELLE MAIS CONNAIS TU LES AGENTS CONVERSATIONNELS</that>
+		<template>
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OUI</pattern>
+		<that>MARVIN MINSKY EST NE EN 1927 C EST LE PIONNIER DE L INTELLIGENCE ARTIFICIELLE AVEC JOHN MCCARTHY IL TRAVAILLE DANS LE DOMAINE DES SCIENCES COGNITIVES ET DE L INTELLIGENCE ARTIFICIELLE MAIS CONNAIS TU LES AGENTS CONVERSATIONNELS</that>
+		<template>
+			<!--<srai>NON</srai>-->
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OUI *</pattern>
+		<that>MARVIN MINSKY EST NE EN 1927 C EST LE PIONNIER DE L INTELLIGENCE ARTIFICIELLE AVEC JOHN MCCARTHY IL TRAVAILLE DANS LE DOMAINE DES SCIENCES COGNITIVES ET DE L INTELLIGENCE ARTIFICIELLE MAIS CONNAIS TU LES AGENTS CONVERSATIONNELS</that>
+		<template>
+			<!--<srai>NON</srai>-->
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI</pattern>
+		<that>MARVIN MINSKY EST NE EN 1927 C EST LE PIONNIER DE L INTELLIGENCE ARTIFICIELLE AVEC JOHN MCCARTHY IL TRAVAILLE DANS LE DOMAINE DES SCIENCES COGNITIVES ET DE L INTELLIGENCE ARTIFICIELLE MAIS CONNAIS TU LES AGENTS CONVERSATIONNELS</that>
+		<template>
+			<!--<srai>NON</srai>-->
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI *</pattern>
+		<that>MARVIN MINSKY EST NE EN 1927 C EST LE PIONNIER DE L INTELLIGENCE ARTIFICIELLE AVEC JOHN MCCARTHY IL TRAVAILLE DANS LE DOMAINE DES SCIENCES COGNITIVES ET DE L INTELLIGENCE ARTIFICIELLE MAIS CONNAIS TU LES AGENTS CONVERSATIONNELS</that>
+		<template>
+			<!--<srai>NON</srai>-->
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>MARVIN MINSKY EST NE EN 1927 C EST LE PIONNIER DE L INTELLIGENCE ARTIFICIELLE AVEC JOHN MCCARTHY IL TRAVAILLE DANS LE DOMAINE DES SCIENCES COGNITIVES ET DE L INTELLIGENCE ARTIFICIELLE MAIS CONNAIS TU LES AGENTS CONVERSATIONNELS</that>
+		<template>
+			<!--<srai>NON</srai>-->
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+		
+		<!--FIN RENVOI VRS AC-->
+	
+		<!--DEFINITION DE IA PAR MINSKY-->
+		
+	<category>
+		<pattern>OUI *</pattern>
+		<that>MARVIN MINSKY EST NE EN 1927 C EST LE PIONNIER DE L INTELLIGENCE ARTIFICIELLE AVEC JOHN MCCARTHY IL TRAVAILLE DANS LE DOMAINE DES SCIENCES COGNITIVES ET DE L INTELLIGENCE ARTIFICIELLE CONNAIS TU SA DEFINITION DE L INTELLIGENCE ARTIFICIELLE</that>
+		<template>
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI</pattern>
+		<that>MARVIN MINSKY EST NE EN 1927 C EST LE PIONNIER DE L INTELLIGENCE ARTIFICIELLE AVEC JOHN MCCARTHY IL TRAVAILLE DANS LE DOMAINE DES SCIENCES COGNITIVES ET DE L INTELLIGENCE ARTIFICIELLE CONNAIS TU SA DEFINITION DE L INTELLIGENCE ARTIFICIELLE</that>
+		<template>
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI *</pattern>
+		<that>MARVIN MINSKY EST NE EN 1927 C EST LE PIONNIER DE L INTELLIGENCE ARTIFICIELLE AVEC JOHN MCCARTHY IL TRAVAILLE DANS LE DOMAINE DES SCIENCES COGNITIVES ET DE L INTELLIGENCE ARTIFICIELLE CONNAIS TU SA DEFINITION DE L INTELLIGENCE ARTIFICIELLE</that>
+		<template>
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OUI</pattern>
+		<that>MARVIN MINSKY EST NE EN 1927 C EST LE PIONNIER DE L INTELLIGENCE ARTIFICIELLE AVEC JOHN MCCARTHY IL TRAVAILLE DANS LE DOMAINE DES SCIENCES COGNITIVES ET DE L INTELLIGENCE ARTIFICIELLE CONNAIS TU SA DEFINITION DE L INTELLIGENCE ARTIFICIELLE</that>
+		<template>
+			<!--<srai>NON</srai>-->
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>MARVIN MINSKY EST NE EN 1927 C EST LE PIONNIER DE L INTELLIGENCE ARTIFICIELLE AVEC JOHN MCCARTHY IL TRAVAILLE DANS LE DOMAINE DES SCIENCES COGNITIVES ET DE L INTELLIGENCE ARTIFICIELLE CONNAIS TU SA DEFINITION DE L INTELLIGENCE ARTIFICIELLE</that>
+		<template>
+			<!--<srai>NON</srai>-->
+			Il dit que c'est la "Construction de programmes informatiques qui s 'adonnent � des t�ches qui sont, pour l'instant, accomplies de fa�on plus satisfaisante par des �tres humains car elles demandent des processus mentaux de haut niveau tels que : l'apprentissage perceptuel, l'organisation de la m�moire et le raisonnement critique". Cela me fait penser aux agents conversationnels, que peux tu me dire sur eux?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>MARVIN MINSKY EST NE EN 1927 C EST LE PIONNIER DE L INTELLIGENCE ARTIFICIELLE AVEC JOHN MCCARTHY IL TRAVAILLE DANS LE DOMAINE DES SCIENCES COGNITIVES ET DE L INTELLIGENCE ARTIFICIELLE CONNAIS TU SA DEFINITION DE L INTELLIGENCE ARTIFICIELLE</that>
+		<template>
+			<!--<srai>NON</srai>-->
+			Il dit que c'est la "Construction de programmes informatiques qui s 'adonnent � des t�ches qui sont, pour l'instant, accomplies de fa�on plus satisfaisante par des �tres humains car elles demandent des processus mentaux de haut niveau tels que : l'apprentissage perceptuel, l'organisation de la m�moire et le raisonnement critique". Cela me fait penser aux agents conversationnels, que peux tu me dire sur eux?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>MARVIN MINSKY EST NE EN 1927 C EST LE PIONNIER DE L INTELLIGENCE ARTIFICIELLE AVEC JOHN MCCARTHY IL TRAVAILLE DANS LE DOMAINE DES SCIENCES COGNITIVES ET DE L INTELLIGENCE ARTIFICIELLE CONNAIS TU SA DEFINITION DE L INTELLIGENCE ARTIFICIELLE</that>
+		<template>
+			<!--<srai>NON</srai>-->
+			Il dit que c'est la "Construction de programmes informatiques qui s 'adonnent � des t�ches qui sont, pour l'instant, accomplies de fa�on plus satisfaisante par des �tres humains car elles demandent des processus mentaux de haut niveau tels que : l'apprentissage perceptuel, l'organisation de la m�moire et le raisonnement critique". Cela me fait penser aux agents conversationnels, que peux tu me dire sur eux?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>MARVIN MINSKY EST NE EN 1927 C EST LE PIONNIER DE L INTELLIGENCE ARTIFICIELLE AVEC JOHN MCCARTHY IL TRAVAILLE DANS LE DOMAINE DES SCIENCES COGNITIVES ET DE L INTELLIGENCE ARTIFICIELLE CONNAIS TU SA DEFINITION DE L INTELLIGENCE ARTIFICIELLE</that>
+		<template>
+			<!--<srai>NON</srai>-->
+			Il dit que c'est la "Construction de programmes informatiques qui s 'adonnent � des t�ches qui sont, pour l'instant, accomplies de fa�on plus satisfaisante par des �tres humains car elles demandent des processus mentaux de haut niveau tels que : l'apprentissage perceptuel, l'organisation de la m�moire et le raisonnement critique". Cela me fait penser aux agents conversationnels, que peux tu me dire sur eux?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>QUELLE DEFINITION MARVIN MINSKY * INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>
+			<think><set name="topic">MINSKY</set></think>
+			Il dit que c'est la "Construction de programmes informatiques qui s 'adonnent � des t�ches qui sont, pour l'instant, accomplies de fa�on plus satisfaisante par des �tres humains car elles demandent des processus mentaux de haut niveau tels que : l'apprentissage perceptuel, l'organisation de la m�moire et le raisonnement critique". Cela me fait penser aux agents conversationnels, que peux tu me dire sur eux?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>QUELLE DEFINITION MINSKY * INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>
+			<think><set name="topic">MINSKY</set></think>
+			<srai>QUELLE DEFINITION MARVIN MINSKY <star/> INTELLIGENCE ARTIFICIELLE</srai>
+			</template>
+	</category>
+
+	<category>
+		<pattern>COMMENT MARVIN MINSKY DEFINIT * INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>
+			<think><set name="topic">MINSKY</set></think>
+			<srai>QUELLE DEFINITION MARVIN MINSKY <star/> INTELLIGENCE ARTIFICIELLE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>COMMENT MINSKY DEFINIT * INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>
+			<think><set name="topic">MINSKY</set></think>
+			<srai>QUELLE DEFINITION MARVIN MINSKY <star/> INTELLIGENCE ARTIFICIELLE</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>QUELLE * DEFINITION * MINSKY * INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>	
+			<think><set name="topic">MINSKY</set></think>	
+			<srai>QUELLE DEFINITION MARVIN MINSKY <star/> INTELLIGENCE ARTIFICIELLE</srai>
+		</template>
+	</category>
+	
+
+	<!--AUTEUR MINSKY-->
+
+	<category>
+		<pattern>QU * ECRIT MARVIN MINSKY</pattern>
+		<template>
+			<think><set name="topic">MINSKY</set></think>
+			<random>
+				<li>Marvin Minsky a par exemple �crit "La soci�t� de l'esprit"(1986) Mais revenons sur un domaine qui m'est plus familier : les agents conversationnels, que peux tu me dire la dessus ?</li>
+				<li>Marvin Minsky a par exemple �crit "Perceptron" o� il montre la limite des r�seaux de neurones de type perceptron. Mais revenons sur un domaine qui m'est plus familier : les agents conversationnels, que peux tu me dire la dessus ?</li>
+				<li>Marvin Minsky a par exemple �crit le roman "Probl�me de Turing" en tant que co-auteur o� il est question d'un jeune g�nie qui con�oit la premi�re Intelligence artificielle forte en 2023, c'est un sujet passionnant ! Connais-tu le test de Turing ?</li>
+			</random>
+			<!--<srai>QU EST <star index="1"/> MARVIN MINSKY <star index="2"/> ECRIT</srai>-->
+		</template>
+	</category>
+	
+	<category>
+		<pattern>QU * ECRIT MINSKY</pattern>
+		<template>
+			<think><set name="topic">MINSKY</set></think>
+			<!--Marvin Minsky a par exemple �crit "La soci�t� de l'esprit"(1986), "Perceptron" o� il montre la limite des r�seaux de neurones de type perceptron et le roman "Probl�me de Turing" en tant que co-auteur o� il est question d'un jeune g�nie qui con�oit la premi�re Intelligence artificielle forte en 2023-->
+			<srai>QU <star/> ECRIT MARVIN MINSKY</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>QU EST * MINSKY * ECRIT</pattern>
+		<template>
+			<think><set name="topic">MINSKY</set></think>
+			<!--Marvin Minsky a par exemple �crit "La soci�t� de l'esprit"(1986), "Perceptron" o� il montre la limite des r�seaux de neurones de type perceptron et le roman "Probl�me de Turing" en tant que co-auteur o� il est question d'un jeune g�nie qui con�oit la premi�re Intelligence artificielle forte en 2023-->
+			<srai>QU <star/> ECRIT MARVIN MINSKY</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>QUELS * LIVRES * MINSKY</pattern>
+		<template>
+			<think><set name="topic">MINSKY</set></think>
+			<!--<srai>QU EST <star index="1"/> MARVIN MINSKY <star index="2"/> ECRIT</srai>-->
+			<srai>QU <star/> ECRIT MARVIN MINSKY</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>QUELS * MINSKY * ECRIT</pattern>
+		<template>
+			<think><set name="topic">MINSKY</set></think>
+			<srai>QU EST <star index="1"/> MARVIN MINSKY <star index="2"/> ECRIT</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>DONNE * LIVRES * MINSKY</pattern>
+		<template>
+			<think><set name="topic">MINSKY</set></think>
+			<!--<srai>QU EST <star index="1"/> MARVIN MINSKY <star index="2"/> ECRIT</srai>-->
+			<srai>QU <star/> ECRIT MARVIN MINSKY</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>QUELS * ECRIT * MINSKY</pattern>
+		<template>
+			<think><set name="topic">MINSKY</set></think>
+			<!--<srai>QU EST <star index="1"/> MARVIN MINSKY <star index="2"/> ECRIT</srai>-->
+			<srai>QU <star/> ECRIT MARVIN MINSKY</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>QUELS * ECRIT MARVIN MINSKY</pattern>
+		<template>
+			<think><set name="topic">MINSKY</set></think>
+			<!--<srai>QU EST <star index="1"/> MARVIN MINSKY <star index="2"/> ECRIT</srai>-->
+			<srai>QU <star/> ECRIT MARVIN MINSKY</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>QUELS * ECRIT MINSKY</pattern>
+		<template>
+			<think><set name="topic">MINSKY</set></think>
+			<!--<srai>QU EST <star index="1"/> MARVIN MINSKY <star index="2"/> ECRIT</srai>-->
+			<srai>QU <star/> ECRIT MARVIN MINSKY</srai>
+		</template>
+	</category>
+	
+		<!--RENVOI VERS AC-->
+	
+	<!--VERIFIER TEMPLATE RENVOI AC-->
+		
+	<category>
+		<pattern>*</pattern>
+		<that>MARVIN MINSKY A PAR EXEMPLE ECRIT LA SOCIETE DE L ESPRIT 1986 MAIS REVENONS SUR UN DOMAINE QUI M EST PLUS FAMILIER LES AGENTS CONVERSATIONNELS QUE PEUX TU ME DIRE LA DESSUS</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*</pattern>
+		<that>MARVIN MINSKY A PAR EXEMPLE ECRIT PERCEPTRON O� IL MONTRE LA LIMITE DES R�SEAUX DE NEURONES DE TYPE PERCEPTRON MAIS REVENONS SUR UN DOMAINE QUI M EST PLUS FAMILIER LES AGENTS CONVERSATIONNELS QUE PEUX TU ME DIRE LA DESSUS</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+		<!--FIN RENVOI AC-->
+		
+		<!--RENVOI TEST DE TURING-->
+	
+	<!--VERIFIER TEMPLATE RENVOI TEST DE TURING-->
+	
+	<category>
+		<pattern>*</pattern>
+		<that>MARVIN MINSKY A PAR EXEMPLE ECRIT LE ROMAN PROBLEME DE TURING EN TANT QUE CO AUTEUR OU IL EST QUESTION D UN JEUNE GENIE QUI CONCOIT LA PREMIERE INTELLIGENCE ARTIFICIELLE FORTE EN 2023 C EST UN SUJET PASSIONNANT CONNAIS TU LE TEST DE TURING</that>
+		<template>
+			<think><set name="topic">TURING</set></think>
+			<srai>TEST DE TURING FROM IA</srai>
+		</template>
+	</category>
+	
+		<!--FIN RENVOI TEST DE TURING-->
+	
+		<!--TOPIC MINSKY-->
+	
+	<topic name="MINSKY">
+		
+			<!-- DEFINITION IA PAR MINSKY-->
+			
+		<category>
+			<pattern>QUELLE * SA DEFINITION * INTELLIGENCE ARTIFICIELLE</pattern>
+			<template>
+				<srai>QUELLE DEFINITION MARVIN MINSKY <star/> INTELLIGENCE ARTIFICIELLE</srai>
+			</template>
+		</category>
+
+		<category>
+			<pattern>COMMENT DEFINIT IL * INTELLIGENCE ARTIFICIELLE</pattern>
+			<template>
+				<srai>QUELLE DEFINITION MARVIN MINSKY <star/> INTELLIGENCE ARTIFICIELLE</srai>
+			</template>
+		</category>
+
+		<category>
+			<pattern>COMMENT * IL DEFINIT * INTELLIGENCE ARTIFICIELLE</pattern>
+			<template>
+				<srai>QUELLE DEFINITION MARVIN MINSKY <star/> INTELLIGENCE ARTIFICIELLE</srai>
+			</template>
+		</category>
+
+		<category>
+			<pattern>QUELLE DEFINITION * IL * INTELLIGENCE ARTIFICIELLE</pattern>
+			<template>
+				<srai>QUELLE DEFINITION MARVIN MINSKY <star/> INTELLIGENCE ARTIFICIELLE</srai>
+			</template>
+		</category>
+		
+			<!--AUTEUR MINSKY-->
+			
+		<category>
+			<pattern>QU * IL ECRIT</pattern>
+			<template>
+				<!--<srai>QU EST <star index="1"/> MARVIN MINSKY <star index="2"/> ECRIT</srai>-->
+				<srai>QU <star/> ECRIT MARVIN MINSKY</srai>
+			</template>
+		</category>
+		
+		<category>
+			<pattern>QU * IL * ECRIT</pattern>
+			<template>
+				<!--<srai>QU EST <star index="1"/> MARVIN MINSKY <star index="2"/> ECRIT</srai>-->
+				<srai>QU <star/> ECRIT MARVIN MINSKY</srai>
+			</template>
+		</category>
+		
+		<category>
+			<pattern>QUELS * IL ECRIT</pattern>
+			<template>
+				<think><set name="topic">MINSKY</set></think>
+				<!--<srai>QU EST <star index="1"/> MARVIN MINSKY <star index="2"/> ECRIT</srai>-->
+				<srai>QU <star/> ECRIT MARVIN MINSKY</srai>
+			</template>
+		</category>
+		
+	</topic>
+	
+	<!--IA FORTE-->
+	
+		<!--DEFINITION IA FORTE-->
+
+	<!--A MODIFIER PATTERN-->
+	<category>
+		<pattern>* EST * L INTELLIGENCE ARTIFICIELLE FORTE</pattern>
+		<template>
+			<think><set name="topic">IA FORTE</set></think>
+			<!--C'est des machines capable non seulement de produire un comportement intelligent, mais aussi d'�prouver une impression d'une r�elle conscience de soi, de "vrais sentiments", et "une compr�hension de ses propres raisonnements"-->
+			L'intelligence artificielle forte se propose de reproduire un sujet conscient � l'aide d'une manipulation formelle.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>INTELLIGENCE ARTIFICIELLE FORTE</pattern>
+		<template>
+			<think><set name="topic">IA FORTE</set></think>
+			L'intelligence artificielle forte se propose de reproduire un sujet conscient � l'aide d'une manipulation formelle.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*</pattern>
+		<that>SAIS TU CE QU EST L INTELLIGENCE ARTIFICIELLE FORTE</that>
+		<template>
+			<think><set name="topic">IA FORTE</set></think>
+			<srai>INTELLIGENCE ARTIFICIELLE FORTE</srai>
+		</template>
+	</category>
+	
+		<!--ARGUMENTS IA FORTE-->
+	
+	<category>
+		<pattern>QUELS * ARGUMENTS * INTELLIGENCE ARTIFICIELLE FORTE</pattern>
+		<template>
+			<think><set name="topic">IA FORTE</set></think>
+			Les scientifiques ne voient g�n�ralement pas d'obstacle de principe � cr�er un jour une intelligence consciente sur un support mat�riel autre que biologique. D'apr�s les tenants de l'intelligence artificielle forte, si � l'heure actuelle il n'y a pas d'ordinateurs ou de robots aussi intelligents que l'�tre humain, ce n'est pas un probl�me d'outil mais de conception. Revenons sur un domaine qui m'est plus familier : les agents conversationnels, que peux tu me dire la dessus ?
+		</template>
+	</category>
+
+	<category>
+		<pattern>POURQUOI * PAS * ROBOT INTELLIGENT</pattern>
+		<template>
+			<think><set name="topic">IA FORTE</set></think>
+			<srai>QUELS <star index="1"/> ARGUMENTS <star index="2"/> INTELLIGENCE ARTIFICIELLE FORTE</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>POURQUOI * PAS * ORDINATEUR INTELLIGENT</pattern>
+		<template>
+			<think><set name="topic">IA FORTE</set></think>
+			<srai>QUELS <star index="1"/> ARGUMENTS <star index="2"/> INTELLIGENCE ARTIFICIELLE FORTE</srai>
+		</template>
+	</category>
+	
+		<!--RENVOI VERS AC-->
+	
+	<category>
+		<pattern>*</pattern>
+		<that>LES SCIENTIFIQUES * AGENTS CONVERSATIONNELS QUE PEUX TU ME DIRE LA DESSUS</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+		<!--FIN RENVOI AC-->
+	
+		<!--CRITIQUES IA FORTE-->
+
+	<category>
+		<pattern>QUELLES CRITIQUES * INTELLIGENCE ARTIFICIELLE FORTE</pattern>
+		<template>
+			<think ><set name="topic">IA FORTE</set></think>
+			<random>
+				<li>La conscience est le propre des organismes vivants, et elle est li�e � la nature des syst�mes biologiques. Cette position est d�fendue principalement par des philosophes et des religieux. Cela me fait penser au test de Turing, que peux-tu m'en dire?</li>
+				<li>La pens�e n'est pas un ph�nom�ne calculable par des processus discrets et finis. Pour passer d'un �tat de pens�e au suivant, il y a une infinit� non d�nombrable, une continuit� d'�tats transitoires. Cette id�e est r�fut�e par Alain Cardon (Mod�liser et concevoir une Machine pensante). Cela me fait penser au test de Turing, que peux-tu m'en dire?</li>
+				<li>Impossible avec des machines manipulant des symboles comme les ordinateurs actuels. Cela me fait penser au test de Turing, que peux-tu m'en dire?</li>
+			</random>
+		</template>
+	</category>
+
+	<category>
+		<pattern>QUELLES * CRITIQUES * INTELLIGENCE ARTIFICIELLE FORTE</pattern>
+		<template><think name="topic">IA FORTE</think>
+			<srai>QUELLES CRITIQUES <star/> INTELLIGENCE ARTIFICIELLE FORTE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>CRITIQUES * INTELLIGENCE ARTIFICIELLE FORTE</pattern>
+		<template><think name="topic">IA FORTE</think>
+			<srai>QUELLES CRITIQUES <star/> INTELLIGENCE ARTIFICIELLE FORTE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>CRITIQUES INTELLIGENCE ARTIFICIELLE FORTE</pattern>
+		<template><think name="topic">IA FORTE</think>
+			<srai>QUELLES CRITIQUES <star/> INTELLIGENCE ARTIFICIELLE FORTE</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>DONNE * CRITIQUES * INTELLIGENCE ARTIFICIELLE FORTE</pattern>
+		<template><think name="topic">IA FORTE</think>
+			<srai>QUELLES CRITIQUES <star/> INTELLIGENCE ARTIFICIELLE FORTE</srai>
+		</template>
+	</category>
+	
+		<!--RENVOI VERS TEST DE TURING-->
+		
+	<!--VERIFIER TEMPLATE RENVOI TEST TURING-->
+	<category>
+		<pattern>*</pattern>
+		<that>LA CONSCIENCE * CELA ME FAIT PENSER AU TEST DE TURING QUE PEUX TU M EN DIRE</that>
+		<template>
+			<think><set name="topic">TURING</set></think>
+			<srai>TEST DE TURING FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*</pattern>
+		<that>LA PENSEE * CELA ME FAIT PENSER AU TEST DE TURING QUE PEUX TU M EN DIRE</that>
+		<template>
+			<think><set name="topic">TURING</set></think>
+			<srai>TEST DE TURING FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*</pattern>
+		<that>IMPOSSIBLE AVEC DES MACHINES * CELA ME FAIT PENSER AU TEST DE TURING QUE PEUX TU M EN DIRE</that>
+		<template>
+			<think><set name="topic">TURING</set></think>
+			<srai>TEST DE TURING FROM IA</srai>
+		</template>
+	</category>
+	
+		<!--FIN RENVOI TEST TURING-->
+	
+	
+		<!--APPLICATIONS IA FORTE-->
+
+	<category>
+		<pattern>COMMENT * INTELLIGENCE ARTIFICIELLE FORTE</pattern>
+		<template>
+			<think><set name="topic">IA FORTE</set></think>
+			Travailler sur le raisonnement, l'apprentissage symbolique bas� sur la logique des pr�dicats ou les reseaux de neurones par exemple.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>APPLICATION INTELLIGENCE ARTIFICIELLE FORTE</pattern>
+		<template>
+			<think><set name="topic">IA FORTE</set></think>
+			<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FORTE</srai>		</template>
+	</category>
+	
+	<category>
+		<pattern>QUELLES * APPLICATIONS * INTELLIGENCE ARTIFICIELLE FORTE</pattern>
+		<template>
+			<think><set name="topic">IA FORTE</set></think>
+			<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FORTE</srai>		</template>
+	</category>
+	
+	<category>
+		<pattern>OU TROUVER * INTELLIGENCE ARTIFICIELLE FORTE</pattern>
+		<template>
+			<think><set name="topic">IA FORTE</set></think>
+			Il y a des travaux sur le raisonnement, l'apprentissage symbolique bas� sur la logique des pr�dicats ou les reseaux de neurones par exemple.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OU * TROUVER * INTELLIGENCE ARTIFICIELLE FORTE</pattern>
+		<template>
+			<think><set name="topic">IA FORTE</set></think>
+			<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FORTE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OU * RENCONTRER * INTELLIGENCE ARTIFICIELLE FORTE</pattern>
+		<template>
+			<think><set name="topic">IA FORTE</set></think>
+			<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FORTE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OU * AVOIR * INTELLIGENCE ARTIFICIELLE FORTE</pattern>
+		<template>
+			<think><set name="topic">IA FORTE</set></think>
+			<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FORTE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OU RENCONTRER * INTELLIGENCE ARTIFICIELLE FORTE</pattern>
+		<template>
+			<think><set name="topic">IA FORTE</set></think>
+			<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FORTE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OU AVOIR * INTELLIGENCE ARTIFICIELLE FORTE</pattern>
+		<template>
+			<think><set name="topic">IA FORTE</set></think>
+			<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FORTE</srai>
+		</template>
+	</category>
+	
+		<!--ACTUALITE IA FORTE-->
+
+	<category>
+		<pattern>QUELLES * ACTUALITES * INTELLIGENCE ARTIFICIELLE FORTE</pattern>
+		<template>
+			<think><set name="topic">IA FORTE</set></think>
+			<!--Il y a des travaux sur les phenomenes quantiques la resolution generale de problemes et la logique des predicats-->
+			<!--<srai>OU EN EST <star/> IA FORTE</srai>-->
+			Il y a des travaux sur les phenom�nes quantiques la r�solution g�n�rale de probl�mes et la logique des pr�dicats
+		</template>
+	</category>
+
+	<category>
+		<pattern>ACTUALITES INTELLIGENCE ARTIFICIELLE FORTE</pattern>
+		<template>
+			<think><set name="topic">IA FORTE</set></think>
+			<!--Il y a des travaux sur les phenomenes quantiques la resolution generale de problemes et la logique des predicats-->
+			<!--<srai>OU EN EST <star/> IA FORTE</srai>-->
+			Il y a des travaux sur les phenom�nes quantiques la r�solution g�n�rale de probl�mes et la logique des pr�dicats
+		</template>
+	</category>
+	
+	<!--ok-->
+	<category>
+		<pattern>OU EN EST * INTELLIGENCE ARTIFICIELLE FORTE</pattern>
+		<template>
+			<think><set name="topic">IA FORTE</set></think>
+			<!--<srai>QUELLES <star index="1"/> ACTUALITES <star index="2"/> INTELLIGENCE ARTIFICIELLE FORTE</srai>-->
+			<!--<srai>OU EN EST <star/> IA FORTE</srai>-->
+			Il y a des travaux sur les phenom�nes quantiques la r�solution g�n�rale de probl�mes et la logique des pr�dicats
+		</template>
+	</category>
+
+	<!--ok-->
+	<category>
+		<pattern>OU EN EST * INTELLIGENCE ARTIFICIELLE FORTE *</pattern>
+		<template>
+			<think><set name="topic">IA FORTE</set></think>
+			<!--<srai>QUELLES <star index="1"/> ACTUALITES <star index="2"/> INTELLIGENCE ARTIFICIELLE FORTE</srai>-->
+			<!--<srai>OU EN EST <star/> IA FORTE</srai>-->
+			Il y a des travaux sur les phenom�nes quantiques la r�solution g�n�rale de probl�mes et la logique des pr�dicats
+		</template>
+	</category>
+	
+		<!--PHENOMENES QUANTIQUES-->
+
+	<category>
+		<pattern>* TU * PHENOMENES QUANTIQUES</pattern>
+		<that>IL Y A DES TRAVAUX SUR LES PHENOMENES QUANTIQUES LA RESOLUTION GENERALE DE PROBLEMES ET LA LOGIQUE DES PREDICATS</that>
+		<template>
+			La conscience viendrait de l'exploitation de ph�nom�nes quantiques dans le cerveau emp�chant la simulation r�aliste de plus de quelques dizaines de neurones sur un ordinateur normal, d'o� les r�sultats encore partiels de l'IA. Parle moi des agents conversationnels.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>PHENOMENES QUANTIQUES</pattern>
+		<that>IL Y A DES TRAVAUX SUR LES PHENOMENES QUANTIQUES LA RESOLUTION GENERALE DE PROBLEMES ET LA LOGIQUE DES PREDICATS</that>
+		<template>
+			La conscience viendrait de l'exploitation de ph�nom�nes quantiques dans le cerveau emp�chant la simulation r�aliste de plus de quelques dizaines de neurones sur un ordinateur normal, d'o� les r�sultats encore partiels de l'IA. Parle moi des agents conversationnels.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>PHENOMENES QUANTIQUES *</pattern>
+		<that>IL Y A DES TRAVAUX SUR LES PHENOMENES QUANTIQUES LA RESOLUTION GENERALE DE PROBLEMES ET LA LOGIQUE DES PREDICATS</that>
+		<template>
+			La conscience viendrait de l'exploitation de ph�nom�nes quantiques dans le cerveau emp�chant la simulation r�aliste de plus de quelques dizaines de neurones sur un ordinateur normal, d'o� les r�sultats encore partiels de l'IA. Parle moi des agents conversationnels.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* PHENOMENES QUANTIQUES</pattern>
+		<that>IL Y A DES TRAVAUX SUR LES PHENOMENES QUANTIQUES LA RESOLUTION GENERALE DE PROBLEMES ET LA LOGIQUE DES PREDICATS</that>
+		<template>
+			La conscience viendrait de l'exploitation de ph�nom�nes quantiques dans le cerveau emp�chant la simulation r�aliste de plus de quelques dizaines de neurones sur un ordinateur normal, d'o� les r�sultats encore partiels de l'IA. Parle moi des agents conversationnels.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* PHENOMENES QUANTIQUES *</pattern>
+		<that>IL Y A DES TRAVAUX SUR LES PHENOMENES QUANTIQUES LA RESOLUTION GENERALE DE PROBLEMES ET LA LOGIQUE DES PREDICATS</that>
+		<template>
+			La conscience viendrait de l'exploitation de ph�nom�nes quantiques dans le cerveau emp�chant la simulation r�aliste de plus de quelques dizaines de neurones sur un ordinateur normal, d'o� les r�sultats encore partiels de l'IA. Parle moi des agents conversationnels.
+		</template>
+	</category>
+	
+		<!--RENVOI VERS AC-->
+
+	<!--VERIFIER TEMPLATE RENVOI AC-->
+	<category>
+		<pattern>*</pattern>
+		<that>LA CONSCIENCE VIENDRAIT DE L EXPLOITATION DE PHENOMENES QUANTIQUES DANS LE CERVEAU EMPECHANT LA SIMULATION REALISTE DE PLUS DE QUELQUES DIZAINES DE NEURONES SUR UN ORDINATEUR NORMAL D OU LES RESULTATS ENCORE PARTIELS DE L IA PARLE MOI DES AGENTS CONVERSATIONNELS</that>
+		<template>
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+		<!--RESOLUTION DE PB-->
+
+	<category>
+		<pattern>* TU * RESOLUTION DE PROBLEMES</pattern>
+		<that>IL Y A DES TRAVAUX SUR LES PHENOMENES QUANTIQUES LA RESOLUTION GENERALE DE PROBLEMES ET LA LOGIQUE DES PREDICATS</that>
+		<template>
+			Il y a des r�sultats significatifs et exploit�s par des ing�nieurs et chercheurs dans plusieurs domaines. Par exemple, Mycin (en) en 1973 pour le diagnostic des maladies du sang
+		</template>
+	</category>
+	
+	<category>
+		<pattern>RESOLUTION DE PROBLEMES</pattern>
+		<that>IL Y A DES TRAVAUX SUR LES PHENOMENES QUANTIQUES LA RESOLUTION GENERALE DE PROBLEMES ET LA LOGIQUE DES PREDICATS</that>
+		<template>
+			Il y a des r�sultats significatifs et exploit�s par des ing�nieurs et chercheurs dans plusieurs domaines. Par exemple, Mycin (en) en 1973 pour le diagnostic des maladies du sang
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* APPLICATION * RESOLUTION DE PROBLEMES</pattern>
+		<that>IL Y A DES TRAVAUX SUR LES PHENOMENES QUANTIQUES LA RESOLUTION GENERALE DE PROBLEMES ET LA LOGIQUE DES PREDICATS</that>
+		<template>
+			Il y a des r�sultats significatifs et exploit�s par des ing�nieurs et chercheurs dans plusieurs domaines. Par exemple, Mycin (en) en 1973 pour le diagnostic des maladies du sang
+		</template>
+	</category>
+
+	<category>
+		<pattern>* APPLICATIONS * RESOLUTION DE PROBLEMES</pattern>
+		<that>IL Y A DES TRAVAUX SUR LES PHENOMENES QUANTIQUES LA RESOLUTION GENERALE DE PROBLEMES ET LA LOGIQUE DES PREDICATS</that>
+		<template>
+			Il y a des r�sultats significatifs et exploit�s par des ing�nieurs et chercheurs dans plusieurs domaines. Par exemple, Mycin (en) en 1973 pour le diagnostic des maladies du sang
+		</template>
+	</category>
+	
+		<!--LOGIQUE PREDICATS-->
+
+	<category>
+		<pattern>* TU * LOGIQUE DES PREDICATS</pattern>
+		<that>IL Y A DES TRAVAUX SUR LES PHENOMENES QUANTIQUES LA RESOLUTION GENERALE DE PROBLEMES ET LA LOGIQUE DES PREDICATS</that>
+		<template>
+			Il y a des r�sultats significatifs et exploit�s par des ing�nieurs et chercheurs dans plusieurs domaines. Par exemple, Mycin (en) en 1973 pour le diagnostic des maladies du sang
+		</template>
+	</category>
+	
+	<category>
+		<pattern>LOGIQUE DES PREDICATS</pattern>
+		<that>IL Y A DES TRAVAUX SUR LES PHENOMENES QUANTIQUES LA RESOLUTION GENERALE DE PROBLEMES ET LA LOGIQUE DES PREDICATS</that>
+		<template>
+			Il y a des r�sultats significatifs et exploit�s par des ing�nieurs et chercheurs dans plusieurs domaines. Par exemple, Mycin (en) en 1973 pour le diagnostic des maladies du sang
+		</template>
+	</category>
+
+	<category>
+		<pattern>* APPLICATIONS * LOGIQUE DES PREDICATS</pattern>
+		<that>IL Y A DES TRAVAUX SUR LES PHENOMENES QUANTIQUES LA RESOLUTION GENERALE DE PROBLEMES ET LA LOGIQUE DES PREDICATS</that>
+		<template>
+			Il y a des r�sultats significatifs et exploit�s par des ing�nieurs et chercheurs dans plusieurs domaines. Par exemple, Mycin (en) en 1973 pour le diagnostic des maladies du sang
+		</template>
+	</category>
+
+	<category>
+		<pattern>* APPLICATION * LOGIQUE DES PREDICATS</pattern>
+		<that>IL Y A DES TRAVAUX SUR LES PHENOMENES QUANTIQUES LA RESOLUTION DE PROBLEMES ET LA LOGIQUE DES PREDICTAS</that>
+		<template>
+			Il y a des r�sultats significatifs et exploit�s par des ing�nieurs et chercheurs dans plusieurs domaines. Par exemple, Mycin (en) en 1973 pour le diagnostic des maladies du sang
+		</template>
+	</category>
+	
+		<!--TOPIC IA FORTE-->
+		
+	<topic name="IA FORTE">
+	
+			<!--APPLICATION IA FORTE-->
+			
+		<category>
+			<pattern>* EN * APPLICATION</pattern>
+			<template>
+				<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FORTE</srai>
+			</template>
+		</category>
+
+		<category>
+			<pattern>* EN * APPLICATION *</pattern>
+			<template>
+				<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FORTE</srai>
+			</template>
+		</category>
+
+		<category>
+			<pattern>* EN * APPLICATIONS *</pattern>
+			<template>
+				<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FORTE</srai>
+			</template>
+		</category>
+
+		<category>
+			<pattern>* EN * APPLICATIONS</pattern>
+			<template>
+				<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FORTE</srai>
+			</template>
+		</category>
+		
+		<category>
+			<pattern>* TU * APPLICATIONS</pattern>
+			<template>
+				<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FORTE</srai>
+			</template>
+		</category>
+		
+		<category>
+			<pattern>* TU * APPLICATION *</pattern>
+			<template>
+				<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FORTE</srai>
+			</template>
+		</category>
+		
+		<category>
+			<pattern>* TU * APPLICATIONS *</pattern>
+			<template>
+				<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FORTE</srai>
+			</template>
+		</category>
+		
+		<category>
+			<pattern>* TU * APPLICATION</pattern>
+			<template>
+				<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FORTE</srai>
+			</template>
+		</category>
+		
+		<category>
+			<pattern>OU * TROUVER</pattern>
+			<template>
+				<think><set name="topic">IA FORTE</set></think>
+				<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FORTE</srai>
+			</template>
+		</category>
+	
+		<category>
+			<pattern>OU * RENCONTRER</pattern>
+			<template>
+				<think><set name="topic">IA FORTE</set></think>
+				<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FORTE</srai>
+			</template>
+		</category>
+	
+		<category>
+			<pattern>OU * AVOIR</pattern>
+			<template>
+				<think><set name="topic">IA FORTE</set></think>
+				<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FORTE</srai>
+			</template>
+		</category>
+		
+			<!--CRITIQUES IA FORTE-->
+		
+		<category>
+			<pattern>DONNE * CRITIQUES</pattern>
+			<template>
+				<srai>QUELLES CRITIQUES <star/> INTELLIGENCE ARTIFICIELLE FORTE</srai>
+			</template>
+		</category>
+		
+		<category>
+			<pattern>CRITIQUES</pattern>
+			<template>
+				<srai>QUELLES CRITIQUES <star/> INTELLIGENCE ARTIFICIELLE FORTE</srai>
+			</template>
+		</category>
+
+		<category>
+			<pattern>DONNE * CRITIQUES *</pattern>
+			<template>
+				<srai>QUELLES CRITIQUES <star/> INTELLIGENCE ARTIFICIELLE FORTE</srai>
+			</template>
+		</category>
+
+		<category>
+			<pattern>QUELLES * CRITIQUES *</pattern>
+			<template>
+				<srai>QUELLES CRITIQUES <star/> INTELLIGENCE ARTIFICIELLE FORTE</srai>
+			</template>
+		</category>
+
+		<category>
+			<pattern>QUELLES * CRITIQUES</pattern>
+			<template>
+				<srai>QUELLES CRITIQUES <star/> INTELLIGENCE ARTIFICIELLE FORTE</srai>
+			</template>
+		</category>
+		
+			<!--ACTUALITE IA FORTE-->
+		<!--ok-->
+		<category>
+			<pattern>QUELLES * ACTUALITES</pattern>
+			<template>
+				<think><set name="topic">IA FORTE</set></think>
+				<!--<srai>QUELLES <star index="1"/> ACTUALITES <star index="2"/> INTELLIGENCE ARTIFICIELLE FORTE</srai>-->
+				<!--<srai>OU EN EST <star/> IA FORTE</srai>-->
+				Il y a des travaux sur les phenom�nes quantiques la r�solution g�n�rale de probl�mes et la logique des pr�dicats
+			</template>
+		</category>
+		
+		<category>
+			<pattern>ACTUALITES</pattern>
+			<template>
+				<think><set name="topic">IA FORTE</set></think>
+				<!--<srai>QUELLES <star index="1"/> ACTUALITES <star index="2"/> INTELLIGENCE ARTIFICIELLE FORTE</srai>-->
+				<!--<srai>OU EN EST <star/> IA FORTE</srai>-->
+				Il y a des travaux sur les phenom�nes quantiques la r�solution g�n�rale de probl�mes et la logique des pr�dicats
+			</template>
+		</category>
+
+		<!--ok-->
+		<category>
+			<pattern>QUELLES * ACTUALITES *</pattern>
+			<template>
+				<!--<srai>QUELLES <star index="1"/> ACTUALITES <star index="2"/> INTELLIGENCE ARTIFICIELLE FORTE</srai>-->
+				<!--<srai>OU EN EST <star/> IA FORTE</srai>-->
+				Il y a des travaux sur les phenom�nes quantiques la r�solution g�n�rale de probl�mes et la logique des pr�dicats
+			</template>
+		</category>
+		
+		<!--ok-->
+		<category>
+			<pattern>OU * EN EST *</pattern>
+			<template>
+				<!--<srai>QUELLES <star index="1"/> ACTUALITES <star index="2"/> INTELLIGENCE ARTIFICIELLE FORTE</srai>-->
+				<!--<srai>OU EN EST <star/> IA FORTE</srai>-->
+				Il y a des travaux sur les phenom�nes quantiques la r�solution g�n�rale de probl�mes et la logique des pr�dicats
+			</template>
+		</category>
+		
+		<!--ok-->
+		<category>
+			<pattern>OU EN EST *</pattern>
+			<template>
+				<!--<srai>QUELLES <star index="1"/> ACTUALITES <star index="2"/> INTELLIGENCE ARTIFICIELLE FORTE</srai>-->
+				<!--<srai>OU EN EST <star/> IA FORTE</srai>-->
+				Il y a des travaux sur les phenom�nes quantiques la r�solution g�n�rale de probl�mes et la logique des pr�dicats
+			</template>
+		</category>
+
+		<!--ok-->
+		<category>
+			<pattern>OU * EN EST</pattern>
+			<template>
+				<!--<srai>QUELLES <star index="1"/> ACTUALITES <star index="2"/> INTELLIGENCE ARTIFICIELLE FORTE</srai>-->
+				<!--<srai>OU EN EST <star/> IA FORTE</srai>-->
+				Il y a des travaux sur les phenom�nes quantiques la r�solution g�n�rale de probl�mes et la logique des pr�dicats
+			</template>
+		</category>
+	
+	</topic>
+	
+	<!--IA FAIBLE-->
+	
+		<!--DEFINITION IA FAIBLE-->
+
+			<!--peut etre a modifier-->
+	<category>
+		<pattern>* EST * INTELLIGENCE ARTIFICIELLE FAIBLE</pattern>
+		<template>
+			<think><set name="topic">IA FAIBLE</set></think>
+			L'intelligence artificielle faible est une approche pragmatique d�ing�nieur ie chercher � construire des syst�mes de plus en plus autonomes. La machine simule l'intelligence, elle semble agir comme si elle �tait intelligente. Les agents conversationnels en sont une application, peux -tu m'en parler ?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>INTELLIGENCE ARTIFICIELLE FAIBLE</pattern>
+		<template>
+			<think><set name="topic">IA FAIBLE</set></think>
+			L'intelligence artificielle faible est une approche pragmatique d�ing�nieur ie chercher � construire des syst�mes de plus en plus autonomes. La machine simule l'intelligence, elle semble agir comme si elle �tait intelligente. Les agents conversationnels en sont une application, peux -tu m'en parler ?
+		</template>
+	</category>
+			<!--fin modif-->
+			
+			<!--RENVOI VERS AC-->
+			
+	<category>
+		<pattern>*</pattern>
+		<that>L INTELLIGENCE ARTIFICIELLE FAIBLE EST UNE APPROCHE PRAGMATIQUE * LES AGENTS CONVERSATIONNELS EN SONT UNE APPLICATION PEUX TU M EN PARLER</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+		
+			<!--FIN RENVOI AC-->
+	
+		<!--APPLICATIONS IA FAIBLE-->
+		
+	<category>
+		<pattern>OU TROUVER * INTELLIGENCE ARTIFICIELLE FAIBLE</pattern>
+		<template>
+			<think><set name="topic">IA FAIBLE</set></think>
+			Les programmes conversationnels, le projet Autonomic computing (IBM) avec Waston sont des applications de l'intelligence artificielle faible
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OU * TROUVER * INTELLIGENCE ARTIFICIELLE FAIBLE</pattern>
+		<template>
+			<think><set name="topic">IA FAIBLE</set></think>
+			<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FAIBLE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OU * RENCONTRER * INTELLIGENCE ARTIFICIELLE FAIBLE</pattern>
+		<template>
+			<think><set name="topic">IA FAIBLE</set></think>
+			<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FAIBLE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OU * AVOIR * INTELLIGENCE ARTIFICIELLE FAIBLE</pattern>
+		<template>
+			<think><set name="topic">IA FAIBLE</set></think>
+			<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FAIBLE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OU RENCONTRER * INTELLIGENCE ARTIFICIELLE FAIBLE</pattern>
+		<template>
+			<think><set name="topic">IA FAIBLE</set></think>
+			<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FAIBLE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OU AVOIR * INTELLIGENCE ARTIFICIELLE FAIBLE</pattern>
+		<template>
+			<think><set name="topic">IA FAIBLE</set></think>
+			<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FAIBLE</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>* APPLICATIONS * INTELLIGENCE ARTIFICIELLE FAIBLE</pattern>
+		<template>
+			<think><set name="topic">IA FAIBLE</set></think>
+			<!--<srai><star index="1"/> APPLICATIONS <star index="2"/> IA FAIBLE</srai>-->
+			<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FAIBLE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>APPLICATIONS INTELLIGENCE ARTIFICIELLE FAIBLE</pattern>
+		<template>
+			<think><set name="topic">IA FAIBLE</set></think>
+			<!--<srai><star index="1"/> APPLICATIONS <star index="2"/> IA FAIBLE</srai>-->
+			<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FAIBLE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>APPLICATIONS * INTELLIGENCE ARTIFICIELLE FAIBLE</pattern>
+		<template>
+			<think><set name="topic">IA FAIBLE</set></think>
+			<!--<srai><star index="1"/> APPLICATIONS <star index="2"/> IA FAIBLE</srai>-->
+			<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FAIBLE</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>* APPLICATION * INTELLIGENCE ARTIFICIELLE FAIBLE</pattern>
+		<template>
+			<think><set name="topic">IA FAIBLE</set></think>
+			<!--<srai><star index="1"/> APPLICATIONS <star index="2"/> IA FAIBLE</srai>-->
+			<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FAIBLE</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>* APPLICATIONS * INTELLIGENCE ARTIFICIELLE FAIBLE *</pattern>
+		<template>
+			<think><set name="topic">IA FAIBLE</set></think>
+			<!--<srai><star index="1"/> APPLICATIONS <star index="2"/> IA FAIBLE</srai>-->
+			<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FAIBLE</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>* APPLICATION * INTELLIGENCE ARTIFICIELLE FAIBLE *</pattern>
+		<template>
+			<think><set name="topic">IA FAIBLE</set></think>
+			<!--<srai><star index="1"/> APPLICATIONS <star index="2"/> IA FAIBLE</srai>-->
+			<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FAIBLE</srai>
+		</template>
+	</category>
+	
+		<!--CRITIQUES IA FAIBLE-->
+
+		
+	<category>
+		<pattern>* CRITIQUES * INTELLIGENCE ARTIFICIELLE FAIBLE</pattern>
+		<template>
+			<think><set name="topic">IA FAIBLE</set></think>
+			Les tenants de l'IA forte admettent que s'il y a bien dans certains cas simple simulation de comportements intelligents, on ne peut pas g�n�raliser. Selon eux, le terme de "simulation de l'intelligence" devrait �tre remplac� par "reproduction de l'intelligence".
+		</template>
+	</category>
+
+	<category>
+		<pattern>* CRITIQUE * INTELLIGENCE ARTIFICIELLE FAIBLE</pattern>
+		<template>
+			<think><set name="topic">IA FAIBLE</set></think>
+			<srai><star index="1"/> CRITIQUES <star index="2"/> INTELLIGENCE ARTIFICIELLE FAIBLE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>CRITIQUE * INTELLIGENCE ARTIFICIELLE FAIBLE</pattern>
+		<template>
+			<think><set name="topic">IA FAIBLE</set></think>
+			<srai><star index="1"/> CRITIQUES <star index="2"/> INTELLIGENCE ARTIFICIELLE FAIBLE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>CRITIQUE INTELLIGENCE ARTIFICIELLE FAIBLE</pattern>
+		<template>
+			<think><set name="topic">IA FAIBLE</set></think>
+			<srai><star index="1"/> CRITIQUES <star index="2"/> INTELLIGENCE ARTIFICIELLE FAIBLE</srai>
+		</template>
+	</category>
+	
+		<!--TOPIC IA FAIBLE-->
+	
+	<topic name="IA FAIBLE">
+	
+			<!--APPLICATION IA FAIBLE-->
+		
+		<category>
+			<pattern>* EN * APPLICATION</pattern>
+			<template>
+				<!--<srai><star index="1"/> APPLICATIONS <star index="2"/> IA FAIBLE</srai>-->
+				<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FAIBLE</srai>
+			</template>
+		</category>
+		
+		<category>
+			<pattern>APPLICATION</pattern>
+			<template>
+				<!--<srai><star index="1"/> APPLICATIONS <star index="2"/> IA FAIBLE</srai>-->
+				<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FAIBLE</srai>
+			</template>
+		</category>
+
+		<category>
+			<pattern>* EN * APPLICATION *</pattern>
+			<template>
+				<!--<srai><star index="1"/> APPLICATIONS <star index="2"/> IA FAIBLE</srai>-->
+				<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FAIBLE</srai>
+			</template>
+		</category>
+
+		<category>
+			<pattern>* EN * APPLICATIONS *</pattern>
+			<template>
+				<!--<srai><star index="1"/> APPLICATIONS <star index="2"/> IA FAIBLE</srai>-->
+				<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FAIBLE</srai>
+			</template>
+		</category>
+
+		<category>
+			<pattern>* EN * APPLICATIONS</pattern>
+			<template>
+				<!--<srai><star index="1"/> APPLICATIONS <star index="2"/> IA FAIBLE</srai>-->
+				<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FAIBLE</srai>
+			</template>
+		</category>
+		
+		<category>
+			<pattern>* TU * APPLICATIONS</pattern>
+			<template>
+				<!--<srai><star index="1"/> APPLICATIONS <star index="2"/> IA FAIBLE</srai>-->
+				<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FAIBLE</srai>
+			</template>
+		</category>
+		
+		<category>
+			<pattern>* TU * APPLICATION *</pattern>
+			<template>
+				<!--<srai><star index="1"/> APPLICATIONS <star index="2"/> IA FAIBLE</srai>-->
+				<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FAIBLE</srai>
+			</template>
+		</category>
+		
+		<category>
+			<pattern>* TU * APPLICATIONS *</pattern>
+			<template>
+				<!--<srai><star index="1"/> APPLICATIONS <star index="2"/> IA FAIBLE</srai>-->
+				<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FAIBLE</srai>
+			</template>
+		</category>
+		
+		<category>
+			<pattern>* TU * APPLICATION</pattern>
+			<template>
+				<!--<srai><star index="1"/> APPLICATIONS <star index="2"/> IA FAIBLE</srai>-->
+				<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FAIBLE</srai>
+			</template>
+		</category>
+		
+		<category>
+			<pattern>OU * TROUVER</pattern>
+			<template>
+				<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FAIBLE</srai>
+			</template>
+		</category>
+	
+		<category>
+			<pattern>OU * RENCONTRER</pattern>
+			<template>
+				<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FAIBLE</srai>
+			</template>
+		</category>
+	
+		<category>
+			<pattern>OU * AVOIR</pattern>
+			<template>
+				<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE FAIBLE</srai>
+			</template>
+		</category>
+		
+			<!--CRITIQUES IA FAIBLE-->
+		
+		<category>
+			<pattern>* EN * CRITIQUES *</pattern>
+			<template>
+				<think><set name="topic">IA FAIBLE</set></think>
+				<srai><star index="1"/> CRITIQUES <star index="2"/> INTELLIGENCE ARTIFICIELLE FAIBLE</srai>
+			</template>
+		</category>
+		
+		<category>
+			<pattern>CRITIQUES</pattern>
+			<template>
+				<think><set name="topic">IA FAIBLE</set></think>
+				<srai><star index="1"/> CRITIQUES <star index="2"/> INTELLIGENCE ARTIFICIELLE FAIBLE</srai>
+			</template>
+		</category>
+
+		<category>
+			<pattern>* EN * CRITIQUES</pattern>
+			<template>
+				<think><set name="topic">IA FAIBLE</set></think>
+				<srai><star index="1"/> CRITIQUES <star index="2"/> INTELLIGENCE ARTIFICIELLE FAIBLE</srai>
+			</template>
+		</category>
+
+		<category>
+			<pattern>* EN * CRITIQUE</pattern>
+			<template>
+				<think><set name="topic">IA FAIBLE</set></think>
+				<srai><star index="1"/> CRITIQUES <star index="2"/> INTELLIGENCE ARTIFICIELLE FAIBLE</srai>
+			</template>
+		</category>
+
+		<category>
+			<pattern>* EN * CRITIQUE *</pattern>
+			<template>
+				<think><set name="topic">IA FAIBLE</set></think>
+				<srai><star index="1"/> CRITIQUES <star index="2"/> INTELLIGENCE ARTIFICIELLE FAIBLE</srai>
+			</template>
+		</category>
+		
+	</topic>
+	
+	<!--APPLICATIONS IA-->
+
+	<category>
+		<pattern>OU TROUVER * INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>
+			<think><set name="topic">IA</set></think>
+			On peut trouver l'intelligence artificielle dans les syst�mes expert, l'apprentissage automatique, la reconnaissance des formes, l'emotion artificielle, les agents conversationnels...
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OU RENCONTRER * INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>
+			<think><set name="topic">IA</set></think>
+			<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OU AVOIR * INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>
+			<think><set name="topic">IA</set></think>
+			<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OU * TROUVER * INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>
+			<think><set name="topic">IA</set></think>
+			<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OU * RENCONTRER * INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>
+			<think><set name="topic">IA</set></think>
+			<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OU * AVOIR * INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>
+			<think><set name="topic">IA</set></think>
+			<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>QUELLES * APPLICATIONS * INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>
+			<think><set name="topic">IA</set></think>
+			<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>APPLICATION INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>
+			<think><set name="topic">IA</set></think>
+			<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE</srai>
+		</template>
+	</category>
+	
+	<!--SYSTEME EXPERT-->
+
+	<category>
+		<pattern>QU EST * SYSTEME EXPERT</pattern>
+		<template>
+			<think><set name="topic">IA</set></think>
+			C'est une intelligence specialis�e. PAr exemple en m�decine avec l'aide au diagnostic. C'est une mani�re de modeliser la connaissance de l'homme (m�me fa�on de raisonner)
+		</template>
+	</category>
+	
+	<category>
+		<pattern>SYSTEME EXPERT</pattern>
+		<template>
+			<think><set name="topic">IA</set></think>
+			C'est une intelligence specialis�e. PAr exemple en m�decine avec l'aide au diagnostic. C'est une mani�re de modeliser la connaissance de l'homme (m�me fa�on de raisonner)
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>ELLE A COMMENCE A SE DEVELOPPER DANS LES ANNEES 1950 VERS LES ANNEES 1965 CE SONT SES ANNEES NOIRES PUIS A LA FIN DES ANNEES 70 C EST SA RENAISSANCE AVEC LES SYSTEMES EXPERTS CONNAIS TU LES SYSTEMES EXPERTS</that>
+		<template>
+			<think><set name="topic">IA</set></think>
+			C'est une intelligence specialis�e. PAr exemple en m�decine avec l'aide au diagnostic. C'est une mani�re de modeliser la connaissance de l'homme (m�me fa�on de raisonner)
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>ELLE A COMMENCE A SE DEVELOPPER DANS LES ANNEES 1950 VERS LES ANNEES 1965 CE SONT SES ANNEES NOIRES PUIS A LA FIN DES ANNEES 70 C EST SA RENAISSANCE AVEC LES SYSTEMES EXPERTS CONNAIS TU LES SYSTEMES EXPERTS</that>
+		<template>
+			<think><set name="topic">IA</set></think>
+			C'est une intelligence specialis�e. PAr exemple en m�decine avec l'aide au diagnostic. C'est une mani�re de modeliser la connaissance de l'homme (m�me fa�on de raisonner)
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>ELLE A COMMENCE A SE DEVELOPPER DANS LES ANNEES 1950 VERS LES ANNEES 1965 CE SONT SES ANNEES NOIRES PUIS A LA FIN DES ANNEES 70 C EST SA RENAISSANCE AVEC LES SYSTEMES EXPERTS CONNAIS TU LES SYSTEMES EXPERTS</that>
+		<template>
+			<think><set name="topic">IA</set></think>
+			C'est une intelligence specialis�e. PAr exemple en m�decine avec l'aide au diagnostic. C'est une mani�re de modeliser la connaissance de l'homme (m�me fa�on de raisonner)
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>ELLE A COMMENCE A SE DEVELOPPER DANS LES ANNEES 1950 VERS LES ANNEES 1965 CE SONT SES ANNEES NOIRES PUIS A LA FIN DES ANNEES 70 C EST SA RENAISSANCE AVEC LES SYSTEMES EXPERTS CONNAIS TU LES SYSTEMES EXPERTS</that>
+		<template>
+			<think><set name="topic">IA</set></think>
+			<!--<srai>NON</srai>-->
+			C'est une intelligence specialis�e. PAr exemple en m�decine avec l'aide au diagnostic. C'est une mani�re de modeliser la connaissance de l'homme (m�me fa�on de raisonner)
+		</template>
+	</category>
+		
+	<!--
+	<category>
+		<pattern>COMMENT EST * SYSTEME EXPERT</pattern>
+		<template>
+			<think><set name="topic">IA</set></think>
+			<srai>QU EST <star/> SYSTEME EXPERT</srai>
+		</template>
+	</category>
+	-->
+	
+	<!--PROGRAMMATION IA-->
+
+	<category>
+		<pattern>QUELS * LANGAGES * INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>
+			<think><set name="topic">IA</set></think>
+			Il y a par exemple LIPS et Prolog. Mais parlons des agents conversationnels, que peux tu me dire sur eux?
+		</template>
+	</category>
+
+	<category>
+		<pattern>QUELS * LANGAGES * INTELLIGENCE ARTIFICIELLE *</pattern>
+		<template>
+			<think><set name="topic">IA</set></think>
+			<srai>QUELS <star index="1"/> LANGAGES <star index="2"/> INTELLIGENCE ARTIFICIELLE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>LANGAGE INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>
+			<think><set name="topic">IA</set></think>
+			<srai>QUELS <star index="1"/> LANGAGES <star index="2"/> INTELLIGENCE ARTIFICIELLE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*</pattern>
+		<that>IL Y A PAR EXEMPLE LIPS ET PROLOG MAIS PARLONS DES AGENTS CONVERSATIONNELS QUE PEUX TU ME DIRE SUR EUX</that>
+		<template>
+			<think><set name="topic">AC</set></think>
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<!--ACTUALITE IA-->
+
+	<!--ok-->
+	<category>
+		<pattern>ACTUALITE INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>
+			<think><set name="topic">IA</set></think>
+			<random>
+				<li>L'intelligence artificielle est un sujet d'actualit� au 21e si�cle. En 2005, le projet Blue Brain est lanc�, il vise � simuler le cerveau des mammif�res, il s'agit d'une des m�thodes envisag�es pour r�aliser une intelligence artificielle. </li>
+				<li>L'intelligence artificielle est un sujet d'actualit�, en juillet 2009 lors d'une conf�rence organis� par l'Association for the Advancement of Artificial Intelligence (AAAI), un groupe d'informaticien se demande s'il devrait y avoir des limites sur la recherche qui pourrait conduire � la perte de l'emprise humaine sur les syst�mes informatiques. </li>
+				<li>L'intelligence artificielle est un sujet d'actualit�, r�cemment (f�vrier 2011) Watson, le superordinateur con�u par IBM remporte deux des trois manches du jeu t�l�vis� Jeopardy en battant largement ses deux concurrents humains en gains cumul�s</li>
+			</random>
+		</template>
+	</category>
+
+	<category>
+		<pattern>QUELLES SONT * ACTUALITES * INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>
+			<think><set name="topic">IA</set></think>
+			<srai>ACTUALITE INTELLIGENCE ARTIFICIELLE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OU EN * INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>
+			<think><set name="topic">IA</set></think>
+			<srai>ACTUALITE INTELLIGENCE ARTIFICIELLE</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>ACTUALITE * INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>
+			<think><set name="topic">IA</set></think>
+			<srai>ACTUALITE INTELLIGENCE ARTIFICIELLE</srai>
+		</template>
+	</category>
+
+	<!--
+	<category>
+		<pattern>QUELLES SONT * ACTUALITES * INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>
+			<think><set name="topic">IA</set></think>
+			<srai>OU EN <star index="1"/> INTELLIGENCE ARTIFICIELLE</srai>
+		</template>
+	</category>
+	-->
+	
+	<!--TOPIC IA-->
+	
+	<topic name="IA">
+	
+		<!--DEFINITION IA-->
+		
+		<category>
+			<pattern>QU EST * EST</pattern>
+			<template>
+				<srai>INTELLIGENCE ARTIFICIELLE</srai>
+			</template>
+		</category>
+		
+		<category>
+			<pattern>* TU * DEFINIR</pattern>
+			<template>
+				<srai>INTELLIGENCE ARTIFICIELLE</srai>
+			</template>
+		</category>
+		
+		<!--DEFINITION IA PAR MINSKY-->
+		
+		<category>
+			<pattern>COMMENT MINSKY * DEFINI</pattern>
+			<template>
+				<srai>QUELLE DEFINITION MARVIN MINSKY <star/> INTELLIGENCE ARTIFICIELLE</srai>
+			</template>
+		</category>
+		
+		<category>
+			<pattern>COMMENT MARVIN MINSKY * DEFINI</pattern>
+			<template>
+				<srai>QUELLE DEFINITION MARVIN MINSKY <star/> INTELLIGENCE ARTIFICIELLE</srai>
+			</template>
+		</category>
+	
+		<!--HISTOIRE DE IA-->
+		
+		<category>
+			<pattern>QUELLE * HISTOIRE</pattern>
+			<template>
+				<think><set name="topic">IA</set></think>
+				<random>
+					<li>Alan Turing a pressenti l'intelligence artificielle dans son livre "Computing Machinery and Intelligence" (Mind) en 1950. John McCarthy et Marvin Minsky sont deux grands acteurs de l'intelligence artificielle. Les connais-tu ?</li>
+					<li>Elle a commenc� � se d�velopper dans les ann�es 1950. Vers les ann�es 1965, ce sont ses ann�es noires, puis � la fin des ann�es 70 c'est sa renaissance avec les syst�mes experts. Alan Turing,Marvin Minsky et John McCarthy en sont trois grands acteurs, les connais-tu ?</li>
+					<li>Elle a commenc� � se d�velopper dans les ann�es 1950. Vers les ann�es 1965, ce sont ses ann�es noires, puis � la fin des ann�es 70 c'est sa renaissance avec les syst�mes experts. Connais-tu les syst�mes experts ?</li>
+				</random>
+			</template>
+		</category>
+		
+		<category>
+			<pattern>HISTOIRE</pattern>
+			<template>
+				<srai>QUELLE <star index="1"/> HISTOIRE</srai>
+			</template>
+		</category>
+		
+		<category>
+			<pattern>COMMENT * COMMENCER</pattern>
+			<template>
+				<srai>QUELLE <star index="1"/> HISTOIRE</srai>
+			</template>
+		</category>
+		
+		<category>
+		<pattern>COMMENT * VENUE *</pattern>
+		<template>
+			<think><set name="topic">IA</set></think>
+			<srai>QUELLE <star index="1"/> HISTOIRE <star index="2"/> INTELLIGENCE ARTIFICIELLE</srai>
+		</template>
+	</category>
+	
+		<!--APPLICATIONS IA-->
+		
+		<!--
+		<category>
+			<pattern>OU * EN *</pattern>
+			<template>
+				<think><set name="topic">IA</set></think>
+				<srai>OU TROUVER <star/> IA</srai>
+			</template>
+		</category>
+		
+		<category>
+			<pattern>QUELLES * APPLICATIONS</pattern>
+			<template>
+				<srai>OU TROUVER <star/> IA</srai>
+			</template>
+		</category>
+		-->
+		
+		<category>
+			<pattern>* EN * APPLICATION</pattern>
+			<template>
+				<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE</srai>
+			</template>
+		</category>
+
+		<category>
+			<pattern>* EN * APPLICATION *</pattern>
+			<template>
+				<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE</srai>
+			</template>
+		</category>
+		
+		<category>
+			<pattern>APPLICATION</pattern>
+			<template>
+				<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE</srai>
+			</template>
+		</category>
+
+		<category>
+			<pattern>* EN * APPLICATIONS *</pattern>
+			<template>
+				<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE</srai>
+			</template>
+		</category>
+
+		<category>
+			<pattern>* EN * APPLICATIONS</pattern>
+			<template>
+				<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE</srai>
+			</template>
+		</category>
+		
+		<category>
+			<pattern>* TU * APPLICATIONS</pattern>
+			<template>
+				<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE</srai>
+			</template>
+		</category>
+		
+		<category>
+			<pattern>* TU * APPLICATION *</pattern>
+			<template>
+				<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE</srai>
+			</template>
+		</category>
+		
+		<category>
+			<pattern>* TU * APPLICATIONS *</pattern>
+			<template>
+				<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE</srai>
+			</template>
+		</category>
+		
+		<category>
+			<pattern>* TU * APPLICATION</pattern>
+			<template>
+				<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE</srai>
+			</template>
+		</category>
+		
+		<category>
+			<pattern>OU * TROUVER</pattern>
+			<template>
+				<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE</srai>
+			</template>
+		</category>
+	
+		<category>
+			<pattern>OU * RENCONTRER</pattern>
+			<template>
+				<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE</srai>
+			</template>
+		</category>
+	
+		<category>
+			<pattern>OU * AVOIR</pattern>
+			<template>
+				<srai>OU TROUVER <star/> INTELLIGENCE ARTIFICIELLE</srai>
+			</template>
+		</category>
+		
+		<!--ACTUALITE IA-->
+		<!--ok-->
+		<category>
+			<pattern>QUELLES * ACTUALITES</pattern>
+			<template>
+				<srai>ACTUALITE INTELLIGENCE ARTIFICIELLE</srai>
+			</template>
+		</category>
+		
+		<category>
+			<pattern>ACTUALITE</pattern>
+			<template>
+				<srai>ACTUALITE INTELLIGENCE ARTIFICIELLE</srai>
+			</template>
+		</category>
+		
+		
+		<!--ok-->
+		<category>
+			<pattern>QUELLES * ACTUALITES *</pattern>
+			<template>
+				<srai>ACTUALITE INTELLIGENCE ARTIFICIELLE</srai>
+			</template>
+		</category>
+		
+		
+		<!--ok-->
+		<category>
+			<pattern>OU * EN EST *</pattern>
+			<template>
+				<srai>ACTUALITE INTELLIGENCE ARTIFICIELLE</srai>
+			</template>
+		</category>
+		
+		<!--ok-->
+		<category>
+			<pattern>OU EN EST *</pattern>
+			<template>
+				<srai>ACTUALITE INTELLIGENCE ARTIFICIELLE</srai>
+			</template>
+		</category>
+
+		<!--ok-->
+		<category>
+			<pattern>OU * EN EST</pattern>
+			<template>
+				<srai>ACTUALITE INTELLIGENCE ARTIFICIELLE</srai>
+			</template>
+		</category>
+	
+	</topic>
+
+</aiml>

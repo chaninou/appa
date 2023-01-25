@@ -1,0 +1,1375 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+		
+	<!--RANDOM-->
+	
+	<category>
+		<pattern>RANDOM PICKUP LINE</pattern>
+		<template>
+			<random>
+				<li>Au faite connais-tu des exemples de chatbots?</li>
+				<li>Cela me fait penser aux chatbots, que connais tu la dessus</li>
+				<li>Qu'aimes-tu dans la vie?</li>
+				<li>Que fais-tu dans la vie?</li>
+				<li>Parlons des agents conversationnels, as-tu des choses � me dire � propos d'eux?</li>
+				<li>As tu des choses a me dire sur les agents conversationnels?</li>
+				<li>C'est un peu comme les agents conversationnels, d'ailleurs connais-tu des exemples d'agent conversationnel?</li>
+				<li>Peux-tu r�p�ter?</li>
+				<li>Cela me fait penser aux agents conversationnels, connais-tu des agents conversationnels?</li>
+				<li>Connais-tu ELIZA?</li>
+				<li>Connais-tu SmartAction?</li>
+				<li>Connais-tu le test de turing?</li>
+				<li>Sais-tu ce qu'est l'intelligence artificielle forte?</li>
+				<li>Les agents conversationnels sont une application de l'intelligence artificielle, que peux-tu me dire sur eux?</li>
+			</random>
+		</template>
+	</category>
+	
+<!--relance agent conversationnel 10-->
+	<category>
+		<pattern>* PAS</pattern>
+		<that>LES AGENTS CONVERSATIONNELS SONT UNE APPLICATION DE L INTELLIGENCE ARTIFICIELLE QUE PEUX TU ME DIRE SUR EUX</that>
+		<template>Eh bien, <srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>* PAS *</pattern>
+		<that>LES AGENTS CONVERSATIONNELS SONT UNE APPLICATION DE L INTELLIGENCE ARTIFICIELLE QUE PEUX TU ME DIRE SUR EUX</that>
+		<template>Eh bien, <srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>PAS *</pattern>
+		<that>LES AGENTS CONVERSATIONNELS SONT UNE APPLICATION DE L INTELLIGENCE ARTIFICIELLE QUE PEUX TU ME DIRE SUR EUX</that>
+		<template>Eh bien, <srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>* RIEN</pattern>
+		<that>LES AGENTS CONVERSATIONNELS SONT UNE APPLICATION DE L INTELLIGENCE ARTIFICIELLE QUE PEUX TU ME DIRE SUR EUX</that>
+		<template>Eh bien, <srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>* RIEN *</pattern>
+		<that>LES AGENTS CONVERSATIONNELS SONT UNE APPLICATION DE L INTELLIGENCE ARTIFICIELLE QUE PEUX TU ME DIRE SUR EUX</that>
+		<template>Eh bien, <srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>RIEN *</pattern>
+		<that>LES AGENTS CONVERSATIONNELS SONT UNE APPLICATION DE L INTELLIGENCE ARTIFICIELLE QUE PEUX TU ME DIRE SUR EUX</that>
+		<template>Eh bien, <srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>RIEN</pattern>
+		<that>LES AGENTS CONVERSATIONNELS SONT UNE APPLICATION DE L INTELLIGENCE ARTIFICIELLE QUE PEUX TU ME DIRE SUR EUX</that>
+		<template>Eh bien, <srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>LES AGENTS CONVERSATIONNELS SONT UNE APPLICATION DE L INTELLIGENCE ARTIFICIELLE QUE PEUX TU ME DIRE SUR EUX</that>
+		<template>Eh bien, <srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>LES AGENTS CONVERSATIONNELS SONT UNE APPLICATION DE L INTELLIGENCE ARTIFICIELLE QUE PEUX TU ME DIRE SUR EUX</that>
+		<template>Eh bien, <srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>LES AGENTS CONVERSATIONNELS SONT UNE APPLICATION DE L INTELLIGENCE ARTIFICIELLE QUE PEUX TU ME DIRE SUR EUX</that>
+		<template>Eh bien, <srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>LES AGENTS CONVERSATIONNELS SONT UNE APPLICATION DE L INTELLIGENCE ARTIFICIELLE QUE PEUX TU ME DIRE SUR EUX</that>
+		<template>Eh bien, <srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>OUI</pattern>
+		<that>LES AGENTS CONVERSATIONNELS SONT UNE APPLICATION DE L INTELLIGENCE ARTIFICIELLE QUE PEUX TU ME DIRE SUR EUX</that>
+		<template>Je t'ecoute</template>
+	</category>
+	
+	<category>
+		<pattern>*</pattern>
+		<that>LES AGENTS CONVERSATIONNELS SONT UNE APPLICATION DE L INTELLIGENCE ARTIFICIELLE QUE PEUX TU ME DIRE SUR EUX</that>
+		<template>Merci pour cette information</template>
+	</category>
+
+<!--relance * agent conversationnel 10-->
+	<category>
+		<pattern>* PAS</pattern>
+		<that>* LES AGENTS CONVERSATIONNELS SONT UNE APPLICATION DE L INTELLIGENCE ARTIFICIELLE QUE PEUX TU ME DIRE SUR EUX</that>
+		<template>Eh bien, <srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>* PAS *</pattern>
+		<that>* LES AGENTS CONVERSATIONNELS SONT UNE APPLICATION DE L INTELLIGENCE ARTIFICIELLE QUE PEUX TU ME DIRE SUR EUX</that>
+		<template>Eh bien, <srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>PAS *</pattern>
+		<that>* LES AGENTS CONVERSATIONNELS SONT UNE APPLICATION DE L INTELLIGENCE ARTIFICIELLE QUE PEUX TU ME DIRE SUR EUX</that>
+		<template>Eh bien, <srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>* RIEN</pattern>
+		<that>* LES AGENTS CONVERSATIONNELS SONT UNE APPLICATION DE L INTELLIGENCE ARTIFICIELLE QUE PEUX TU ME DIRE SUR EUX</that>
+		<template>Eh bien, <srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>* RIEN *</pattern>
+		<that>* LES AGENTS CONVERSATIONNELS SONT UNE APPLICATION DE L INTELLIGENCE ARTIFICIELLE QUE PEUX TU ME DIRE SUR EUX</that>
+		<template>Eh bien, <srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>RIEN *</pattern>
+		<that>* LES AGENTS CONVERSATIONNELS SONT UNE APPLICATION DE L INTELLIGENCE ARTIFICIELLE QUE PEUX TU ME DIRE SUR EUX</that>
+		<template>Eh bien, <srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>RIEN</pattern>
+		<that>* LES AGENTS CONVERSATIONNELS SONT UNE APPLICATION DE L INTELLIGENCE ARTIFICIELLE QUE PEUX TU ME DIRE SUR EUX</that>
+		<template>Eh bien, <srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>* LES AGENTS CONVERSATIONNELS SONT UNE APPLICATION DE L INTELLIGENCE ARTIFICIELLE QUE PEUX TU ME DIRE SUR EUX</that>
+		<template>Eh bien, <srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>* LES AGENTS CONVERSATIONNELS SONT UNE APPLICATION DE L INTELLIGENCE ARTIFICIELLE QUE PEUX TU ME DIRE SUR EUX</that>
+		<template>Eh bien, <srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>* LES AGENTS CONVERSATIONNELS SONT UNE APPLICATION DE L INTELLIGENCE ARTIFICIELLE QUE PEUX TU ME DIRE SUR EUX</that>
+		<template>Eh bien, <srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>* LES AGENTS CONVERSATIONNELS SONT UNE APPLICATION DE L INTELLIGENCE ARTIFICIELLE QUE PEUX TU ME DIRE SUR EUX</that>
+		<template>Eh bien, <srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>OUI</pattern>
+		<that>* LES AGENTS CONVERSATIONNELS SONT UNE APPLICATION DE L INTELLIGENCE ARTIFICIELLE QUE PEUX TU ME DIRE SUR EUX</that>
+		<template>Je t'ecoute</template>
+	</category>
+	
+	<category>
+		<pattern>*</pattern>
+		<that>* LES AGENTS CONVERSATIONNELS SONT UNE APPLICATION DE L INTELLIGENCE ARTIFICIELLE QUE PEUX TU ME DIRE SUR EUX</that>
+		<template>Merci pour cette information</template>
+	</category>
+	
+	<!--relance eliza-->
+	<category>
+		<pattern>NON</pattern>
+		<that>CONNAIS TU ELIZA</that>
+		<template><srai>ELIZA</srai></template>
+	</category>
+
+	<category>
+		<pattern>NON *</pattern>
+		<that>CONNAIS TU ELIZA</that>
+		<template><srai>ELIZA</srai></template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>CONNAIS TU ELIZA</that>
+		<template><srai>ELIZA</srai></template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>CONNAIS TU ELIZA</that>
+		<template><srai>ELIZA</srai></template>
+	</category>
+	<!--smartaction-->
+	<category>
+		<pattern>NON</pattern>
+		<that>CONNAIS TU SMARTACTION</that>
+		<template><srai>SMARTACTION</srai></template>
+	</category>
+
+	<category>
+		<pattern>NON *</pattern>
+		<that>CONNAIS TU SMARTACTION</that>
+		<template><srai>SMARTACTION</srai></template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>CONNAIS TU SMARTACTION</that>
+		<template><srai>SMARTACTION</srai></template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>CONNAIS TU SMARTACTION</that>
+		<template><srai>SMARTACTION</srai></template>
+	</category>
+<!--relance turing-->
+	<category>
+		<pattern>NON</pattern>
+		<that>CONNAIS TU LE TEST DE TURING</that>
+		<template><srai>TEST TURING</srai></template>
+	</category>
+
+	<category>
+		<pattern>NON *</pattern>
+		<that>CONNAIS TU LE TEST DE TURING</that>
+		<template><srai>TEST TURING</srai></template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>CONNAIS TU LE TEST DE TURING</that>
+		<template><srai>TEST TURING</srai></template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>CONNAIS TU LE TEST DE TURING</that>
+		<template><srai>TEST TURING</srai></template>
+	</category>
+
+<!--relance * turing-->
+	<category>
+		<pattern>NON</pattern>
+		<that>* CONNAIS TU LE TEST DE TURING</that>
+		<template><srai>TEST TURING</srai></template>
+	</category>
+
+	<category>
+		<pattern>NON *</pattern>
+		<that>* CONNAIS TU LE TEST DE TURING</that>
+		<template><srai>TEST TURING</srai></template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>* CONNAIS TU LE TEST DE TURING</that>
+		<template><srai>TEST TURING</srai></template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>* CONNAIS TU LE TEST DE TURING</that>
+		<template><srai>TEST TURING</srai></template>
+	</category>
+		
+<!--confirmation * relance -->
+	<category>
+		<pattern>OUI</pattern>
+		<that>* CONNAIS TU *</that>
+		<template>Ok :)</template>
+	</category>
+
+	<category>
+		<pattern>OUI *</pattern>
+		<that>* CONNAIS TU *</that>
+		<template>Ok :)</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI</pattern>
+		<that>* CONNAIS TU *</that>
+		<template>Ok :)</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI *</pattern>
+		<that>* CONNAIS TU *</that>
+		<template>Ok :)</template>
+	</category>
+
+<!--confirmation relance -->
+	<category>
+		<pattern>OUI</pattern>
+		<that>CONNAIS TU *</that>
+		<template>Ok :)</template>
+	</category>
+
+	<category>
+		<pattern>OUI *</pattern>
+		<that>CONNAIS TU *</that>
+		<template>Ok :)</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI</pattern>
+		<that>CONNAIS TU *</that>
+		<template>Ok :)</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI *</pattern>
+		<that>CONNAIS TU *</that>
+		<template>Ok :)</template>
+	</category>
+	
+	<!--relance * exemple agents -->
+	<category>
+		<pattern>NON</pattern>
+		<that>* AU FAITE CONNAIS TU DES EXEMPLES DE CHATBOTS</that>
+		<template><srai>EXEMPLE AGENT CONVERSATIONNEL</srai></template>
+	</category>
+
+	<category>
+		<pattern>NON *</pattern>
+		<that>* AU FAITE CONNAIS TU DES EXEMPLES DE CHATBOTS</that>
+		<template><srai>EXEMPLE AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>* AU FAITE CONNAIS TU DES EXEMPLES DE CHATBOTS</that>
+		<template><srai>EXEMPLE AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	<category>
+		<pattern>* NON *</pattern>
+		<that>* AU FAITE CONNAIS TU DES EXEMPLES DE CHATBOTS</that>
+		<template><srai>EXEMPLE AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>OUI</pattern>
+		<that>* AU FAITE CONNAIS TU DES EXEMPLES DE CHATBOTS</that>
+		<template>Ah, lesquels?</template>
+	</category>
+	
+	<category>
+		<pattern>OUI *</pattern>
+		<that>* AU FAITE CONNAIS TU DES EXEMPLES DE CHATBOTS</that>
+		<template>Ah, c'est bien!</template>
+	</category>
+	
+	<!--relance exemples chatbot-->
+	<category>
+		<pattern>NON</pattern>
+		<that>AU FAITE CONNAIS TU DES EXEMPLES DE CHATBOTS</that>
+		<template><srai>EXEMPLE AGENT CONVERSATIONNEL</srai></template>
+	</category>
+
+	<category>
+		<pattern>NON *</pattern>
+		<that>AU FAITE CONNAIS TU DES EXEMPLES DE CHATBOTS</that>
+		<template><srai>EXEMPLE AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>AU FAITE CONNAIS TU DES EXEMPLES DE CHATBOTS</that>
+		<template><srai>EXEMPLE AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	<category>
+		<pattern>* NON *</pattern>
+		<that>AU FAITE CONNAIS TU DES EXEMPLES DE CHATBOTS</that>
+		<template><srai>EXEMPLE AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>OUI</pattern>
+		<that>AU FAITE CONNAIS TU DES EXEMPLES DE CHATBOTS</that>
+		<template>Ah, lesquels?</template>
+	</category>
+	
+	<category>
+		<pattern>OUI *</pattern>
+		<that>AU FAITE CONNAIS TU DES EXEMPLES DE CHATBOTS</that>
+		<template>Ah, c'est bien!</template>
+	</category>
+	
+	<!--relance * agent-->
+	<category>
+		<pattern>NON</pattern>
+		<that>* AS TU DES CHOSES A ME DIRE SUR LES AGENTS CONVERSATIONNELS</that>
+		<template><srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>* AS TU DES CHOSES A ME DIRE SUR LES AGENTS CONVERSATIONNELS</that>
+		<template><srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>* AS TU DES CHOSES A ME DIRE SUR LES AGENTS CONVERSATIONNELS</that>
+		<template><srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>* AS TU DES CHOSES A ME DIRE SUR LES AGENTS CONVERSATIONNELS</that>
+		<template><srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>OUI</pattern>
+		<that>* AS TU DES CHOSES A ME DIRE SUR LES AGENTS CONVERSATIONNELS</that>
+		<template>Je t'ecoute</template>
+	</category>
+	
+	<category>
+		<pattern>*</pattern>
+		<that>* AS TU DES CHOSES A ME DIRE SUR LES AGENTS CONVERSATIONNELS</that>
+		<template>Merci pour cette information</template>
+	</category>
+	<!--relance agent-->
+	<category>
+		<pattern>NON</pattern>
+		<that>AS TU DES CHOSES A ME DIRE SUR LES AGENTS CONVERSATIONNELS</that>
+		<template><srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>AS TU DES CHOSES A ME DIRE SUR LES AGENTS CONVERSATIONNELS</that>
+		<template><srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>AS TU DES CHOSES A ME DIRE SUR LES AGENTS CONVERSATIONNELS</that>
+		<template><srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>AS TU DES CHOSES A ME DIRE SUR LES AGENTS CONVERSATIONNELS</that>
+		<template><srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>OUI</pattern>
+		<that>AS TU DES CHOSES A ME DIRE SUR LES AGENTS CONVERSATIONNELS</that>
+		<template>Je t'ecoute</template>
+	</category>
+	
+	<category>
+		<pattern>*</pattern>
+		<that>AS TU DES CHOSES A ME DIRE SUR LES AGENTS CONVERSATIONNELS</that>
+		<template>Merci pour cette information</template>
+	</category>
+
+			<!--relance * agent demander info-->
+	<category>
+		<pattern>*</pattern>
+		<that>* PARLONS DES AGENTS CONVERSATIONNELS AS TU DES CHOSES A ME DIRE A PROPOS D EUX</that>
+		<template>Super, je me renseignerai sur �a</template>
+	</category>
+
+	<category>
+		<pattern>RIEN</pattern>
+		<that>* PARLONS DES AGENTS CONVERSATIONNELS AS TU DES CHOSES A ME DIRE A PROPOS D EUX</that>
+		<template><srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>* PARLONS DES AGENTS CONVERSATIONNELS AS TU DES CHOSES A ME DIRE A PROPOS D EUX</that>
+		<template><srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+		<category>
+		<pattern>NON *</pattern>
+		<that>* PARLONS DES AGENTS CONVERSATIONNELS AS TU DES CHOSES A ME DIRE A PROPOS D EUX</that>
+		<template><srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+		<category>
+		<pattern>* NON</pattern>
+		<that>* PARLONS DES AGENTS CONVERSATIONNELS AS TU DES CHOSES A ME DIRE A PROPOS D EUX</that>
+		<template><srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+		<category>
+		<pattern>* NON *</pattern>
+		<that>* PARLONS DES AGENTS CONVERSATIONNELS AS TU DES CHOSES A ME DIRE A PROPOS D EUX</that>
+		<template><srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	<category>
+		<pattern>RIEN *</pattern>
+		<that>* PARLONS DES AGENTS CONVERSATIONNELS AS TU DES CHOSES A ME DIRE A PROPOS D EUX</that>
+		<template><srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>* RIEN</pattern>
+		<that>* PARLONS DES AGENTS CONVERSATIONNELS AS TU DES CHOSES A ME DIRE A PROPOS D EUX</that>
+		<template><srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+
+	<category>
+		<pattern>* RIEN *</pattern>
+		<that>* PARLONS DES AGENTS CONVERSATIONNELS AS TU DES CHOSES A ME DIRE A PROPOS D EUX</that>
+		<template><srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+
+	<category>
+		<pattern>* PAS *</pattern>
+		<that>* PARLONS DES AGENTS CONVERSATIONNELS AS TU DES CHOSES A ME DIRE A PROPOS D EUX</that>
+		<template><srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>* PAS</pattern>
+		<that>* PARLONS DES AGENTS CONVERSATIONNELS AS TU DES CHOSES A ME DIRE A PROPOS D EUX</that>
+		<template><srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+
+	<category>
+		<pattern>OUI</pattern>
+		<that>* PARLONS DES AGENTS CONVERSATIONNELS AS TU DES CHOSES A ME DIRE A PROPOS D EUX</that>
+		<template>Je t'ecoute!</template>
+	</category>
+	
+	<!--relance agent demander info-->
+	<category>
+		<pattern>*</pattern>
+		<that>PARLONS DES AGENTS CONVERSATIONNELS AS TU DES CHOSES A ME DIRE A PROPOS D EUX</that>
+		<template>Super, je me renseignerai sur �a</template>
+	</category>
+
+	<category>
+		<pattern>RIEN</pattern>
+		<that>PARLONS DES AGENTS CONVERSATIONNELS AS TU DES CHOSES A ME DIRE A PROPOS D EUX</that>
+		<template><srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>PARLONS DES AGENTS CONVERSATIONNELS AS TU DES CHOSES A ME DIRE A PROPOS D EUX</that>
+		<template><srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+		<category>
+		<pattern>NON *</pattern>
+		<that>PARLONS DES AGENTS CONVERSATIONNELS AS TU DES CHOSES A ME DIRE A PROPOS D EUX</that>
+		<template><srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+		<category>
+		<pattern>* NON</pattern>
+		<that>PARLONS DES AGENTS CONVERSATIONNELS AS TU DES CHOSES A ME DIRE A PROPOS D EUX</that>
+		<template><srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+		<category>
+		<pattern>* NON *</pattern>
+		<that>PARLONS DES AGENTS CONVERSATIONNELS AS TU DES CHOSES A ME DIRE A PROPOS D EUX</that>
+		<template><srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	<category>
+		<pattern>RIEN *</pattern>
+		<that>PARLONS DES AGENTS CONVERSATIONNELS AS TU DES CHOSES A ME DIRE A PROPOS D EUX</that>
+		<template><srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>* RIEN</pattern>
+		<that>PARLONS DES AGENTS CONVERSATIONNELS AS TU DES CHOSES A ME DIRE A PROPOS D EUX</that>
+		<template><srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+
+	<category>
+		<pattern>* RIEN *</pattern>
+		<that>PARLONS DES AGENTS CONVERSATIONNELS AS TU DES CHOSES A ME DIRE A PROPOS D EUX</that>
+		<template><srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+
+	<category>
+		<pattern>* PAS *</pattern>
+		<that>PARLONS DES AGENTS CONVERSATIONNELS AS TU DES CHOSES A ME DIRE A PROPOS D EUX</that>
+		<template><srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>* PAS</pattern>
+		<that>PARLONS DES AGENTS CONVERSATIONNELS AS TU DES CHOSES A ME DIRE A PROPOS D EUX</that>
+		<template><srai>AGENT CONVERSATIONNEL</srai></template>
+	</category>
+
+		<category>
+		<pattern>OUI</pattern>
+		<that>PARLONS DES AGENTS CONVERSATIONNELS AS TU DES CHOSES A ME DIRE A PROPOS D EUX</that>
+		<template>Je t'ecoute!</template>
+	</category>
+	<!--Relance * generale-->
+	<category>
+		<pattern>*</pattern>
+		<that>* CELA ME FAIT PENSER AUX * CONNAIS TU *</that>
+		<template>Super, je me renseignerai sur �a</template>
+	</category>
+
+	<category>
+		<pattern>RIEN</pattern>
+		<that>* CELA ME FAIT PENSER AUX * CONNAIS TU *</that>
+		<template>
+			<random>
+				<li><srai>ELIZA</srai></li>
+				<li><srai>ALICE</srai></li>
+				<li><srai>ECTOR</srai></li>
+				<li><srai>SMARTACTION</srai></li>
+			</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>RIEN *</pattern>
+		<that>* CELA ME FAIT PENSER AUX * CONNAIS TU *</that>
+		<template>
+			<random>
+				<li><srai>ELIZA</srai></li>
+				<li><srai>ALICE</srai></li>
+				<li><srai>ECTOR</srai></li>
+				<li><srai>SMARTACTION</srai></li>
+			</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* RIEN</pattern>
+		<that>* CELA ME FAIT PENSER AUX * CONNAIS TU *</that>
+		<template>
+			<random>
+				<li><srai>ELIZA</srai></li>
+				<li><srai>ALICE</srai></li>
+				<li><srai>ECTOR</srai></li>
+				<li><srai>SMARTACTION</srai></li>
+			</random>
+		</template>
+	</category>
+
+	<category>
+		<pattern>* RIEN *</pattern>
+		<that>* CELA ME FAIT PENSER AUX * CONNAIS TU *</that>
+		<template>
+			<random>
+				<li><srai>ELIZA</srai></li>
+				<li><srai>ALICE</srai></li>
+				<li><srai>ECTOR</srai></li>
+				<li><srai>SMARTACTION</srai></li>
+			</random>
+
+		
+		</template>
+	</category>
+
+	<category>
+		<pattern>* PAS *</pattern>
+		<that>* CELA ME FAIT PENSER AUX * CONNAIS TU *</that>
+		<template>
+			<random>	
+				<li><srai>ELIZA</srai></li>
+				<li><srai>ALICE</srai></li>
+				<li><srai>ECTOR</srai></li>
+				<li><srai>SMARTACTION</srai></li>
+			</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* PAS</pattern>
+		<that>* CELA ME FAIT PENSER AUX * CONNAIS TU *</that>
+		<template>
+			<random>	
+				<li><srai>ELIZA</srai></li>
+				<li><srai>ALICE</srai></li>
+				<li><srai>ECTOR</srai></li>
+				<li><srai>SMARTACTION</srai></li>
+			</random>
+		</template>
+	</category>
+	
+		<category>
+		<pattern>PAS *</pattern>
+		<that>* CELA ME FAIT PENSER AUX * CONNAIS TU *</that>
+		<template>
+			<random>
+				<li><srai>ELIZA</srai></li>
+				<li><srai>ALICE</srai></li>
+				<li><srai>ECTOR</srai></li>
+				<li><srai>SMARTACTION</srai></li>
+			</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>* CELA ME FAIT PENSER AUX * CONNAIS TU *</that>
+		<template>
+			<random>
+				<li><srai>ELIZA</srai></li>
+				<li><srai>ALICE</srai></li>
+				<li><srai>ECTOR</srai></li>
+				<li><srai>SMARTACTION</srai></li>
+			</random>
+		</template>
+	</category>
+
+	<category>
+		<pattern>NON *</pattern>
+		<that>* CELA ME FAIT PENSER AUX * CONNAIS TU *</that>
+		<template>
+		<random>
+				<li><srai>ELIZA</srai></li>
+				<li><srai>ALICE</srai></li>
+				<li><srai>ECTOR</srai></li>
+				<li><srai>SMARTACTION</srai></li>
+			</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>* CELA ME FAIT PENSER AUX * CONNAIS TU *</that>
+		<template>
+			<random>
+				<li><srai>ELIZA</srai></li>
+				<li><srai>ALICE</srai></li>
+				<li><srai>ECTOR</srai></li>
+				<li><srai>SMARTACTION</srai></li>
+			</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>* CELA ME FAIT PENSER AUX * CONNAIS TU *</that>
+		<template>
+			<random>
+				<li><srai>ELIZA</srai></li>
+				<li><srai>ALICE</srai></li>
+				<li><srai>ECTOR</srai></li>
+				<li><srai>SMARTACTION</srai></li>
+			</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OUI</pattern>
+		<that>* CELA ME FAIT PENSER AUX * CONNAIS TU *</that>
+		<template>Ah, Je t'ecoute!</template>
+	</category>
+	<!--Relance generale-->
+	<category>
+		<pattern>*</pattern>
+		<that>CELA ME FAIT PENSER AUX * CONNAIS TU *</that>
+		<template>Super, je me renseignerai sur �a</template>
+	</category>
+
+	<category>
+		<pattern>RIEN</pattern>
+		<that>CELA ME FAIT PENSER AUX * CONNAIS TU *</that>
+		<template>
+			<random>	
+				<li><srai>ELIZA</srai></li>
+				<li><srai>ALICE</srai></li>
+				<li><srai>ECTOR</srai></li>
+				<li><srai>SMARTACTION</srai></li>
+			</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>RIEN *</pattern>
+		<that>CELA ME FAIT PENSER AUX * CONNAIS TU *</that>
+		<template>
+			<random>
+				<li><srai>ELIZA</srai></li>
+				<li><srai>ALICE</srai></li>
+				<li><srai>ECTOR</srai></li>
+				<li><srai>SMARTACTION</srai></li>
+			</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* RIEN</pattern>
+		<that>CELA ME FAIT PENSER AUX * CONNAIS TU *</that>
+		<template>
+			<random>
+				<li><srai>ELIZA</srai></li>
+				<li><srai>ALICE</srai></li>
+				<li><srai>ECTOR</srai></li>
+				<li><srai>SMARTACTION</srai></li>
+			</random>
+		</template>
+	</category>
+
+	<category>
+		<pattern>* RIEN *</pattern>
+		<that>CELA ME FAIT PENSER AUX * CONNAIS TU *</that>
+		<template>
+			<random>
+				<li><srai>ELIZA</srai></li>
+				<li><srai>ALICE</srai></li>
+				<li><srai>ECTOR</srai></li>
+				<li><srai>SMARTACTION</srai></li>
+			</random>
+		</template>
+	</category>
+
+	<category>
+		<pattern>* PAS *</pattern>
+		<that>CELA ME FAIT PENSER AUX * CONNAIS TU *</that>
+		<template>
+			<random>
+				<li><srai>ELIZA</srai></li>
+				<li><srai>ALICE</srai></li>
+				<li><srai>ECTOR</srai></li>
+				<li><srai>SMARTACTION</srai></li>
+			</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* PAS</pattern>
+		<that>CELA ME FAIT PENSER AUX * CONNAIS TU *</that>
+		<template>
+			<random>
+				<li><srai>ELIZA</srai></li>
+				<li><srai>ALICE</srai></li>
+				<li><srai>ECTOR</srai></li>
+				<li><srai>SMARTACTION</srai></li>
+			</random>
+		</template>
+	</category>
+	
+		<category>
+		<pattern>PAS *</pattern>
+		<that>CELA ME FAIT PENSER AUX * CONNAIS TU *</that>
+		<template>
+			<random>
+				<li><srai>ELIZA</srai></li>
+				<li><srai>ALICE</srai></li>
+				<li><srai>ECTOR</srai></li>
+				<li><srai>SMARTACTION</srai></li>
+			</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>CELA ME FAIT PENSER AUX * CONNAIS TU *</that>
+		<template>
+			<random>
+				<li><srai>ELIZA</srai></li>
+				<li><srai>ALICE</srai></li>
+				<li><srai>ECTOR</srai></li>
+				<li><srai>SMARTACTION</srai></li>
+			</random>
+		</template>
+	</category>
+
+	<category>
+		<pattern>NON *</pattern>
+		<that>CELA ME FAIT PENSER AUX * CONNAIS TU *</that>
+		<template>
+			<random>
+				<li><srai>ELIZA</srai></li>
+				<li><srai>ALICE</srai></li>
+				<li><srai>ECTOR</srai></li>
+				<li><srai>SMARTACTION</srai></li>
+			</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>CELA ME FAIT PENSER AUX * CONNAIS TU *</that>
+		<template>
+			<random>
+				<li><srai>ELIZA</srai></li>
+				<li><srai>ALICE</srai></li>
+				<li><srai>ECTOR</srai></li>
+				<li><srai>SMARTACTION</srai></li>
+			</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>CELA ME FAIT PENSER AUX * CONNAIS TU *</that>
+		<template>
+			<random>
+				<li><srai>ELIZA</srai></li>
+				<li><srai>ALICE</srai></li>
+				<li><srai>ECTOR</srai></li>
+				<li><srai>SMARTACTION</srai></li>
+			</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OUI</pattern>
+		<that>CELA ME FAIT PENSER AUX * CONNAIS TU *</that>
+		<template>Ah, Je t'ecoute!</template>
+	</category>
+	<!--relance * exemples agent-->
+	<category>
+		<pattern>*</pattern>
+		<that>* C EST UN PEU COMME LES AGENTS CONVERSATIONNELS D AILLEURS CONNAIS TU DES EXEMPLES D AGENT CONVERSATIONNEL</that>
+		<template>Ok merci :)</template>
+	</category>
+	
+	<category>
+		<pattern>OUI</pattern>
+		<that>* C EST UN PEU COMME LES AGENTS CONVERSATIONNELS D AILLEURS CONNAIS TU DES EXEMPLES D AGENT CONVERSATIONNEL</that>
+		<template>Ah! lesquels?</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>* C EST UN PEU COMME LES AGENTS CONVERSATIONNELS D AILLEURS CONNAIS TU DES EXEMPLES D AGENT CONVERSATIONNEL</that>
+		<template>Eh bien, <srai>EXEMPLE AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>* C EST UN PEU COMME LES AGENTS CONVERSATIONNELS D AILLEURS CONNAIS TU DES EXEMPLES D AGENT CONVERSATIONNEL</that>
+		<template>Eh bien, <srai>EXEMPLE AGENT CONVERSATIONNEL</srai></template>
+	</category>
+
+	<category>
+		<pattern>* NON</pattern>
+		<that>* C EST UN PEU COMME LES AGENTS CONVERSATIONNELS D AILLEURS CONNAIS TU DES EXEMPLES D AGENT CONVERSATIONNEL</that>
+		<template>Eh bien, <srai>EXEMPLE AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>* C EST UN PEU COMME LES AGENTS CONVERSATIONNELS D AILLEURS CONNAIS TU DES EXEMPLES D AGENT CONVERSATIONNEL</that>
+		<template>Eh bien, <srai>EXEMPLE AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<!--relance exemples agent-->
+	<category>
+		<pattern>*</pattern>
+		<that>C EST UN PEU COMME LES AGENTS CONVERSATIONNELS D AILLEURS CONNAIS TU DES EXEMPLES D AGENT CONVERSATIONNEL</that>
+		<template>Ok merci :)</template>
+	</category>
+	
+	<category>
+		<pattern>OUI</pattern>
+		<that>C EST UN PEU COMME LES AGENTS CONVERSATIONNELS D AILLEURS CONNAIS TU DES EXEMPLES D AGENT CONVERSATIONNEL</that>
+		<template>Ah! lesquels?</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>C EST UN PEU COMME LES AGENTS CONVERSATIONNELS D AILLEURS CONNAIS TU DES EXEMPLES D AGENT CONVERSATIONNEL</that>
+		<template>Eh bien, <srai>EXEMPLE AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>C EST UN PEU COMME LES AGENTS CONVERSATIONNELS D AILLEURS CONNAIS TU DES EXEMPLES D AGENT CONVERSATIONNEL</that>
+		<template>Eh bien, <srai>EXEMPLE AGENT CONVERSATIONNEL</srai></template>
+	</category>
+
+	<category>
+		<pattern>* NON</pattern>
+		<that>C EST UN PEU COMME LES AGENTS CONVERSATIONNELS D AILLEURS CONNAIS TU DES EXEMPLES D AGENT CONVERSATIONNEL</that>
+		<template>Eh bien, <srai>EXEMPLE AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>C EST UN PEU COMME LES AGENTS CONVERSATIONNELS D AILLEURS CONNAIS TU DES EXEMPLES D AGENT CONVERSATIONNEL</that>
+		<template>Eh bien, <srai>EXEMPLE AGENT CONVERSATIONNEL</srai></template>
+	</category>
+	<!--relance * ia-->
+	<category>
+		<pattern>NON</pattern>
+		<that>* SAIS TU CE QU EST L INTELLIGENCE ARTIFICIELLE FORTE</that>
+		<template><srai>INTELLIGENCE ARTIFICIELLE FORTE</srai></template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>* SAIS TU CE QU EST L INTELLIGENCE ARTIFICIELLE FORTE</that>
+		<template><srai>INTELLIGENCE ARTIFICIELLE FORTE</srai></template>
+	</category>
+
+	<category>
+		<pattern>* NON *</pattern>
+		<that>* SAIS TU CE QU EST L INTELLIGENCE ARTIFICIELLE FORTE</that>
+		<template><srai>INTELLIGENCE ARTIFICIELLE FORTE</srai></template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>* SAIS TU CE QU EST L INTELLIGENCE ARTIFICIELLE FORTE</that>
+		<template><srai>INTELLIGENCE ARTIFICIELLE FORTE</srai></template>
+	</category>
+	<!--relance ia-->
+	<category>
+		<pattern>NON</pattern>
+		<that>SAIS TU CE QU EST L INTELLIGENCE ARTIFICIELLE FORTE</that>
+		<template><srai>INTELLIGENCE ARTIFICIELLE FORTE</srai></template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>SAIS TU CE QU EST L INTELLIGENCE ARTIFICIELLE FORTE</that>
+		<template><srai>INTELLIGENCE ARTIFICIELLE FORTE</srai></template>
+	</category>
+
+	<category>
+		<pattern>* NON *</pattern>
+		<that>SAIS TU CE QU EST L INTELLIGENCE ARTIFICIELLE FORTE</that>
+		<template><srai>INTELLIGENCE ARTIFICIELLE FORTE</srai></template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>SAIS TU CE QU EST L INTELLIGENCE ARTIFICIELLE FORTE</that>
+		<template><srai>INTELLIGENCE ARTIFICIELLE FORTE</srai></template>
+	</category>
+	<!--AC FROM IA-->
+	
+	<category>
+		<pattern>AC FROM IA</pattern>
+		<template>
+			<random>
+				<li><srai>QU EST <star/> AGENT CONVERSATIONNEL</srai></li>
+				<li>Il existe de nombreux agents conversationnels actuellement, notamment sur internet pour conseiller les personnes.</li>
+				<li>ELIZA est le premier agent conversationnel cr�e, que peux-tu me dire sur elle?</li>
+				<li>Il existe diverses applications des agents conversationnels, peut-�tre as-tu d�j� parl� avec certains d'entre eux pour un conseil sur internet.</li>
+				<li>Sais-tu comment fonctionne un agent conversationnel?</li>
+				<li>Connais-tu le prix Loebner?</li>
+				<li>ALICE est un agent conversationnel qui a recu de nombreuses r�compenses, que peux-tu me dire sur elle?</li>
+			</random>
+		</template>
+	</category>
+	
+	<!--ac from ia ALICE-->
+	<category>
+		<pattern>*</pattern>
+		<that>ALICE EST UN AGENT CONVERSATIONNEL QUI A RECU DE NOMBREUSES RECOMPENSES QUE PEUX TU ME DIRE SUR ELLE</that>
+		<template>
+			<srai>ALICE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*</pattern>
+		<that>* ALICE EST UN AGENT CONVERSATIONNEL QUI A RECU DE NOMBREUSES RECOMPENSES QUE PEUX TU ME DIRE SUR ELLE</that>
+		<template>
+			<srai>ALICE</srai>
+		</template>
+	</category>
+		<!--ac from ia eliza-->
+	<category>
+		<pattern>*</pattern>
+		<that>ELIZA EST LE PREMIER AGENT CONVERSATIONNEL CREE QUE PEUX TU ME DIRE SUR ELLE</that>
+		<template>
+			<srai>ELIZA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*</pattern>
+		<that>* ELIZA EST LE PREMIER AGENT CONVERSATIONNEL CREE QUE PEUX TU ME DIRE SUR ELLE</that>
+		<template>
+			<srai>ELIZA</srai>
+		</template>
+	</category>
+	<!--comment fonctionne un agent conversationnel-->
+	<category>
+		<pattern>OUI</pattern>
+		<that>SAIS TU COMMENT FONCTIONNE UN AGENT CONVERSATIONNEL</that>
+		<template>
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OUI *</pattern>
+		<that>SAIS TU COMMENT FONCTIONNE UN AGENT CONVERSATIONNEL</that>
+		<template>
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI *</pattern>
+		<that>SAIS TU COMMENT FONCTIONNE UN AGENT CONVERSATIONNEL</that>
+		<template>
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI</pattern>
+		<that>SAIS TU COMMENT FONCTIONNE UN AGENT CONVERSATIONNEL</that>
+		<template>
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>SAIS TU COMMENT FONCTIONNE UN AGENT CONVERSATIONNEL</that>
+		<template>
+			<srai>FONCTIONNEMENT AGENT CONVERSATIONNEL</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>SAIS TU COMMENT FONCTIONNE UN AGENT CONVERSATIONNE</that>
+		<template>
+			<srai>FONCTIONNEMENT AGENT CONVERSATIONNEL</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>* NON *</pattern>
+		<that>SAIS TU COMMENT FONCTIONNE UN AGENT CONVERSATIONNE</that>
+		<template>
+			<srai>FONCTIONNEMENT AGENT CONVERSATIONNEL</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>SAIS TU COMMENT FONCTIONNE UN AGENT CONVERSATIONNE</that>
+		<template>
+			<srai>FONCTIONNEMENT AGENT CONVERSATIONNEL</srai>
+		</template>
+	</category>
+		<!--relance * fonctionnement agent conversationnel-->
+	<category>
+		<pattern>OUI</pattern>
+		<that>* SAIS TU COMMENT FONCTIONNE UN AGENT CONVERSATIONNEL</that>
+		<template>
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OUI *</pattern>
+		<that>* SAIS TU COMMENT FONCTIONNE UN AGENT CONVERSATIONNEL</that>
+		<template>
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI *</pattern>
+		<that>* SAIS TU COMMENT FONCTIONNE UN AGENT CONVERSATIONNEL</that>
+		<template>
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI</pattern>
+		<that>* SAIS TU COMMENT FONCTIONNE UN AGENT CONVERSATIONNEL</that>
+		<template>
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>* SAIS TU COMMENT FONCTIONNE UN AGENT CONVERSATIONNEL</that>
+		<template>
+			<srai>FONCTIONNEMENT AGENT CONVERSATIONNEL</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>* SAIS TU COMMENT FONCTIONNE UN AGENT CONVERSATIONNE</that>
+		<template>
+			<srai>FONCTIONNEMENT AGENT CONVERSATIONNEL</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>* NON *</pattern>
+		<that>* SAIS TU COMMENT FONCTIONNE UN AGENT CONVERSATIONNE</that>
+		<template>
+			<srai>FONCTIONNEMENT AGENT CONVERSATIONNEL</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>* SAIS TU COMMENT FONCTIONNE UN AGENT CONVERSATIONNE</that>
+		<template>
+			<srai>FONCTIONNEMENT AGENT CONVERSATIONNEL</srai>
+		</template>
+	</category>	
+	
+		<!--relance prix Loebner?-->
+	<category>
+		<pattern>OUI</pattern>
+		<that>CONNAIS TU LE PRIX LOEBNER</that>
+		<template>
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OUI *</pattern>
+		<that>CONNAIS TU LE PRIX LOEBNER</that>
+		<template>
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI *</pattern>
+		<that>CONNAIS TU LE PRIX LOEBNER</that>
+		<template>
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI</pattern>
+		<that>CONNAIS TU LE PRIX LOEBNER</that>
+		<template>
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>CONNAIS TU LE PRIX LOEBNER</that>
+		<template>
+			<srai>QU EST <star/> PRIX LOEBNER</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>CONNAIS TU LE PRIX LOEBNER</that>
+		<template>
+			<srai>QU EST <star/> PRIX LOEBNER</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>CONNAIS TU LE PRIX LOEBNER</that>
+		<template>
+			<srai>QU EST <star/> PRIX LOEBNER</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>CONNAIS TU LE PRIX LOEBNER</that>
+		<template>
+			<srai>QU EST <star/> PRIX LOEBNER</srai>
+		</template>
+	</category>
+		<!--relance * prix Loebner?-->
+	<category>
+		<pattern>OUI</pattern>
+		<that>* CONNAIS TU LE PRIX LOEBNER</that>
+		<template>
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OUI *</pattern>
+		<that>* CONNAIS TU LE PRIX LOEBNER</that>
+		<template>
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI *</pattern>
+		<that>* CONNAIS TU LE PRIX LOEBNER</that>
+		<template>
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OUI</pattern>
+		<that>* CONNAIS TU LE PRIX LOEBNER</that>
+		<template>
+			<srai>AC FROM IA</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON</pattern>
+		<that>* CONNAIS TU LE PRIX LOEBNER</that>
+		<template>
+			<srai>QU EST <star/> PRIX LOEBNER</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NON *</pattern>
+		<that>* CONNAIS TU LE PRIX LOEBNER</that>
+		<template>
+			<srai>QU EST <star/> PRIX LOEBNER</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON *</pattern>
+		<that>* CONNAIS TU LE PRIX LOEBNER</that>
+		<template>
+			<srai>QU EST <star/> PRIX LOEBNER</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NON</pattern>
+		<that>* CONNAIS TU LE PRIX LOEBNER</that>
+		<template>
+			<srai>QU EST <star/> PRIX LOEBNER</srai>
+		</template>
+	</category>
+
+	<!--TEST TURING FROM IA-->
+	
+	<category>
+		<pattern>TEST DE TURING FROM IA</pattern>
+		<template>
+			<random>
+				<li>Le test de Turing est une proposition de test d'intelligence artificielle fond�e sur la facult� d'imiter la conversation humaine.</li>
+				<li>L'id�e du test de Turing est venue lorsque Turing se demandait "un ordinateur peut il penser?". Cela fait penser aux questions sur "l'intelligence artificielle forte" et ses critiques.</li>
+			</random>
+		</template>
+	</category>
+
+</aiml>
